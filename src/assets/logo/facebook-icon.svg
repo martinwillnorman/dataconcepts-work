@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.2 (51160) - http://www.bohemiancoding.com/sketch -->
+    <title>facebook-icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="facebook-icon" fill="#212121" fill-rule="nonzero">
+            <g id="facebook">
+                <g id="Page-1">
+                    <path d="M22.5662,0 L1.3382,0 C0.5732,0 0.0002,0.576 0.0002,1.344 L0.0002,22.656 C0.0002,23.424 0.5732,24 1.3382,24 L12.8122,24 L12.8122,14.688 L9.6572,14.688 L9.6572,11.04 L12.8122,11.04 L12.8122,8.448 C12.8122,5.376 14.7252,3.648 17.4982,3.648 C18.8372,3.648 19.9842,3.744 20.2712,3.744 L20.2712,7.008 L18.3582,7.008 C16.8292,7.008 16.5422,7.68 16.5422,8.736 L16.5422,11.04 L20.0802,11.04 L19.6012,14.688 L16.5422,14.688 L16.5422,24 L22.6612,24 C23.4262,24 24.0002,23.424 24.0002,22.656 L24.0002,1.344 C23.9042,0.576 23.3312,0 22.5662,0" id="Fill-1"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

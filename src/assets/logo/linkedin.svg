@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="linkedin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" opacity="0.4">
+        <g id="Page-1" fill="#212121">
+            <path d="M24,24.0002 L19.008,24.0002 L19.008,16.2242 C19.008,14.3992 19.008,12.0002 16.416,12.0002 C13.824,12.0002 13.44,14.0162 13.44,16.1282 L13.44,24.0002 L8.544,24.0002 L8.544,8.0642 L13.248,8.0642 L13.248,10.2712 L13.344,10.2712 C14.016,9.0232 15.648,7.6802 18.048,7.6802 C23.04,7.6802 24,10.9432 24,15.2642 L24,24.0002 Z M2.976,5.7602 C1.344,5.7602 0,4.5122 0,2.9762 C0,1.4402 1.248,0.0002 2.784,0.0002 L2.976,0.0002 C4.512,0.0002 5.76,1.3442 5.76,2.9762 C5.76,4.5122 4.512,5.7602 2.976,5.7602 Z M0.48,24.0002 L5.472,24.0002 L5.472,8.0642 L0.48,8.0642 L0.48,24.0002 Z" id="Fill-1"></path>
+        </g>
+    </g>
+</svg>
