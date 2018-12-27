@@ -59,53 +59,48 @@ export default {
     };
   },
   mounted: function() {
-    this.myFilter();
-  },
-  methods: {
-    myFilter() {
-      let i = 0;
-      let phrase = "implementing cyber security?";
+    let i = 0;
+    let phrase = "implementing cyber security?";
 
-      let backTypeWriter = () => {
-        let innerText = document.getElementById("dynamic-text").innerHTML;
-        if (innerText.length > 0) {
-          innerText = innerText.substring(0, innerText.length - 1);
-          document.getElementById("dynamic-text").innerHTML = innerText;
-          setTimeout(backTypeWriter, 30);
-        } else {
-          i = 0;
-          typeWriter();
-        }
-      };
+    let backTypeWriter = () => {
+      let innerText = document.getElementById("dynamic-text").innerHTML;
+      if (innerText.length > 0) {
+        innerText = innerText.substring(0, innerText.length - 1);
+        document.getElementById("dynamic-text").innerHTML = innerText;
+        setTimeout(backTypeWriter, 30);
+      } else {
+        i = 0;
+        typeWriter();
+      }
+    };
 
-      let typeWriter = () => {
+    let typeWriter = () => {
+      if (this.phase === 0) {
+        phrase = "integrating Cloud technology";
+      } else if (this.phase === 1) {
+        phrase = "implimenting Agile strategy";
+      } else {
+        phrase = "developing Mobile solutions";
+      }
+      if (i < phrase.length) {
+        document.getElementById("dynamic-text").innerHTML += phrase.charAt(i);
+        i++;
+        setTimeout(typeWriter, 60);
+      } else if (i === phrase.length) {
         if (this.phase === 0) {
-          phrase = "integrating Cloud technology";
+          this.phase = 1;
+          setTimeout(backTypeWriter, 4000);
         } else if (this.phase === 1) {
-          phrase = "implimenting Agile strategy";
+          this.phase = 2;
+          setTimeout(backTypeWriter, 4000);
         } else {
-          phrase = "developing Mobile solutions";
+          this.phase = 0;
+          setTimeout(backTypeWriter, 4000);
         }
-        if (i < phrase.length) {
-          document.getElementById("dynamic-text").innerHTML += phrase.charAt(i);
-          i++;
-          setTimeout(typeWriter, 60);
-        } else if (i === phrase.length) {
-          if (this.phase === 0) {
-            this.phase = 1;
-            setTimeout(backTypeWriter, 4000);
-          } else if (this.phase === 1) {
-            this.phase = 2;
-            setTimeout(backTypeWriter, 4000);
-          } else {
-            this.phase = 0;
-            setTimeout(backTypeWriter, 4000);
-          }
-        }
-      };
+      }
+    };
 
-      typeWriter();
-    }
+    typeWriter();
   }
 };
 </script>

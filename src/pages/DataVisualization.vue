@@ -1,0 +1,145 @@
+<template>
+  <div class="content-holder">
+    <ModalMenu/>
+    <NavBarWhite/>
+    <div class="sections">
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image tinted"></div>
+        <div class="container">
+          <div class="row">
+            <div @click="scrollDown" class="show-more">
+              <svg
+                data-aos="fade-down"
+                data-aos-duration="600"
+                fill="#fff"
+                version="1.1"
+                id="Ebene_2_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="53px"
+                height="20px"
+                viewBox="0 0 53 20"
+                enable-background="new 0 0 53 20"
+                xml:space="preserve"
+              >
+                <g>
+                  <polygon
+                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
+            <div class="column col-2 no-content"></div>
+            <div class="column col-4 responsive-8 responsive-12 center-content">
+              <ServiceHeader
+                title="Data Visualization"
+                kicker="Bring greater understanding of data to your organization through data visualization."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="first" class="content-block">
+        <div class="container">
+          <ServicePromise
+            title="Data Visualization"
+            content="To gain a 360 degree view of your entire business, relevant data sources need to be mapped and bottlenecks need to be removed. Our Tableau engineers have worked on hundreds of dashboards and thousands of reports. We provide end-to-end Tableau consulting and development services for any Tableau environment. We thrive to inculcate data-driven culture throughout organizations."
+          />
+          <Spacer/>
+          <div class="row">
+            <div class="column col-12 center-horizontal">
+              <h1
+                data-aos="fade-up"
+                data-aos-duration="600"
+                class="section-header"
+              >Data Visualization Services</h1>
+            </div>
+          </div>
+          <SubJourney
+            title="ETL Data Preparation"
+            content="Before diving into the analytics part, it is essential to prepare the data. Preparing data means handling missing values, generating more meaningful features from the existing ones, and much more. For data preparation, ETL tools come in handy. Our ETL solutions help organizations to create a data warehousing environment to further apply Tableau capabilities over the datasets."
+          ></SubJourney>
+          <SubJourney
+            title="Big Data & Analytics"
+            content="We aid organizations to visualize transformational potential of big data to derive actionable insights. We enable businesses to work with their big data, analyze and visualize critical business insights hidden in the data. We not only help companies to communicate with their data but also help them enhance their data-driven decision-making."
+          ></SubJourney>
+          <SubJourney
+            title="Interactive Dashboards"
+            content="Tableau enables organizations with a panoramic view of their entire business through interactive data visualization techniques, so quick and easy access to all your data has never been simpler – all you need is the right setup. We do the heavy Tableau lifting at the backend so that you can have interactive, dynamic reports and dashboards which can be used according to your requirements and for in-depth analysis as well as insight gathering. Splunk for You Is your business relying on the structured data to gain business analytics? With Splunk, your business can rely on new data sources such as networks, applications, servers, websites, sensors, and mobile devices to make machine data functional, valuable, and available to everyone. Our Splunk services will help you collect, index, and visualize all the structured and unstructured data that is being ingested to the system through our IoTConnect platform."
+          ></SubJourney>
+          <SubJourney
+            title="Splunk Consulting"
+            content="Splunk can give your business the power to make use of your unstructured data and generate actionable insights from the same. Our Splunk consulting services will take a customized approach to develop use cases, identify data sources, build reference architecture, etc."
+          ></SubJourney>
+          <SubJourney
+            title="Splunk App Development & Implementation"
+            content="Splunk offers many applications and add-ons through their Splunkbase marketplace. Our Splunk development and implementation services will create tailored applications for your business, while maintaining the integrity of your company data."
+          ></SubJourney>
+          <SubJourney
+            title="Splunk Dashboard Development"
+            content="We create meaningful dashboards with visual representations of your data, in addition to collecting, indexing, and analyzing the data. Our IoTConnect Team can make your assets smarter and collect accurate data in real-time, which will generate visual reports. The combined power of Splunk and Machine Learning Splunk makes use of machine learning techniques to detect anomalies and identify data patterns to accelerate the intelligence discovery. With machine learning capabilities, it gets easier to spot the data trends, get predictive analytics, and eliminate the noise that is generated by the enormous data."
+          ></SubJourney>
+          <SubJourney
+            title="Microsoft Power BI"
+            content="Power BI makes it easy to connect your reports and dashboards to disparate data sources. Power BI can natively connect to databases and services on premises or in the cloud such as SQL, Oracle, SharePoint, Dynamics CRM, Dynamics 365, Salesforce, Excel workbooks, and many other third-party systems. There is no need for a developer to configure connection strings or complicated ETL (Extract, Transform, and Load) processes. Power BI is also an integral component of Microsoft's Azure IoT platform. Power BI's utilization of HTML5 and specially-developed phone and tablet apps allow for access from almost any device. Combined with real-time, cloud-based data connections, data is available 24/7 from anywhere."
+          ></SubJourney>
+        </div>
+      </section>
+      <WorkTogether/>
+    </div>
+  </div>
+</template>
+
+<script>
+import NavBarWhite from "../components/NavBarWhite.vue";
+import ModalMenu from "../components/ModalMenu.vue";
+import ServiceHeader from "../components/ServiceHeader.vue";
+import ServicePromise from "../components/ServicePromise.vue";
+import Spacer from "../components/Spacer.vue";
+import SubService from "../components/SubService.vue";
+import ServiceAsideRight from "../components/ServiceAsideRight.vue";
+import ServiceAsideLeft from "../components/ServiceAsideLeft.vue";
+import ServiceLeft from "../components/ServiceLeft.vue";
+import ServiceRight from "../components/ServiceRight.vue";
+import WorkTogether from "../components/WorkTogether.vue";
+import SubJourney from "../components/SubJourney.vue";
+
+export default {
+  name: "DataVisualization",
+  components: {
+    NavBarWhite,
+    ModalMenu,
+    Spacer,
+    ServiceHeader,
+    ServicePromise,
+    SubService,
+    ServiceAsideRight,
+    ServiceAsideLeft,
+    ServiceLeft,
+    ServiceRight,
+    WorkTogether,
+    SubJourney
+  },
+  methods: {
+    scrollDown() {
+      document.getElementById("first").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
+  }
+};
+</script>
+
+
+<style lang="sass" scoped>
+@import "../assets/sass/settings.sass"
+.cover-image
+  background-image: url(../assets/background/services-large/data-visualization.jpg)
+  // filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+
+.reg-link
+  margin: 20px 0 0
+</style>

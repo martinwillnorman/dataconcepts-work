@@ -8,16 +8,16 @@
               <li>
                 <router-link class="page-link" to="/work">Work</router-link>
               </li>
-              <li class="padded">
+              <li class="margined">
                 <router-link class="page-link" to="/services">Services</router-link>
               </li>
-              <li class="padded">
+              <li class="margined">
                 <router-link class="page-link" to="/insights">Insights</router-link>
               </li>
-              <li class="padded">
+              <li class="margined">
                 <router-link class="page-link" to="/careers">Careers</router-link>
               </li>
-              <li class="padded">
+              <li class="margined">
                 <router-link class="page-link" to="/contact-us">Contact</router-link>
               </li>
             </ul>
@@ -122,7 +122,7 @@ img
   opacity: 1
   transform: translatey(2px)
   
-.padded
+.margined
   margin-top: 20px
 
 @media only screen and (min-width: 1000px)

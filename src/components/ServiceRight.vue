@@ -1,12 +1,10 @@
 <template>
-  <div class="row">
-    <div class="column col-1 no-content"></div>
-    <div class="column col-11">
-      <div class="content-wrapper">
-        <div class="service-right">
-          <h1>{{title}}</h1>
-          <p>{{content}}</p>
-        </div>
+  <div class="row right">
+    <div class="column col-7 responsive-12">
+      <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper">
+        <h1 class="section-header left medium">{{title}}</h1>
+        <p>{{content}}</p>
+        <slot></slot>
       </div>
     </div>
   </div>
@@ -19,11 +17,24 @@ export default {
 };
 </script>
 
+
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-.service-right
-    background: $bround-c-4
-    color: #fff
+.content-wrapper
+  padding-bottom: 100px
+
+ul
+  columns: 2
+  padding-top: 20px
+
+li
+  margin-bottom: 10px
+  font-weight: 600
+
+@media only screen and (max-width: 450px) 
+  .content-wrapper
+    padding-bottom: 60px
+
 
 </style>

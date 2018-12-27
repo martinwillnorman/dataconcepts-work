@@ -18,7 +18,7 @@ export default {
 <style lang="sass" scoped>
 h3
     font:
-        size: 2rem
+        size: 2.2rem
     color: #fff
     margin-bottom: 20px
 
@@ -27,5 +27,6 @@ p
     font:
         size: 1.5rem
     line-height: 1.5
+    letter-spacing: 1px
 
 </style>

@@ -17,9 +17,11 @@ export default {
 
 .service
   padding: 40px 30px
-  flex-basis: calc(33.33% - 60px)
-  width: calc(33.33% - 60px)
-  max-width: calc(33.33% - 60px)
+  flex-basis: 33.3333%
+  width: 33.3333%
+  max-width: 33.3333%
+  box-sizing: border-box
+  z-index: 999
 
 h1
   margin-bottom: 20px
@@ -29,22 +31,21 @@ h1
 p
   line-height: 1.8
   color: $font-c-h-3
+  position: relative
+  z-index: 999
 
 @media only screen and (max-width: 1080px)
   .service
     padding: 40px 30px
-    flex-basis: calc(50% - 60px)
-    width: calc(50% - 60px)
-    max-width: calc(50% - 60px)
+    flex-basis: 50%
+    width: 50%
+    max-width: 50%
 
 
 @media only screen and (max-width: 768px)
 
   .service
     padding: 20px 10px
-    flex-basis: calc(50% - 20px)
-    width: calc(50% - 20px)
-    max-width: calc(50% - 20px)
 
 @media only screen and (max-width: 695px)
   .service

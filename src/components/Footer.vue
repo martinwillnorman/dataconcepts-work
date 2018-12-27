@@ -38,16 +38,16 @@
                   <li>
                     <router-link class="page-link" to="/work">Work</router-link>
                   </li>
-                  <li class="padded">
+                  <li class="margined">
                     <router-link class="page-link" to="/services">Services</router-link>
                   </li>
-                  <li class="padded">
+                  <li class="margined">
                     <router-link class="page-link" to="/insights">Insights</router-link>
                   </li>
-                  <li class="padded">
+                  <li class="margined">
                     <router-link class="page-link" to="/careers">Careers</router-link>
                   </li>
-                  <li class="padded">
+                  <li class="margined">
                     <router-link class="page-link" to="/contact-us">Contact</router-link>
                   </li>
                 </ul>
@@ -160,7 +160,7 @@ li a:hover:after
   .footer__content-1
     padding-top: 30px
   
-  .padded
+  .margined
     margin-bottom: 30px
 
 
