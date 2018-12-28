@@ -205,6 +205,12 @@
                   title="Information Architecture Strategy"
                   summary="We identify and analyze our clients’ business requirements, recommend solutions and assist them in implementing these solutions successfully."
                 ></Insight>
+                <Insight
+                  link="/insights/bi-data-warehousing"
+                  category="BI | Data Warehouse"
+                  title="Business Intelligence & Data Warehousing"
+                  summary="We leverage our expertise in architecting large-scale complex BI/DW (Business Intelligence/Data Warehousing) applications and provide EIM (Enterprise Information Management) implementation services."
+                ></Insight>
               </div>
             </div>
           </div>

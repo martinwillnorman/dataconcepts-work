@@ -132,6 +132,28 @@
           </SubJourney>
         </div>
       </section>
+      <section class="content-block">
+        <div class="container">
+          <Spacer/>
+          <div class="row">
+            <div class="column col-12 center-horizontal">
+              <h1 data-aos="fade-up" data-aos-duration="600" class="section-header">Related</h1>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper related-wrapper">
+                <RelatedBox
+                  link="/insights/quick-peek"
+                  category="Insight"
+                  title="Our World Helping Clients with Data Strategy"
+                ></RelatedBox>
+                <RelatedBox link="/services/big-data" category="Service" title="Big Data Analytics"></RelatedBox>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <WorkTogether/>
     </div>
   </div>
@@ -150,6 +172,7 @@ import ServiceLeft from "../components/ServiceLeft.vue";
 import ServiceRight from "../components/ServiceRight.vue";
 import WorkTogether from "../components/WorkTogether.vue";
 import SubJourney from "../components/SubJourney.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
   name: "DataStrategy",
@@ -165,7 +188,8 @@ export default {
     ServiceLeft,
     ServiceRight,
     WorkTogether,
-    SubJourney
+    SubJourney,
+    RelatedBox
   },
   methods: {
     scrollDown() {

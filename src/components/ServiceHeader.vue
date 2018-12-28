@@ -1,7 +1,7 @@
 <template>
-  <div class="content-wrapper" data-aos="fade-up" data-aos-duration="900">
-    <h3>{{ title}}</h3>
-    <p>{{kicker}}</p>
+  <div class="content-wrapper">
+    <h3 data-aos="fade-up" data-aos-duration="900">{{ title}}</h3>
+    <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">{{kicker}}</p>
   </div>
 </template>
 

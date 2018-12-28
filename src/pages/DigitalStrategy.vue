@@ -154,7 +154,11 @@
                   category="Insight"
                   title="Information Architecture Strategy"
                 ></RelatedBox>
-                <RelatedBox link="/services/data-strategy" category="Service" title="Data Strategy"></RelatedBox>
+                <RelatedBox
+                  link="/insights/bi-data-warehousing"
+                  category="Insight"
+                  title="Business Intelligence & Data Warehousing"
+                ></RelatedBox>
                 <RelatedBox link="/services/data-strategy" category="Service" title="Data Strategy"></RelatedBox>
               </div>
             </div>
@@ -179,6 +183,7 @@ import ServiceLeft from "../components/ServiceLeft.vue";
 import ServiceRight from "../components/ServiceRight.vue";
 import WorkTogether from "../components/WorkTogether.vue";
 import SubJourney from "../components/SubJourney.vue";
+import RelatedBox from "../components/RelatedBox.vue";
 
 export default {
   name: "DigitalStrategy",
@@ -194,7 +199,8 @@ export default {
     ServiceLeft,
     ServiceRight,
     WorkTogether,
-    SubJourney
+    SubJourney,
+    RelatedBox
   },
   methods: {
     scrollDown() {

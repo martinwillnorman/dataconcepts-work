@@ -3,6 +3,7 @@ import Router from "vue-router";
 import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
+import Works from "@/pages/Works.vue";
 import BigData from "@/pages/BigData.vue";
 import IoT from "@/pages/IoT.vue";
 import Cloud from "@/pages/Cloud.vue";
@@ -47,6 +48,8 @@ import InsightAnalyticsPower from "@/pages/InsightAnalyticsPower.vue";
 import InsightAppDevApproach from "@/pages/InsightAppDevApproach.vue";
 import InsightCloudAppDev from "@/pages/InsightCloudAppDev.vue";
 import InsightInformationArchitecture from "@/pages/InsightInformationArchitecture.vue";
+import InsightBIDataWarehouse from "@/pages/InsightBIDataWarehouse.vue";
+import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
 
 Vue.use(Router);
 
@@ -309,6 +312,21 @@ const router = new Router({
       path: "/insights/information-architecture",
       name: "InsightInformationArchitecture",
       component: InsightInformationArchitecture
+    },
+    {
+      path: "/insights/bi-data-warehousing",
+      name: "InsightBIDataWarehouse",
+      component: InsightBIDataWarehouse
+    },
+    {
+      path: "/work",
+      name: "Works",
+      component: Works
+    },
+    {
+      path: "/work/circuit-courts",
+      name: "WorkCircuitCourts",
+      component: WorkCircuitCourts
     }
   ]
 });
