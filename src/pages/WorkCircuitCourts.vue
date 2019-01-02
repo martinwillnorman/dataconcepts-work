@@ -33,7 +33,7 @@
             </div>
             <div class="column col-2 no-content"></div>
             <div class="column col-4 responsive-8 responsive-12 center-content">
-              <ServiceHeader title="The Circuit Courts Of Virginia" kicker="Legacy Modernization."/>
+              <ServiceHeader title="Virginia State Police" kicker="Legacy Modernization."/>
             </div>
           </div>
         </div>
@@ -41,7 +41,7 @@
       <section class="content-block" id="first">
         <div class="container">
           <WorkSummary
-            content="The Virginia Circuit Court System is composed of 31 judicial circuits with 120 separate circuit courts in the various counties and cities of the State. The Supreme Court of Virginia had been depending upon its existing heterogeneous and proprietary legacy systems since 1986 at 117 out of its 120 circuit courts."
+            content="Virginia State Police [VSP] is a statewide law enforcement agency for the Commonwealth of Virginia."
           >
             <ul>
               <li>Javat</li>
@@ -117,7 +117,7 @@
           </WorkSolution>
         </div>
       </section>
-      <section class="content-block grey">
+      <section class="content-block light-grey">
         <div class="container">
           <WorkOutcome>
             <h1
@@ -129,7 +129,6 @@
               data-aos="fade-up"
               data-aos-duration="600"
               data-aos-delay="200"
-              class="text-white"
             >Data Concepts managed and executed this complex, highly sensitive and critical modernization and successfully deployed the new web-based system.</p>
           </WorkOutcome>
         </div>
@@ -181,6 +180,7 @@ export default {
 
 .cover-image
   background-image: url(../assets/background/work-large/circuit-courts.jpg)
+  background-position: center
 
 #first
     background-color: #FF2828

@@ -159,6 +159,11 @@
                   category="Insight"
                   title="Business Intelligence & Data Warehousing"
                 ></RelatedBox>
+                <RelatedBox
+                  link="/insights/digital-landscape"
+                  category="Insight"
+                  title="The Modern Digital Landscape"
+                ></RelatedBox>
                 <RelatedBox link="/services/data-strategy" category="Service" title="Data Strategy"></RelatedBox>
               </div>
             </div>

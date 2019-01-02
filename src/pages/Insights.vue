@@ -182,6 +182,12 @@
                   summary="Data is an important window into the way that decisions are made and processes are executed in each individual business."
                 ></Insight>
                 <Insight
+                  link="/insights/power-bi"
+                  category="Business Intelligence"
+                  title="Are You Making the Most of Your Business Data?"
+                  summary="Power BI - Business intelligence like never before."
+                ></Insight>
+                <Insight
                   link="/insights/analytics-power"
                   category="Artificial Intelligence"
                   title="Harness the Power of Analytics & AI to Predict"
@@ -210,6 +216,24 @@
                   category="BI | Data Warehouse"
                   title="Business Intelligence & Data Warehousing"
                   summary="We leverage our expertise in architecting large-scale complex BI/DW (Business Intelligence/Data Warehousing) applications and provide EIM (Enterprise Information Management) implementation services."
+                ></Insight>
+                <Insight
+                  link="/insights/azure-migration"
+                  category="Microsoft Azure"
+                  title="What is Your Azure Migration Strategy?"
+                  summary="Most Enterprises are moving to the Cloud as a cost-effective means to develop, deploy and manage their infrastructure."
+                ></Insight>
+                <Insight
+                  link="/insights/sharepoint"
+                  category="Business Intelligence"
+                  title="What can you do with SharePoint?"
+                  summary="Upgrade or Migration is a major challenge for organizations who have invested in SharePoint extensively. Each new edition of SharePoint provides new features which has potential to improve your business case."
+                ></Insight>
+                <Insight
+                  link="/insights/digital-landscape"
+                  category="Digital"
+                  title="The Modern Digital Landscape"
+                  summary="Consumers have become accustomed to smartphones, mobile applications and ubiquitous connectivity, demanding a better user experience in their daily interactions."
                 ></Insight>
               </div>
             </div>

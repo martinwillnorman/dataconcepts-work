@@ -140,8 +140,17 @@
           <div class="row">
             <div class="column col-12">
               <div class="content-wrapper related-wrapper">
-                <RelatedBox link="/work/" category="Work" title="Cloud Data Lake Transformation"></RelatedBox>
+                <RelatedBox
+                  link="/work/data-lake"
+                  category="Work"
+                  title="Cloud Data Lake Transformation"
+                ></RelatedBox>
                 <RelatedBox link="/services/iot" category="Service" title="Cloud Solution and IoT"></RelatedBox>
+                <RelatedBox
+                  link="/insights/digital-landscape"
+                  category="Insight"
+                  title="The Modern Digital Landscape"
+                ></RelatedBox>
               </div>
             </div>
           </div>
@@ -244,14 +253,14 @@
                 title="Azure"
                 content="Cloud-based business intelligence, predictive analytics, and the exponential volume of mobile, social and online information are not only driving agility, efficiency, and competitive advantage, but are also making it an imperative for enterprises to be in the ‘business of data.’ In these times of aggressive digital transformation, effective workload management is the need of the hour and Azure, by offering more than 100 cloud services to build, deploy, and manage a breath of workloads, does this and more."
               >
-                <router-link class="reg-link white" to="/insights">Read More</router-link>
+                <router-link class="reg-link white" to="/services/microsoft-azure">Read More</router-link>
               </ServiceLeft>
               <ServiceRight
                 class="text-white"
                 title="AWS"
                 content="AWS IaaS ‘on-click’ infrastructure services, built using CloudFormation templates and Lambda, provides a platform for significantly lower costs, faster innovation, and building a scalable Opex-based infrastructure. AWS Developer pipeline leveraging Code Build and Code Deploy ensures shorter release cycles on existing products and services. AWS PaaS services like IoT and API gateway provide a comprehensive set of services for organizations to very quickly design, build, and deploy APIs that connect and integrate multiple devices seamlessly."
               >
-                <router-link class="reg-link white" to="/insights">Read More</router-link>
+                <router-link class="reg-link white" to="/services/microsoft-azure">Read More</router-link>
               </ServiceRight>
             </div>
           </div>

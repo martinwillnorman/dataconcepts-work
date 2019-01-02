@@ -20,7 +20,12 @@ export default {
 
 p
     font:
-        size: 2.5rem
-    line-height: 1.4  
+        size: 2rem
+    line-height: 1.6  
     text-align: center  
+
+@media only screen and (max-width: 500px)
+  p
+      font:
+          size: 1.5rem
 </style>

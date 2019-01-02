@@ -48,7 +48,7 @@
                     <router-link class="page-link" to="/careers">Careers</router-link>
                   </li>
                   <li class="margined">
-                    <router-link class="page-link" to="/contact-us">Contact</router-link>
+                    <router-link class="page-link" to="/contact">Contact</router-link>
                   </li>
                 </ul>
               </div>

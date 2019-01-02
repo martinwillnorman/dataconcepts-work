@@ -22,4 +22,15 @@ p
     font:
         size: 2.5rem
     line-height: 1.6    
+
+@media only screen and (max-width: 678px)
+  p
+    font:
+      size: 1.8rem
+
+@media only screen and (max-width: 450px)
+  p
+    font:
+      size: 1.2rem
+    line-height: 1.8
 </style>

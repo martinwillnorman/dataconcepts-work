@@ -121,21 +121,19 @@
                 title="SharePoint"
                 content="SharePoint can be configured to display interactive dashboards and reports from a variety of applications and sources, right within your existing web pages. We develop dashboards and custom Web Parts for SharePoint on premises and Office 365. We can also integrate your SharePoint with SQL tools including SSAS and SSRS, and build custom interfaces with specific drilldown capabilities."
               >
-                <router-link class="reg-link white" to="/insights">Read More</router-link>
+                <router-link class="reg-link white" to="/insights/sharepoint">Read More</router-link>
               </ServiceLeft>
               <ServiceRight
                 class="text-white"
                 title="SQL/SQL Server Reporting Services (SSRS)"
                 content="Whether you have an existing SQL Server Database or are looking to move your data to a centralized location, we can help you use SQL Server Reporting Services (SSRS) to visualize data and create interactive reports using data you have already gathered. We can help guide your database implementation and design reports to your specifications. We can integrate with third-party APIs to retrieve data from any service which can make its data available, including QuickBooks, Google Analytics, and SharePoint."
-              >
-                <router-link class="reg-link white" to="/insights">Read More</router-link>
-              </ServiceRight>
+              ></ServiceRight>
               <ServiceLeft
                 class="text-white"
                 title="Microsoft Power BI"
                 content="Power BI makes it easy to connect your reports and dashboards to disparate data sources. Power BI can natively connect to databases and services on premises or in the cloud such as SQL, Oracle, SharePoint, Dynamics CRM, Dynamics 365, Salesforce, Excel workbooks, and many other third-party systems. There is no need for a developer to configure connection strings or complicated ETL (Extract, Transform, and Load) processes. Power BI is also an integral component of Microsoft's Azure IoT platform. Power BI's utilization of HTML5 and specially-developed phone and tablet apps allow for access from almost any device. Combined with real-time, cloud-based data connections, data is available 24/7 from anywhere."
               >
-                <router-link class="reg-link white" to="/insights">Read More</router-link>
+                <router-link class="reg-link white" to="/insights/power-bi">Read More</router-link>
               </ServiceLeft>
             </div>
           </div>

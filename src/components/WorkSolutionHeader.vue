@@ -1,6 +1,6 @@
 <template>
   <div class="row padded">
-    <div class="column col-8 centered">
+    <div class="column col-8 responsive-12 centered">
       <div class="content-wrapper">
         <slot></slot>
       </div>
@@ -25,7 +25,22 @@ h1
 
 p
     font:
-        size: 4rem
-    line-height: 1.2    
+        size: 3.6rem
+    line-height: 1.1    
     text-align: center
+
+@media only screen and (max-width: 800px)
+  p
+    font:
+      size: 2.8rem
+
+@media only screen and (max-width: 678px)
+  p
+    font:
+      size: 2.4rem
+
+@media only screen and (max-width: 450px)
+  p
+    font:
+      size: 1.8rem
 </style>

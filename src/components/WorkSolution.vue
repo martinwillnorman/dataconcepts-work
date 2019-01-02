@@ -1,6 +1,6 @@
 <template>
   <div class="row padded-bottom">
-    <div class="column col-10 centered">
+    <div class="column col-10 responsive-12 centered">
       <div class="content-wrapper solution-wrapper">
         <slot></slot>
       </div>
@@ -39,4 +39,24 @@ li
         weight: 600
     line-height: 1.6
     margin-bottom: 20px
+
+@media only screen and (max-width: 678px)
+  p
+    font:
+      size: 1.4rem
+
+  ul
+    columns: 1
+
+@media only screen and (max-width: 450px)
+  p
+    font:
+      size: 1.1rem
+    line-height: 1.8
+
+  li
+    font:
+        size: .9rem
+    line-height: 1.8
+
 </style>

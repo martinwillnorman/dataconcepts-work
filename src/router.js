@@ -13,6 +13,7 @@ import AI from "@/pages/AI.vue";
 import Blockchain from "@/pages/Blockchain.vue";
 import ApplicationDevelopment from "@/pages/ApplicationDevelopment.vue";
 import CyberSecurity from "@/pages/CyberSecurity.vue";
+import MicrosoftAzure from "@/pages/MicrosoftAzure.vue";
 import Mobility from "@/pages/Mobility.vue";
 import MachineLearning from "@/pages/MachineLearning.vue";
 import Kafka from "@/pages/Kafka.vue";
@@ -49,7 +50,32 @@ import InsightAppDevApproach from "@/pages/InsightAppDevApproach.vue";
 import InsightCloudAppDev from "@/pages/InsightCloudAppDev.vue";
 import InsightInformationArchitecture from "@/pages/InsightInformationArchitecture.vue";
 import InsightBIDataWarehouse from "@/pages/InsightBIDataWarehouse.vue";
+import InsightAzureMigration from "@/pages/InsightAzureMigration.vue";
+import InsightSharePoint from "@/pages/InsightSharePoint.vue";
+import InsightPowerBI from "@/pages/InsightPowerBI.vue";
+import InsightDigitalLandscape from "@/pages/InsightDigitalLandscape.vue";
 import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
+import WorkVehicleInspection from "@/pages/WorkVehicleInspection.vue";
+import WorkMagellanHealth from "@/pages/WorkMagellanHealth.vue";
+import WorkWebPortal from "@/pages/WorkWebPortal.vue";
+import WorkMoonlighting from "@/pages/WorkMoonlighting.vue";
+import WorkSexRegistry from "@/pages/WorkSexRegistry.vue";
+import WorkFirstUnion from "@/pages/WorkFirstUnion.vue";
+import WorkFinancePortal from "@/pages/WorkFinancePortal.vue";
+import WorkServerMigration from "@/pages/WorkServerMigration.vue";
+import WorkEstesImprovement from "@/pages/WorkEstesImprovement.vue";
+import WorkFreightVolume from "@/pages/WorkFreightVolume.vue";
+import WorkFreightMovement from "@/pages/WorkFreightMovement.vue";
+import WorkEstesQuote from "@/pages/WorkEstesQuote.vue";
+import WorkCapitalOne from "@/pages/WorkCapitalOne.vue";
+import WorkPredictiveModeling from "@/pages/WorkPredictiveModeling.vue";
+import WorkJudicialEnforcement from "@/pages/WorkJudicialEnforcement.vue";
+import WorkJuryManagement from "@/pages/WorkJuryManagement.vue";
+import WorkDataLake from "@/pages/WorkDataLake.vue";
+import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
+import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
+import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
+import ContactUs from "@/pages/ContactUs.vue";
 
 Vue.use(Router);
 
@@ -137,6 +163,11 @@ const router = new Router({
       path: "/services/cyber-security",
       name: "CyberSecurity",
       component: CyberSecurity
+    },
+    {
+      path: "/services/microsoft-azure",
+      name: "MicrosoftAzure",
+      component: MicrosoftAzure
     },
     {
       path: "/services/mobility",
@@ -319,6 +350,26 @@ const router = new Router({
       component: InsightBIDataWarehouse
     },
     {
+      path: "/insights/azure-migration",
+      name: "InsightAzureMigration",
+      component: InsightAzureMigration
+    },
+    {
+      path: "/insights/sharepoint",
+      name: "InsightSharePoint",
+      component: InsightSharePoint
+    },
+    {
+      path: "/insights/power-bi",
+      name: "InsightPowerBI",
+      component: InsightPowerBI
+    },
+    {
+      path: "/insights/digital-landscape",
+      name: "InsightDigitalLandscape",
+      component: InsightDigitalLandscape
+    },
+    {
       path: "/work",
       name: "Works",
       component: Works
@@ -327,6 +378,111 @@ const router = new Router({
       path: "/work/circuit-courts",
       name: "WorkCircuitCourts",
       component: WorkCircuitCourts
+    },
+    {
+      path: "/work/vehicle-inspection",
+      name: "WorkVehicleInspection",
+      component: WorkVehicleInspection
+    },
+    {
+      path: "/work/magellan-health",
+      name: "WorkMagellanHealth",
+      component: WorkMagellanHealth
+    },
+    {
+      path: "/work/web-portal",
+      name: "WorkWebPortal",
+      component: WorkWebPortal
+    },
+    {
+      path: "/work/moonlighting",
+      name: "WorkMoonlighting",
+      component: WorkMoonlighting
+    },
+    {
+      path: "/work/sex-registry",
+      name: "WorkSexRegistry",
+      component: WorkSexRegistry
+    },
+    {
+      path: "/work/first-union",
+      name: "WorkFirstUnion",
+      component: WorkFirstUnion
+    },
+    {
+      path: "/work/finance-portal",
+      name: "WorkFinancePortal",
+      component: WorkFinancePortal
+    },
+    {
+      path: "/work/server-migration",
+      name: "WorkServerMigration",
+      component: WorkServerMigration
+    },
+    {
+      path: "/work/estes-improvement",
+      name: "WorkEstesImprovement",
+      component: WorkEstesImprovement
+    },
+    {
+      path: "/work/freight-volume",
+      name: "WorkFreightVolume",
+      component: WorkFreightVolume
+    },
+    {
+      path: "/work/freight-movement",
+      name: "WorkFreightMovement",
+      component: WorkFreightMovement
+    },
+    {
+      path: "/work/estes-quote",
+      name: "WorkEstesQuote",
+      component: WorkEstesQuote
+    },
+    {
+      path: "/work/capital-one",
+      name: "WorkCapitalOne",
+      component: WorkCapitalOne
+    },
+    {
+      path: "/work/predictive-modeling",
+      name: "WorkPredictiveModeling",
+      component: WorkPredictiveModeling
+    },
+    {
+      path: "/work/judicial-enforcement",
+      name: "WorkJudicialEnforcement",
+      component: WorkJudicialEnforcement
+    },
+    {
+      path: "/work/jury-management",
+      name: "WorkJuryManagement",
+      component: WorkJuryManagement
+    },
+    {
+      path: "/work/data-lake",
+      name: "WorkDataLake",
+      component: WorkDataLake
+    },
+    {
+      path: "/work/scala-architecture",
+      name: "WorkScalaArchitecture",
+      component: WorkScalaArchitecture
+    },
+    {
+      path: "/work/devops-transformation",
+      name: "WorkDevopsTransformation",
+      component: WorkDevopsTransformation
+    },
+    {
+      path: "/work/unified-data",
+      name: "WorkUnifiedData",
+      component: WorkUnifiedData
+    },
+    {
+      path: "/contact",
+      name: "ContactUs",
+      component: ContactUs
     }
   ]
 });

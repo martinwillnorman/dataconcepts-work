@@ -44,7 +44,7 @@
                     <div class="work-background vehicle-inspection"></div>
                     <div class="work-tint vehicle-inspection"></div>
                     <div class="work-overlay">
-                      <h3 class="text-white">VA State Police: Vehicle Inspection Program</h3>
+                      <h3 class="text-white">Virginia State Police: Vehicle Inspection Program</h3>
                     </div>
                     <WorkArrow/>
                   </router-link>
@@ -64,7 +64,7 @@
                     <div class="work-background web-portal"></div>
                     <div class="work-tint web-portal"></div>
                     <div class="work-overlay">
-                      <h3 class="text-white">VA State Police: Web Portal</h3>
+                      <h3 class="text-white">Virginia State Police: Web Portal</h3>
                     </div>
                     <WorkArrow/>
                   </router-link>

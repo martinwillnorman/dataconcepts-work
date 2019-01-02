@@ -164,9 +164,9 @@
             <div class="column col-12">
               <div class="content-wrapper related-wrapper">
                 <RelatedBox
-                  link="/insights/blockchain-world"
+                  link="/insights/azure-machine-learning"
                   category="Insight"
-                  title="Our Insights on the World of Blockchain"
+                  title="5 Reasons We Love Azure ML"
                 ></RelatedBox>
               </div>
             </div>

@@ -1,6 +1,5 @@
 <template>
   <div class="row">
-    <div class="column col-2 no-content"></div>
     <div class="column col-8 responsive-12">
       <div class="content-wrapper text-white">
         <h1 data-aos="fade-up" data-aos-duration="600">Client Summary</h1>
@@ -27,15 +26,6 @@ h1
     font:
         size: 3rem
     margin-bottom: 30px
-
-ul
-    columns: 2
-
-li
-    margin-bottom: 10px
-    line-height: 1.4   
-    font:
-        weight: 600  
 
 @media only screen and (max-width: 450px)
   h1
