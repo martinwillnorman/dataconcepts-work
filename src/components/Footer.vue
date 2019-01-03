@@ -75,7 +75,7 @@ export default {
 
 .content-wrapper
   display: flex
-  padding: 100px 0
+  padding: 60px 0 40px
 
 .footer__content-1
   display: flex
@@ -105,7 +105,7 @@ p
   list-style: none
   margin: 0
   padding: 0
-  padding-top: 15%
+  padding-top: 5%
   max-width: 200px
   margin-right: auto
 
@@ -115,10 +115,11 @@ p
     size: 1.5rem
     weight: 900
     family: $font-header
+  letter-spacing: 1px
 
 .logo::before
   content: "data"
-  color: $dataconcepts-red
+  color: $font-c-1
 
 .footer__content-2 
   flex-basis: 50%
@@ -137,10 +138,13 @@ p
 li
   flex-basis: 50%
 
+li a
+  position: relative
+
 li a::after
   content: ""
   position: absolute
-  top: -10px
+  top: 100%
   left: 0
   height: 1px
   width: 100%
@@ -156,12 +160,13 @@ li a:hover:after
 @media only screen and (max-width: 690px) 
   .content-wrapper
     flex-direction: column-reverse
+    padding: 30px 0 20px
 
-  .footer__content-1
-    padding-top: 30px
-  
   .margined
     margin-bottom: 30px
+
+  li a 
+    font-size: 1.1rem
 
 
 </style>

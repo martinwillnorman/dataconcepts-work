@@ -111,10 +111,10 @@ img
   position: absolute
   top: 100%
   left: 0
-  height: 1px
+  height: 2px
   width: 100%
   transform: translatey(10px)
-  background: $dataconcepts-red
+  background: $font-c-1
   opacity: 0
   transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
 

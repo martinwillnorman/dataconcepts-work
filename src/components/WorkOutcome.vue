@@ -27,5 +27,5 @@ p
 @media only screen and (max-width: 500px)
   p
       font:
-          size: 1.5rem
+          size: 1.2rem
 </style>

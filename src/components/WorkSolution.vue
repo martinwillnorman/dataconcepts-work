@@ -26,7 +26,7 @@ export default {
 p
     font:
         size: 1.6rem
-    line-height: 1.6
+    line-height: 1.8
 
 ul
     columns: 2
@@ -37,7 +37,7 @@ li
     font:
         size: 1.1rem
         weight: 600
-    line-height: 1.6
+    line-height: 1.8
     margin-bottom: 20px
 
 @media only screen and (max-width: 678px)

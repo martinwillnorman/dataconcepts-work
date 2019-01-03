@@ -25,13 +25,12 @@ export default {
   width: 50%
   max-width: 50%
 
-
 .related-link
   display: flex
   flex-direction: column
   padding: 60px
   position: relative
-  border: solid 0.05555rem $spacer-c
+  border: solid 0.05555rem $bround-c-3
   transition: box-shadow 200ms cubic-bezier(.29,.29,.42,1.01), transform 400ms cubic-bezier(.29,.29,.42,1.01)
   min-height: 300px
 
@@ -48,11 +47,13 @@ export default {
 
 span
   color: $font-c-p-2
+  position: absolute
+  bottom: 40px
+
+// .related-link:hover 
+//   transform: scale(1.1)
 
 .related-link:hover 
-  transform: scale(1.1)
-
-.related-link:hover
   box-shadow: 0px 0px 40px rgba(0,0,0,.1)
 
 @media only screen and (max-width: 1000px)
@@ -68,7 +69,6 @@ span
     flex-basis: 100%
     width: 100%
     max-width: 100%
-
 
 @media only screen and (max-width: 678px)
   .related-link

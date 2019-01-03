@@ -105,13 +105,14 @@ nav
     weight: 900
     family: $font-header
   transition: color 1s cubic-bezier(0.23, 1, 0.32, 1)
+  letter-spacing: 2px
 
 .logo.active
   color: #000
 
 .logo::before
   content: "data"
-  color: $dataconcepts-red
+  color: #fff
 
 .standard-nav-holder
   align-items: center
@@ -129,10 +130,10 @@ li a
   color: #fff
   font: 
     size: 0.9rem
-    weight: 900
+    weight: 600
     family: $font-header
   position: relative
-  letter-spacing: 0.5px 
+  letter-spacing: 2px 
 
 li a::after
   content: ""
@@ -171,7 +172,7 @@ li a:hover:after
 
 .bun
   width: 100%
-  height: 1px
+  height: 2px
   background-color: #fff
   position: absolute
   top: 50%

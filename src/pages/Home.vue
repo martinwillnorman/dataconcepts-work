@@ -47,11 +47,11 @@
           </div>
         </div>
       </section>
-      <section id="first" class="content-block mostpage section-2">
+      <section id="first" class="content-block fullpage section-2">
         <div v-parallax="0.4" class="cover-image cover-image-2"></div>
         <div class="container">
-          <div class="row padded-top right">
-            <div class="column col-11 responsive-12">
+          <div class="row padded-top">
+            <div class="column col-12">
               <div class="content-wrapper text-white">
                 <div class="wrapper-2">
                   <h6>WHO WE ARE</h6>
@@ -72,7 +72,22 @@
           </div>
         </div>
       </section>
-      <section class="content-block halfpage section-3">
+      <section class="content-block section-3">
+        <div class="cover-image cover-image-3"></div>
+        <div class="container">
+          <div class="row padded">
+            <div class="column col-10 centered center-content">
+              <div class="content-wrapper service-wrapper text-white">
+                <h6>OUR SERVICES</h6>
+                <h1 class="section-header left medium">Driving Digital Transformation</h1>
+                <p>Digital transformation demands new approaches to app development… To transform development strategies in the digital era, you must solve legacy app challenges while incorporating modern agile practices, design methodologies and disruptive technologies.</p>
+                <router-link class="reg-link white margin" to="/services/digital-strategy">More</router-link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content-block halfpage section-4">
         <div class="container">
           <div class="row padded">
             <div class="column col-12">
@@ -199,6 +214,11 @@ video
 .wrapper-3
   max-width: 800px
 
+.service-wrapper
+  display: flex
+  flex-direction: column
+  justify-content: center
+
 h6
   margin-bottom: 30px
   letter-spacing: 3px
@@ -208,7 +228,11 @@ h6
   font: 
     size: 1.2rem
 
-.section-3 
+.cover-image-3
+  background-image: url(../assets/background/home/mobile.jpg)
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(260deg) saturate(6)
+
+.section-4 
   background: #000
 </style>
 

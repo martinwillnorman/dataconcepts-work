@@ -115,7 +115,10 @@ img
 .reg-link:hover:after
   opacity: 1
   transform: translatey(2px)
-  
+
+.reg-link.margin
+  margin-top: 20px  
+
 .reg-link.white
   color: #fff
 
@@ -185,6 +188,9 @@ img
 .padded-top
   padding: 100px 0 0
 
+.subsection-padding
+  padding-bottom: 60px
+
 .column
   padding-right: .83333rem
   padding-left: .83333rem
@@ -193,6 +199,10 @@ img
 .column.centered
   margin-left: auto
   margin-right: auto
+
+.column.end-content
+  display: flex
+  align-items: flex-end
 
 .column.center-content
   align-items: center
@@ -388,7 +398,7 @@ img
   right: 0
   bottom: 0
   left: 0
-  background: rgba(0,0,0,0.3)
+  background: rgba(0,0,0,0.2)
 
 .content-wrapper 
   position: relative
@@ -418,6 +428,7 @@ img
   margin: 0
   color: #fff
   line-height: 2.2
+  font-weight: 900
 
 #dynamic-text
     background-image: linear-gradient(135deg,#ff48a6 10%,#520881 90%)
@@ -525,6 +536,11 @@ img
     width: 100%
     max-width: 100%
     flex-basis: 100%
+
+  .column.responsive-10
+    width: 83.33333%
+    max-width: 83.33333%
+    flex-basis: 83.33333%
 
   .column.responsive-8
     width: 66.66667%

@@ -11,7 +11,7 @@
       <section class="content-block">
         <div class="container">
           <div class="row padded-top">
-            <div class="column col-4 responsive-12 center-horizontal centered">
+            <div class="column col-5 responsive-12 center-horizontal centered">
               <div
                 data-aos="fade-up"
                 data-aos-duration="600"

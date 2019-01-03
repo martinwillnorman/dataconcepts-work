@@ -25,8 +25,8 @@ h1
 
 p
     font:
-        size: 3.6rem
-    line-height: 1.1    
+        size: 3.2rem
+    line-height: 1.4    
     text-align: center
 
 @media only screen and (max-width: 800px)

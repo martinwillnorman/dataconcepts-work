@@ -4,28 +4,28 @@ import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
 import Works from "@/pages/Works.vue";
-import BigData from "@/pages/BigData.vue";
-import IoT from "@/pages/IoT.vue";
-import Cloud from "@/pages/Cloud.vue";
-import BusinessIntelligence from "@/pages/BusinessIntelligence.vue";
-import DataAnalytics from "@/pages/DataAnalytics.vue";
-import AI from "@/pages/AI.vue";
-import Blockchain from "@/pages/Blockchain.vue";
-import ApplicationDevelopment from "@/pages/ApplicationDevelopment.vue";
-import CyberSecurity from "@/pages/CyberSecurity.vue";
-import MicrosoftAzure from "@/pages/MicrosoftAzure.vue";
-import Mobility from "@/pages/Mobility.vue";
-import MachineLearning from "@/pages/MachineLearning.vue";
-import Kafka from "@/pages/Kafka.vue";
-import ProgramManagement from "@/pages/ProgramManagement.vue";
-import DigitalStrategy from "@/pages/DigitalStrategy.vue";
-import DataStrategy from "@/pages/DataStrategy.vue";
-import DataGovernance from "@/pages/DataGovernance.vue";
-import DataWarehouse from "@/pages/DataWarehouse.vue";
-import DataIntegration from "@/pages/DataIntegration.vue";
-import MasterDataManagement from "@/pages/MasterDataManagement.vue";
-import DataVisualization from "@/pages/DataVisualization.vue";
-import DataScience from "@/pages/DataScience.vue";
+import ServiceBigData from "@/pages/ServiceBigData.vue";
+import ServiceIoT from "@/pages/ServiceIoT.vue";
+import ServiceCloud from "@/pages/ServiceCloud.vue";
+import ServiceBusinessIntelligence from "@/pages/ServiceBusinessIntelligence.vue";
+import ServiceDataAnalytics from "@/pages/ServiceDataAnalytics.vue";
+import ServiceAI from "@/pages/ServiceAI.vue";
+import ServiceBlockchain from "@/pages/ServiceBlockchain.vue";
+import ServiceApplicationDevelopment from "@/pages/ServiceApplicationDevelopment.vue";
+import ServiceCyberSecurity from "@/pages/ServiceCyberSecurity.vue";
+import ServiceMicrosoftAzure from "@/pages/ServiceMicrosoftAzure.vue";
+import ServiceMobility from "@/pages/ServiceMobility.vue";
+import ServiceMachineLearning from "@/pages/ServiceMachineLearning.vue";
+import ServiceKafka from "@/pages/ServiceKafka.vue";
+import ServiceProgramManagement from "@/pages/ServiceProgramManagement.vue";
+import ServiceDigitalStrategy from "@/pages/ServiceDigitalStrategy.vue";
+import ServiceDataStrategy from "@/pages/ServiceDataStrategy.vue";
+import ServiceDataGovernance from "@/pages/ServiceDataGovernance.vue";
+import ServiceDataWarehouse from "@/pages/ServiceDataWarehouse.vue";
+import ServiceDataIntegration from "@/pages/ServiceDataIntegration.vue";
+import ServiceMasterDataManagement from "@/pages/ServiceMasterDataManagement.vue";
+import ServiceDataVisualization from "@/pages/ServiceDataVisualization.vue";
+import ServiceDataScience from "@/pages/ServiceDataScience.vue";
 import InsightQuickPeek from "@/pages/InsightQuickPeek.vue";
 import InsightWorldBlockchain from "@/pages/InsightWorldBlockchain.vue";
 import InsightDataMining from "@/pages/InsightDataMining.vue";
@@ -76,6 +76,7 @@ import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
 import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
 import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
 import ContactUs from "@/pages/ContactUs.vue";
+import NewInsight from "@/pages/NewInsight.vue";
 
 Vue.use(Router);
 
@@ -121,113 +122,113 @@ const router = new Router({
     },
     {
       path: "/services/big-data",
-      name: "BigData",
-      component: BigData
+      name: "ServiceBigData",
+      component: ServiceBigData
     },
     {
       path: "/services/iot",
-      name: "IoT",
-      component: IoT
+      name: "ServiceIoT",
+      component: ServiceIoT
     },
     {
       path: "/services/cloud",
-      name: "Cloud",
-      component: Cloud
+      name: "ServiceCloud",
+      component: ServiceCloud
     },
     {
       path: "/services/business-intelligence",
-      name: "BusinessIntelligence",
-      component: BusinessIntelligence
+      name: "ServiceBusinessIntelligence",
+      component: ServiceBusinessIntelligence
     },
     {
       path: "/services/data-analytics",
-      name: "DataAnalytics",
-      component: DataAnalytics
+      name: "ServiceDataAnalytics",
+      component: ServiceDataAnalytics
     },
     {
       path: "/services/artificial-intelligence",
-      name: "AI",
-      component: AI
+      name: "ServiceAI",
+      component: ServiceAI
     },
     {
       path: "/services/blockchain",
-      name: "Blockchain",
-      component: Blockchain
+      name: "ServiceBlockchain",
+      component: ServiceBlockchain
     },
     {
       path: "/services/application-development",
-      name: "ApplicationDevelopment",
-      component: ApplicationDevelopment
+      name: "ServiceApplicationDevelopment",
+      component: ServiceApplicationDevelopment
     },
     {
       path: "/services/cyber-security",
-      name: "CyberSecurity",
-      component: CyberSecurity
+      name: "ServiceCyberSecurity",
+      component: ServiceCyberSecurity
     },
     {
       path: "/services/microsoft-azure",
-      name: "MicrosoftAzure",
-      component: MicrosoftAzure
+      name: "ServiceMicrosoftAzure",
+      component: ServiceMicrosoftAzure
     },
     {
       path: "/services/mobility",
-      name: "Mobility",
-      component: Mobility
+      name: "ServiceMobility",
+      component: ServiceMobility
     },
     {
       path: "/services/machine-learning",
-      name: "MachineLearning",
-      component: MachineLearning
+      name: "ServiceMachineLearning",
+      component: ServiceMachineLearning
     },
     {
       path: "/services/kafka",
-      name: "Kafka",
-      component: Kafka
+      name: "ServiceKafka",
+      component: ServiceKafka
     },
     {
       path: "/services/program-management",
-      name: "ProgramManagement",
-      component: ProgramManagement
+      name: "ServiceProgramManagement",
+      component: ServiceProgramManagement
     },
     {
       path: "/services/digital-strategy",
-      name: "DigitalStrategy",
-      component: DigitalStrategy
+      name: "ServiceDigitalStrategy",
+      component: ServiceDigitalStrategy
     },
     {
       path: "/services/data-strategy",
-      name: "DataStrategy",
-      component: DataStrategy
+      name: "ServiceDataStrategy",
+      component: ServiceDataStrategy
     },
     {
       path: "/services/data-governance",
-      name: "DataGovernance",
-      component: DataGovernance
+      name: "ServiceDataGovernance",
+      component: ServiceDataGovernance
     },
     {
       path: "/services/data-warehouse",
-      name: "DataWarehouse",
-      component: DataWarehouse
+      name: "ServiceDataWarehouse",
+      component: ServiceDataWarehouse
     },
     {
       path: "/services/data-integration",
-      name: "DataIntegration",
-      component: DataIntegration
+      name: "ServiceDataIntegration",
+      component: ServiceDataIntegration
     },
     {
       path: "/services/master-data-management",
-      name: "MasterDataManagement",
-      component: MasterDataManagement
+      name: "ServiceMasterDataManagement",
+      component: ServiceMasterDataManagement
     },
     {
       path: "/services/data-visualization",
-      name: "DataVisualization",
-      component: DataVisualization
+      name: "ServiceDataVisualization",
+      component: ServiceDataVisualization
     },
     {
       path: "/services/data-science",
-      name: "DataScience",
-      component: DataScience
+      name: "ServiceDataScience",
+      component: ServiceDataScience
     },
     {
       path: "/insights/quick-peek",
@@ -368,6 +369,11 @@ const router = new Router({
       path: "/insights/digital-landscape",
       name: "InsightDigitalLandscape",
       component: InsightDigitalLandscape
+    },
+    {
+      path: "/insights/new-insight",
+      name: "NewInsight",
+      component: NewInsight
     },
     {
       path: "/work",

@@ -1,12 +1,11 @@
 <template>
-  <section class="content-block halfpage grey">
+  <section class="content-block">
     <div class="container">
       <div class="row">
-        <div class="column col-12">
+        <div class="column col-12 center-horizontal">
           <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper insight-wrapper">
             <span>{{category}}</span>
             <h1>{{title}}</h1>
-            <p>{{summary}}</p>
           </div>
         </div>
       </div>
@@ -25,9 +24,11 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-.column
-    display: flex
-    align-items: flex-end
+.content-block
+    min-height: 250px
+    width: 100%
+    overflow: hidden
+    padding-bottom: 40px
 
 .insight-wrapper
   display: flex
@@ -45,7 +46,7 @@ h1
   margin: 0 0 10px
   font:
     size: 3rem
-  color: #fff
+  color: $font-c-h-2
 
 span
   color: $font-c-p-2
