@@ -1,8 +1,8 @@
 <template>
   <section class="content-block">
     <div class="container">
-      <div class="row">
-        <div class="column col-12 center-horizontal">
+      <div class="row right padded-top">
+        <div class="column col-11 center-horizontal">
           <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper insight-wrapper">
             <span>{{category}}</span>
             <h1>{{title}}</h1>
@@ -41,13 +41,12 @@ export default {
     color: $font-c-p-3
 
 h1
-  color: $font-c-1
-  line-height: 1.1
+  color: $font-c-h-3
+  line-height: 3.37rem
   margin: 0 0 10px
   font:
-    size: 3rem
-  color: $font-c-h-2
-
+    size: 2.76rem
+    weight: 400
 span
   color: $font-c-p-2
   font:

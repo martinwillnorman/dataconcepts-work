@@ -3,6 +3,25 @@
     <ModalMenu/>
     <NavBarWhite/>
     <div class="sections">
+      <section class="content-block">
+        <div class="content-wrapper">
+          <div class="nav-block"></div>
+        </div>
+      </section>
+      <section class="content-block fullpage black">
+        <div class="container">
+          <div class="row padded">
+            <div class="column col-12">
+              <div class="content-wrapper text-white">
+                <h1 class="insights-header">Our thoughts, your insights.</h1>
+                <p
+                  class="insights-text"
+                >We think it's important to provide our clients with key insights into the solutions that could help your business succeed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="content-block fullpage">
         <div v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
@@ -51,7 +70,7 @@
                 class="content-wrapper intruding-kicker"
               >
                 <h3>Share Knowledge</h3>
-                <p>We think it's important to provide our clients with key insights into the solutions that could help your business succeed.</p>
+                <p>We think it's important to provide you with key insights into the solutions that could help your business succeed.</p>
               </div>
             </div>
           </div>
@@ -280,6 +299,20 @@ export default {
   display: flex
   flex-wrap: wrap
   padding-top: 100px
+
+.insights-header
+  font:
+    size: 160px
+  line-height: 164px
+  letter-spacing: -2px
+  margin-bottom: 100px
+
+.insights-text
+  font: 
+    size: 31px
+    weight: 400
+  line-height: 44px
+  max-width: 570px
 
 @media only screen and (max-width: 450px)
   .insights-wrapper

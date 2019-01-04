@@ -11,6 +11,9 @@
       <!-- <InsightSubHeader
         content="What was once known as a novel approach to software development is now a wide-ranging global business strategy, taking on dozens of different forms as organizations adapt it to their unique goals and business models. Companies that embrace business agile often find that their work and decision-making processes become more faster and more efficient, enabling innovation that would not otherwise have been possible."
       ></InsightSubHeader>-->
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image insight-image"></div>
+      </section>
       <section class="content-block">
         <div class="container">
           <Spacer/>
@@ -65,4 +68,7 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
+.insight-image
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(3500deg) saturate(6)
+  background-image: url(../assets/background/insights/dance-2.jpg)
 </style>

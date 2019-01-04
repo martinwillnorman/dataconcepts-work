@@ -4,7 +4,9 @@ import router from "./router";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import VueParallaxJs from "vue-parallax-js";
+import VueParticles from "vue-particles";
 
+Vue.use(VueParticles);
 Vue.use(VueParallaxJs);
 
 Vue.config.productionTip = false;

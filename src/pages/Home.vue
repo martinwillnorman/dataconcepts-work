@@ -3,8 +3,8 @@
     <ModalMenu/>
     <NavBarWhite/>
     <div class="sections">
-      <section class="content-block mostpage">
-        <div data-aos="fade-up" data-aos-duration="900" @click="scrollDown" class="show-more">
+      <section class="content-block fullpage medium-grey">
+        <div @click="scrollDown" class="show-more">
           <svg
             fill="#fff"
             version="1.1"
@@ -26,6 +26,60 @@
             </g>
           </svg>
         </div>
+        <div class="container header-section">
+          <div class="row">
+            <div class="column col-12 center-content">
+              <div class="content-wrapper text-white">
+                <h1>We are Data Concepts</h1>
+                <h2>Driving Digital Transformation</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+        <vue-particles
+          color="#dedede"
+          :particleOpacity="0.7"
+          :particlesNumber="80"
+          shapeType="edge"
+          :particleSize="4"
+          linesColor="#dedede"
+          :linesWidth="1"
+          :lineLinked="false"
+          :lineOpacity="0.4"
+          :linesDistance="150"
+          :moveSpeed="5"
+          :hoverEffect="true"
+          hoverMode="grab"
+          :clickEffect="true"
+          clickMode="push"
+        ></vue-particles>
+      </section>
+      <section id="first" class="content-block fullpage section-2">
+        <div v-parallax="0.4" class="cover-image cover-image-2"></div>
+        <div class="container">
+          <div class="row padded-top right">
+            <div class="column col-11 center-content">
+              <div class="content-wrapper text-white">
+                <div class="wrapper-2">
+                  <h6>WHO WE ARE</h6>
+                  <h1
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                    class="section-header home left medium"
+                  >Technology is our craft.</h1>
+                </div>
+                <div class="wrapper-3">
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                  >Data Concepts is an IT consultancy that specializes in executing project solutions with expertise in Java, Microsoft, Open Source, Analytics, Cloud and Mobile technologies.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="content-block mostpage">
         <!-- <div class="cover-image"></div> -->
         <video
           src="../assets/video/snowflakes.mp4"
@@ -47,52 +101,28 @@
           </div>
         </div>
       </section>
-      <section id="first" class="content-block fullpage section-2">
-        <div v-parallax="0.4" class="cover-image cover-image-2"></div>
-        <div class="container">
-          <div class="row padded-top">
-            <div class="column col-12">
-              <div class="content-wrapper text-white">
-                <div class="wrapper-2">
-                  <h6>WHO WE ARE</h6>
-                  <h1
-                    data-aos="fade-up"
-                    data-aos-duration="600"
-                    class="section-header left medium"
-                  >Technology is our craft.</h1>
-                </div>
-                <div class="wrapper-3">
-                  <p
-                    data-aos="fade-up"
-                    data-aos-duration="600"
-                  >Data Concepts is an IT consultancy that specializes in executing project solutions with expertise in Java, Microsoft, Open Source, Analytics, Cloud and Mobile technologies. Our consulting engagements comprise firm-fixed price projects, time & material engagements, and a managed service IT staffing model.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="content-block section-3">
+
+      <section class="content-block fullpage section-3">
         <div class="cover-image cover-image-3"></div>
         <div class="container">
           <div class="row padded">
             <div class="column col-10 centered center-content">
               <div class="content-wrapper service-wrapper text-white">
-                <h6>OUR SERVICES</h6>
-                <h1 class="section-header left medium">Driving Digital Transformation</h1>
-                <p>Digital transformation demands new approaches to app development… To transform development strategies in the digital era, you must solve legacy app challenges while incorporating modern agile practices, design methodologies and disruptive technologies.</p>
+                <h6>OUR INSIGHTS</h6>
+                <h1 class="section-header home left medium">Born Digital</h1>
+                <p>Digital transformation demands new approaches.</p>
                 <router-link class="reg-link white margin" to="/services/digital-strategy">More</router-link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="content-block halfpage section-4">
+      <!-- <section class="content-block halfpage section-4">
         <div class="container">
           <div class="row padded">
             <div class="column col-12">
               <div class="content-wrapper text-white">
-                <h6>OUR THOUGHTS.</h6>
+                <h6>OUR SERVICES</h6>
                 <h1 class="section-header left">Trends that inform the world of tomorrow</h1>
               </div>
               <div class="content-wrapper related-wrapper">
@@ -107,6 +137,48 @@
                   title="Business Intelligence & Data Warehousing"
                 ></RelatedBox>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>-->
+      <section class="content-block padded-bottom black section-5">
+        <div class="container">
+          <div class="row padded-top">
+            <div class="column col-12">
+              <div class="content-wrapper text-whtie">
+                <h6>OUR SERVICES</h6>
+                <h1 class="section-header left text-white">Trends that inform the world of tomorrow</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-wrapper services-wrapper">
+          <div class="service">
+            <router-link class="service-link" to="/services/big-data"></router-link>
+            <div id="big-data-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Big Data</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/iot"></router-link>
+            <div id="iot-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>IoT</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/cloud"></router-link>
+            <div id="cloud-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Cloud</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/business-intelligence"></router-link>
+            <div id="bi-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>BI</h3>
             </div>
           </div>
         </div>
@@ -191,6 +263,17 @@ export default {
 <style scoped lang="sass">
 @import "../assets/sass/settings.sass"
 
+.header-section
+  height: 100%
+  width: 100%
+  position: absolute
+  text-align: center
+  top: 0
+
+.header-section h1
+  font:
+    size: 6rem
+  
 video
   display: block
   max-width: initial
@@ -211,6 +294,10 @@ video
 .wrapper-2
   max-width: 400px
 
+.wrapper-2 h1
+  font:
+    size: 4rem
+
 .wrapper-3
   max-width: 800px
 
@@ -218,6 +305,13 @@ video
   display: flex
   flex-direction: column
   justify-content: center
+
+.service-wrapper p
+  font:
+    size: 1.6rem
+    weight: 400
+  letter-spacing: 1px
+
 
 h6
   margin-bottom: 30px
@@ -229,11 +323,123 @@ h6
     size: 1.2rem
 
 .cover-image-3
-  background-image: url(../assets/background/home/mobile.jpg)
-  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(260deg) saturate(6)
+  background-image: url(../assets/background/home/skateboard.jpg)
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(270deg) saturate(6)
 
 .section-4 
   background: #000
+
+.section-5 
+  flex-direction: column
+
+#particles-js
+  width: 100%
+  z-index: 999
+
+.show-more
+  z-index: 1000
+
+.services-wrapper
+    display: flex
+    flex-wrap: wrap
+
+.service
+    flex-basis: 25%
+    width: 25%
+    max-width: 25%
+    height: 22vw
+    position: relative
+
+.service-background
+    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(270deg) saturate(6)
+    background-size: cover
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+
+.service-background-2
+    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(235deg) saturate(6)
+    background-size: cover
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+
+.service-link
+    position: absolute
+    top: 0
+    right: 0
+    bottom: 0
+    left: 0
+    z-index: 999    
+
+.service-link:hover ~ .service-background
+    filter: unset
+
+.service-link:hover ~ .service-background-2
+    filter: unset
+
+.service-link:hover ~ .service-content h3:after
+  opacity: 1
+  transform: translatey(2px)
+
+.service-content
+  display: inline-block
+  position: relative
+  top: 64%
+  left: 5%
+  width: 90%
+
+.service-content h3
+  color: #fff
+  font:
+      size: 3rem
+      family: $font-body
+      weight: 200
+  letter-spacing: 0.2rem
+
+#big-data-bround
+  background-image: url(../assets/background/services-small/big-data.jpg)
+
+#iot-bround
+  background-image: url(../assets/background/services-small/iot.jpg)
+
+#cloud-bround
+  background-image: url(../assets/background/services-small/cloud.jpg)
+
+#bi-bround
+  background-image: url(../assets/background/services-small/bi.jpg)
+
+@media only screen and (max-width: 1500px)
+  h3
+    font:
+      size: 2.5rem !important
+
+@media only screen and (max-width: 1230px) 
+  .service
+    flex-basis: 33.3333%
+    width: 33.3333%
+    max-width: 33.3333%
+    height: 31vw
+
+@media only screen and (max-width: 900px) 
+  .service
+    flex-basis: 50%
+    width: 50%
+    max-width: 50%
+    height: 45vw
+
+@media only screen and (max-width: 600px) 
+  .service
+    flex-basis: 100%
+    width: 100%
+    max-width: 100%
+    height: 75vw
+
+
 </style>
 
 

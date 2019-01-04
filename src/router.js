@@ -121,6 +121,16 @@ const router = new Router({
       }
     },
     {
+      path: "/contact",
+      name: "ContactUs",
+      component: ContactUs,
+      beforeEnter: (to, from, next) => {
+        const el1 = document.body;
+        el1.classList.remove("hide-overflow");
+        next();
+      }
+    },
+    {
       path: "/services/big-data",
       name: "ServiceBigData",
       component: ServiceBigData
@@ -484,11 +494,6 @@ const router = new Router({
       path: "/work/unified-data",
       name: "WorkUnifiedData",
       component: WorkUnifiedData
-    },
-    {
-      path: "/contact",
-      name: "ContactUs",
-      component: ContactUs
     }
   ]
 });
