@@ -76,7 +76,6 @@ import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
 import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
 import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
 import ContactUs from "@/pages/ContactUs.vue";
-import NewInsight from "@/pages/NewInsight.vue";
 
 Vue.use(Router);
 
@@ -379,11 +378,6 @@ const router = new Router({
       path: "/insights/digital-landscape",
       name: "InsightDigitalLandscape",
       component: InsightDigitalLandscape
-    },
-    {
-      path: "/insights/new-insight",
-      name: "NewInsight",
-      component: NewInsight
     },
     {
       path: "/work",

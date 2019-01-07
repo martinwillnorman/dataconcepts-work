@@ -8,12 +8,11 @@
         title="How Business Teams can Embrace Agile"
         summary="As the agile methodology becomes more and more popular, business teams are adopting certain aspects of the approach in order to benefit from the speed and flexibility provided by agile."
       />
-      <!-- <InsightSubHeader
-        content="What was once known as a novel approach to software development is now a wide-ranging global business strategy, taking on dozens of different forms as organizations adapt it to their unique goals and business models. Companies that embrace business agile often find that their work and decision-making processes become more faster and more efficient, enabling innovation that would not otherwise have been possible."
-      ></InsightSubHeader>-->
+
       <section class="content-block fullpage">
         <div v-parallax="0.4" class="cover-image insight-image"></div>
       </section>
+
       <section class="content-block">
         <div class="container">
           <Spacer/>
@@ -48,7 +47,6 @@ import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightHeader from "../components/InsightHeader.vue";
-import InsightSubHeader from "../components/InsightSubHeader.vue";
 import InsightSubSection from "../components/InsightSubSection.vue";
 
 export default {
@@ -58,7 +56,6 @@ export default {
     ModalMenu,
     Spacer,
     InsightHeader,
-    InsightSubHeader,
     InsightSubSection
   }
 };

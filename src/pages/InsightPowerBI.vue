@@ -1,23 +1,21 @@
 <template>
   <div class="content-holder">
     <ModalMenu/>
-    <NavBarWhite/>
+    <NavBar/>
     <div class="sections">
-      <section class="content-block">
-        <div class="content-wrapper">
-          <div class="nav-block grey"></div>
-        </div>
-      </section>
       <InsightHeader
         category="Business Intelligence"
         title="Are You Making the Most of Your Business Data?"
         summary="Power BI - Business intelligence like never before."
       />
-      <InsightSubHeader
-        content="Microsoft Power BI’s flexibility means you can scale and adapt its available tools to whatever your company needs. This way you’ll be sure that you’re only recording and analyzing the most important, relevant data you need to streamline management, make smart predictions, and make confident decisions—in minutes rather than hours, days, or weeks."
-      ></InsightSubHeader>
-      <section class="content-block slant-4 padded-top">
+
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image insight-image"></div>
+      </section>
+
+      <section class="content-block">
         <div class="container">
+          <Spacer/>
           <InsightSubSection
             title="What is Power BI?"
             content="Power BI is a suite of business analytics tools that deliver insights throughout your organization. Connect to hundreds of data sources, simplify data prep, and drive ad hoc analysis."
@@ -26,7 +24,7 @@
             content="Produce beautiful reports, then publish them for your organization to consume on the web and across mobile devices. Everyone can create personalized dashboards with a unique, 360-degree view of their business. And scale across the enterprise, with governance and security built-in. Performing numerous permutations and combinations on spreadsheets is a time consuming task. With visualizations, analysis becomes automatic."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="When data sources are connected in the right way, all you need to do is ask questions. Our visualization services combined with Power BI’s natural language processing, makes it easy to seek insightful information related to every aspect of your business. Data Concepts brings expertise and a proven track record in Power BI implementation consulting and development – including reporting from data marts and data warehouses, as well as integrations with disparate data sources. We can take you from data to game changing insights by using data from any source to provide a unified view of the business!"
           ></InsightSubSection>
           <InsightSubSection
@@ -55,7 +53,7 @@
           ></InsightSubSection>
           <InsightSubSection content="- Data Ops"></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="Provide development and support for ongoing data source integration, data quality and performance improvements."
           ></InsightSubSection>
         </div>
@@ -65,21 +63,19 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
+import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightHeader from "../components/InsightHeader.vue";
-import InsightSubHeader from "../components/InsightSubHeader.vue";
 import InsightSubSection from "../components/InsightSubSection.vue";
 
 export default {
   name: "InsightDataMining",
   components: {
-    NavBarWhite,
+    NavBar,
     ModalMenu,
     Spacer,
     InsightHeader,
-    InsightSubHeader,
     InsightSubSection
   }
 };
@@ -89,5 +85,7 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-
+.insight-image
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(220deg) saturate(6)
+  background-image: url(../assets/background/insights/dance-2.jpg)
 </style>

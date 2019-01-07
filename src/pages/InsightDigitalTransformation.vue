@@ -1,23 +1,25 @@
 <template>
   <div class="content-holder">
     <ModalMenu/>
-    <NavBarWhite/>
+    <NavBar/>
     <div class="sections">
-      <section class="content-block">
-        <div class="content-wrapper">
-          <div class="nav-block grey"></div>
-        </div>
-      </section>
       <InsightHeader
         category="Digital"
         title="Digital Transformation: Our Thoughts on Getting Started"
         summary="Our digital strategists and technologists are changing the way our clients think about, assemble, ship, and run digital services."
       />
-      <InsightSubHeader
-        content="From cloud platform experts and data scientists, to Ruby and Hadoop developers, security engineers, and user experience designers, it's a community with license to open new perspectives and with freedom to explore new partnerships and the reuse of code and ideas."
-      ></InsightSubHeader>
-      <section class="content-block slant-4 padded-top">
+
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image insight-image"></div>
+      </section>
+
+      <section class="content-block">
         <div class="container">
+          <Spacer/>
+          <InsightSubSection
+            title="The evolution of digital services"
+            content="From cloud platform experts and data scientists, to Ruby and Hadoop developers, security engineers, and user experience designers, it's a community with license to open new perspectives and with freedom to explore new partnerships and the reuse of code and ideas."
+          ></InsightSubSection>
           <InsightSubSection
             content="While your business grows and shifts in response to changing market conditions, your data is evolving at an even faster pace. That data holds the key to many opportunities, but to capitalize on them you must be able to manage your escalating volume of data, extract it from the right places, and turn it into real business insight. If your organization is struggling with how to tap into actionable data, you’re far from alone. Few companies make full use of the rich data available to them."
           ></InsightSubSection>
@@ -41,21 +43,19 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
+import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightHeader from "../components/InsightHeader.vue";
-import InsightSubHeader from "../components/InsightSubHeader.vue";
 import InsightSubSection from "../components/InsightSubSection.vue";
 
 export default {
   name: "InsightAgileTransformation",
   components: {
-    NavBarWhite,
+    NavBar,
     ModalMenu,
     Spacer,
     InsightHeader,
-    InsightSubHeader,
     InsightSubSection
   }
 };
@@ -65,5 +65,8 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-
+.insight-image
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(25deg) saturate(6)
+  background-image: url(../assets/background/insights/dance-2.jpg)
+  
 </style>

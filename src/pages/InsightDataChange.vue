@@ -1,51 +1,50 @@
 <template>
   <div class="content-holder">
     <ModalMenu/>
-    <NavBarWhite/>
+    <NavBar/>
     <div class="sections">
-      <section class="content-block">
-        <div class="content-wrapper">
-          <div class="nav-block grey"></div>
-        </div>
-      </section>
       <InsightHeader
         category="Data & Analytics"
         title="Data & Analytics Governance: Change is Happening, are You Ready?"
         summary="Governance is the ongoing process of creating and managing processes, policies, and information. This includes strategies, processes, activities, skills, organizations, and technologies for the purpose of accelerating business outcomes."
       />
-      <InsightSubHeader
-        content="Within the realm of analytics we talk about two types of governance: Data & Analytic. Data and analytics governance is about leveraging data to gain insights. Data governance includes activities such as data definitions, discovery, data quality, and data lineage."
-      ></InsightSubHeader>
-      <section class="content-block slant-4 padded-top">
+
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image insight-image"></div>
+      </section>
+
+      <section class="content-block">
         <div class="container">
+          <Spacer/>
           <InsightSubSection
-            content="Analytic governance involves focusing on both the tools used and how to manage them to unlock the value of data for the organization. Governing these is just as important as governing the data. More and more organizations are starting to see the value of data and analytics governance, and so are starting up related initiatives."
+            title="What we do with analytics"
+            content="Within the realm of analytics we talk about two types of governance: Data & Analytic. Data and analytics governance is about leveraging data to gain insights. Data governance includes activities such as data definitions, discovery, data quality, and data lineage. Analytic governance involves focusing on both the tools used and how to manage them to unlock the value of data for the organization. Governing these is just as important as governing the data. More and more organizations are starting to see the value of data and analytics governance, and so are starting up related initiatives."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="In our experience, many organizations address governance once and often without completing the necessary tasks. Organizations that excel in data and analytics governance continuously manage the process on an ongoing basis. Often, these initiatives come from IT, who sees issues with how data is being used and may be the front line for handling complaints about data quality. Both need to be involved, and they need to walk through the multiple steps required to create a holistic program."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             title="At Data Concepts, we see three main subdomains:"
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             title="Organization design"
             content="is defining the structure of the governance groups themselves: who needs to be involved, timing of meetings, their decision making process, etc. There are many organizational models that can work – finding the one which matches an enterprise’s needs requires understanding company culture as well as business drivers behind the governance effort."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             title="Process and change management"
             content="takes the governance initiative to the rest of the enterprise. It includes communication and adoption of process and policy changes. Understanding who to approach with questions is just as important as creating the right policies. As with organization design, knowing company culture is critical to successful adoption."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             title="Data integrity"
             content="involves turning policies into concrete efforts. This can include data quality checks, master data management, data lineage repositories, data dictionaries – any implementation which enacts a governance decision. These efforts can be quick hits or lengthy initiatives. It’s important to understand the business value before embarking on any type of longer project."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             title="Here are the top three challenges we have seen in starting or sustaining governance efforts:"
           ></InsightSubSection>
           <InsightSubSection
@@ -53,7 +52,7 @@
             content="All enterprises change over time as business and analytic needs evolve. Moreover, we are in the middle of a massive trend toward rapid, self-service analytics. Business users and data analysts are looking to combine and explore data on their own in search of new insights. Reducing the time to business value creates a greater need for governance. It’s easy to run afoul of data issues, or to create dependencies on manual processes to sustain initial discoveries. Many organizations create governance documents (such as data dictionaries or data quality rules) once, when a solution is being implemented. But while business processes change, the documentation often does not. As the accuracy of these items decreases, the business value of the documentation and the solution both fade. True governance requires an ongoing process to ensure that changes are understood and adopted."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="This shift from a project-based to a process-based approach can be difficult. One way to make it easier is to focus on ease of maintenance when creating governance-related documents. Since there will be many updates over the lifespan of any documentation, any reduction in time required to make changes will improve the adoption rate as well as the productivity of the team making the updates."
           ></InsightSubSection>
           <InsightSubSection
@@ -61,7 +60,7 @@
             content="Creating and nurturing ongoing governance processes can be very challenging. Just bringing together all of the groups involved in creating, managing, and consuming data can be difficult, let alone convincing them of the importance of this type of effort. Without everyone’s perspective and buy-in, governance efforts will not succeed. For example, many data quality issues stem from data entry in transactional systems. Without participation from the data entry team, the likelihood of business process changes to reduce those issues is low."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="Governance efforts are often initiated by IT groups who are seeking to improve adoption of analytics solutions. (Sometimes it is the reverse: a business group leads a governance effort in an attempt to improve their data, or their understanding of it.) Imposing governance as a set of rules on other groups is more likely to lead to resentment than successful adoption. An organization that is ready for governance understands the need to work together and the importance of sharing perspectives and priorities."
           ></InsightSubSection>
           <InsightSubSection
@@ -72,7 +71,7 @@
             content="Knowing what questions to ask is just as important as coming up with the right answers. It’s very common to miss the forest for the trees – that is, to focus on a particular aspect of governance without considering how that piece fits into larger priorities. Very often, the deliverable which comes up first ends up being a lower priority than others that are revealed along the way."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="Perhaps the most important application of decision rights is focusing on areas which provide business value. Every domain does not need the same level of scrutiny. Many enterprise governance initiatives become bogged down in completing purely theoretical exercises (defining every single term in the company’s data systems, for example). Deciding which areas are of most benefit and therefore the highest priority ensures return on the organization’s investment."
           ></InsightSubSection>
           <InsightSubSection
@@ -80,7 +79,7 @@
             content="Succeeding at governance requires understanding its holistic nature. A governance organization involves stakeholders from across the enterprise, with an operating model that empowers the right individuals with the decision rights to sustain the business value of solutions and reduce time to insight. This organization can take many forms based on the nature of the enterprise and its business needs. Awareness of the need to identify, prioritize, and address change is the common factor."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="Everything changes over time: data, systems, organizations, processes. Business analytics thrive only when they evolve to meet these changing needs. Governance organizations are the best way to recognize these changes, prioritize them, and make sure that the right part of the enterprise is tasked with addressing them. Without participation from everyone, these goals are unlikely to succeed."
           ></InsightSubSection>
           <InsightSubSection
@@ -106,7 +105,7 @@
             content="Collaborate Set up a collaboration tool set − a common place for shared docs or wiki page where people can see your work in progress. It is essential to be transparent with all of your work in progress even as your user story and/or specifications are being created. If you don’t have access to an electronic online collaboration tool set, create portable user storyboards out of paper and sticky notes. Always have a place where people can see the work in the progress, and feel comfortable commenting on it. That can be a Wiki or a war room with marker boards and Post-It notes, but there must be a project nexus where all information is available."
           ></InsightSubSection>
           <InsightSubSection
-            class="padded-bottom"
+            class="subsection-padding"
             content="Be Transparent Be as transparent as possible. It’s amazing what feedback and ideas you’ll get from people when they see what you’re doing. You’ll discover things you didn’t even know were an issue all because someone else may have a perspective or information that you don’t. This also allows for the team to make small corrections through the process to keep the project on track, as opposed to a major shift after a completed phase typically done in the traditional waterfall approach. Having a nexus, as described above, is one way to force ourselves to be transparent – all the time. Be Disciplined"
           ></InsightSubSection>
         </div>
@@ -116,21 +115,19 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
+import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightHeader from "../components/InsightHeader.vue";
-import InsightSubHeader from "../components/InsightSubHeader.vue";
 import InsightSubSection from "../components/InsightSubSection.vue";
 
 export default {
   name: "InsightDataChange",
   components: {
-    NavBarWhite,
+    NavBar,
     ModalMenu,
     Spacer,
     InsightHeader,
-    InsightSubHeader,
     InsightSubSection
   }
 };
@@ -140,5 +137,7 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-
+.insight-image
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(310deg) saturate(6)
+  background-image: url(../assets/background/insights/dance-2.jpg)
 </style>

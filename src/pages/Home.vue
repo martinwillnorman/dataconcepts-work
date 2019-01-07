@@ -26,12 +26,16 @@
             </g>
           </svg>
         </div>
-        <div class="container header-section">
+        <div class="header-section">
           <div class="row">
             <div class="column col-12 center-content">
               <div class="content-wrapper text-white">
-                <h1>We are Data Concepts</h1>
-                <h2>Driving Digital Transformation</h2>
+                <h1 data-aos="fade-up" data-aos-duration="600">We are Data Concepts</h1>
+                <h2
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
+                >Driving Digital Transformation</h2>
               </div>
             </div>
           </div>
@@ -269,10 +273,20 @@ export default {
   position: absolute
   text-align: center
   top: 0
+  min-height: 100vh
+  display: flex
 
 .header-section h1
   font:
     size: 6rem
+    weight: 700
+    family: $font-body
+  letter-spacing: 1px
+
+.header-section h2
+  font:
+  letter-spacing: 4px
+  margin-top: 10px
   
 video
   display: block
