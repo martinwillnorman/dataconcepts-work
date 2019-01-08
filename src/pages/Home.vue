@@ -76,7 +76,7 @@
                   <p
                     data-aos="fade-up"
                     data-aos-duration="600"
-                  >Data Concepts is an IT consultancy that specializes in executing project solutions with expertise in Java, Microsoft, Open Source, Analytics, Cloud and Mobile technologies.</p>
+                  >We're a team of storytellers, strategists, makers, builders, designers, and engineers working together with key alliances to bring a full slate of offerings and capabilities to our clients.</p>
                 </div>
               </div>
             </div>

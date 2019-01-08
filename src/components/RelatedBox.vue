@@ -83,6 +83,9 @@ span
 
 @media only screen and (max-width: 450px)
   .related-link
-    padding: 20px
-
+    padding: 15px
+    
+  .related-link h3
+    font:
+      size: 1.8rem
 </style>

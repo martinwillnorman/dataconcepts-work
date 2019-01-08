@@ -141,4 +141,14 @@ export default {
   .insight-link 
     min-height: 500px
 
+  .content-wrapper
+    padding: 38% 6% 20%
+
+  .insight-title
+    font-size: 21px
+    line-height: 30px
+
+  .insight-summary
+    font-size: 14px
+
 </style>

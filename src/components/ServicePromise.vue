@@ -31,10 +31,16 @@ h1
 @media only screen and (max-width: 450px)
   h1
     font:
-      size: 2.8rem
+      size: 2.4rem
+  margin-bottom: 20px
+
+  p 
+    line-height: 1.4
 
   .content-wrapper
     padding: 60px 0 0
+    text-align: center
+
 
     
 </style>

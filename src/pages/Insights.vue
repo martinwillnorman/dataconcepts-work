@@ -35,7 +35,7 @@
                 </g>
               </svg>
             </div>
-            <div class="column col-12 center-content">
+            <div class="column col-12">
               <div class="content-wrapper header-wrapper text-white">
                 <h1
                   data-aos="fade-in"
@@ -124,11 +124,11 @@
                 <InsightTwo
                   data-aos="fade-up"
                   data-aos-duration="600"
-                  title="A Quick Peek At Our World Helping Clients with Data Strategy"
+                  title="A Quick Peek in to  Data Strategy"
                   summary="Every business and organisation has its own unique set of goals, KPIs and targets, and we believe that everything that we do should be devised, planned and executed with these objectives in mind."
                   category="Data Strategy"
                   link="/insights/quick-peek"
-                  imagesource="./insight-images/capital-one.jpg"
+                  imagesource="./insight-images/pending-84.jpg"
                 />
                 <InsightTwo
                   data-aos="fade-up"
@@ -137,8 +137,8 @@
                   link="/insights/blockchain-world"
                   category="Blockchain"
                   title="Our Insights on the World of Blockchain"
-                  summary="Blockchain is one of the most dynamic inventions of this century. Though this revolutionary technology is still in its infancy, it has the potential to disrupt almost every industry and to change how the world works."
-                  imagesource="./insight-images/capital-one.jpg"
+                  summary="Blockchain is one of the most dynamic inventions of this century. Though this revolutionary technology is still in its infancy, it has the potential to change how the world works."
+                  imagesource="./insight-images/mobility-1.jpg"
                 />
                 <InsightTwo
                   data-aos="fade-up"
@@ -254,7 +254,7 @@
                   category="Agile"
                   title="How Business Teams can Embrace Agile"
                   summary="As the agile methodology becomes more and more popular, business teams are adopting certain aspects of the approach in order to benefit from the speed and flexibility provided by agile."
-                  imagesource="./insight-images/capital-one.jpg"
+                  imagesource="./insight-images/dance-2.jpg"
                 />
                 <InsightTwo
                   data-aos="fade-up"
@@ -622,10 +622,11 @@ export default {
 
 .insights-header
   font:
-    size: 160px
+    size: 170px
     family: $font-body
-  line-height: 164px
+  line-height: 178px
   letter-spacing: -2px
+  
 
 .insights-text
   font: 
@@ -635,9 +636,10 @@ export default {
   line-height: 1.4
 
 .header-wrapper 
-  text-align: center
-  max-width: 1000px
+  // max-width: 1000px
   margin: 0 auto
+  padding-top: 180px
+
 
 .kicker-wrapper
   text-align: center

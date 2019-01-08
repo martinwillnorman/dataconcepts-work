@@ -92,5 +92,6 @@ p
 @media only screen and (max-width: 450px)
   .content-wrapper
     padding-top: 0
+    text-align: center
 
 </style>

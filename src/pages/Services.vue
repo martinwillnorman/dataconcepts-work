@@ -3,9 +3,48 @@
     <ModalMenu/>
     <NavBarWhite/>
     <div class="sections">
-      <section class="content-block">
+      <!-- <section class="content-block">
         <div class="content-wrapper">
           <div class="nav-block"></div>
+        </div>
+      </section>-->
+      <section class="content-block fullpage black">
+        <div class="container">
+          <div class="row">
+            <div @click="scrollDown" class="show-more">
+              <svg
+                data-aos="fade-down"
+                data-aos-duration="600"
+                fill="#fff"
+                version="1.1"
+                id="Ebene_2_1_"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                x="0px"
+                y="0px"
+                width="53px"
+                height="20px"
+                viewBox="0 0 53 20"
+                enable-background="new 0 0 53 20"
+                xml:space="preserve"
+              >
+                <g>
+                  <polygon
+                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
+                  ></polygon>
+                </g>
+              </svg>
+            </div>
+            <div class="column col-12">
+              <div class="content-wrapper header-wrapper text-white">
+                <h1
+                  data-aos="fade-in"
+                  data-aos-duration="600"
+                  class="insights-header"
+                >Our services, Rooz happy.</h1>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section class="content-block black">
@@ -198,6 +237,18 @@ export default {
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
+
+.insights-header
+  font:
+    size: 170px
+    family: $font-body
+  line-height: 178px
+  letter-spacing: -2px
+
+.header-wrapper 
+  // max-width: 1000px
+  margin: 0 auto
+  padding-top: 180px
 
 #big-data-bround
   background-image: url(../assets/background/services-small/big-data.jpg)
