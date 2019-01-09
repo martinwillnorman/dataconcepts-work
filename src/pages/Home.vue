@@ -3,7 +3,24 @@
     <ModalMenu/>
     <NavBarWhite/>
     <div class="sections">
-      <section class="content-block fullpage medium-grey">
+      <vue-particles
+        color="eaeaea"
+        :particleOpacity="0.7"
+        :particlesNumber="80"
+        shapeType="circle"
+        :particleSize="1"
+        linesColor="eaeaea"
+        :linesWidth="1"
+        :lineLinked="false"
+        :lineOpacity="0.4"
+        :linesDistance="150"
+        :moveSpeed="3"
+        :hoverEffect="true"
+        hoverMode="grab"
+        :clickEffect="true"
+        clickMode="push"
+      ></vue-particles>
+      <section class="content-block black fullpage">
         <div @click="scrollDown" class="show-more">
           <svg
             fill="#fff"
@@ -40,36 +57,19 @@
             </div>
           </div>
         </div>
-        <vue-particles
-          color="#dedede"
-          :particleOpacity="0.7"
-          :particlesNumber="80"
-          shapeType="edge"
-          :particleSize="4"
-          linesColor="#dedede"
-          :linesWidth="1"
-          :lineLinked="false"
-          :lineOpacity="0.4"
-          :linesDistance="150"
-          :moveSpeed="5"
-          :hoverEffect="true"
-          hoverMode="grab"
-          :clickEffect="true"
-          clickMode="push"
-        ></vue-particles>
       </section>
       <section id="first" class="content-block fullpage section-2">
-        <div v-parallax="0.4" class="cover-image cover-image-2"></div>
+        <!-- <div v-parallax="0.4" class="cover-image cover-image-2"></div> -->
         <div class="container">
-          <div class="row padded-top right">
-            <div class="column col-11 center-content">
-              <div class="content-wrapper text-white">
+          <div class="row">
+            <div class="column col-12 center-content">
+              <div class="content-wrapper">
                 <div class="wrapper-2">
                   <h6>WHO WE ARE</h6>
                   <h1
                     data-aos="fade-up"
                     data-aos-duration="600"
-                    class="section-header home left medium"
+                    class="section-header home medium"
                   >Technology is our craft.</h1>
                 </div>
                 <div class="wrapper-3">
@@ -85,14 +85,14 @@
       </section>
       <section class="content-block mostpage">
         <!-- <div class="cover-image"></div> -->
-        <video
+        <!-- <video
           src="../assets/video/snowflakes.mp4"
           height="800"
           width="1424"
           preload="auto"
           autoplay
           loop
-        ></video>
+        ></video>-->
         <div class="container">
           <div class="row">
             <div class="column col-10 centered responsive-12 center-content">
@@ -107,51 +107,63 @@
       </section>
 
       <section class="content-block fullpage section-3">
-        <div class="cover-image cover-image-3"></div>
+        <!-- <div class="cover-image cover-image-3"></div> -->
         <div class="container">
           <div class="row padded">
             <div class="column col-10 centered center-content">
-              <div class="content-wrapper service-wrapper text-white">
+              <div class="content-wrapper service-wrapper">
                 <h6>OUR INSIGHTS</h6>
-                <h1 class="section-header home left medium">Born Digital</h1>
+                <h1 class="section-header home medium">Born Digital</h1>
                 <p>Digital transformation demands new approaches.</p>
-                <router-link class="reg-link white margin" to="/services/digital-strategy">More</router-link>
+                <router-link class="reg-link margin" to="/services/digital-strategy">More</router-link>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="column col-12">
+              <div class="content-wrapper insights-wrapper-2">
+                <InsightTwo
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  title="A Quick Peek in to  Data Strategy"
+                  summary="Every business and organisation has its own unique set of goals, KPIs and targets, and we believe that everything that we do should be devised, planned and executed with these objectives in mind."
+                  category="Data Strategy"
+                  link="/insights/quick-peek"
+                  imagesource="./insight-images/dance-2.jpg"
+                />
+                <InsightTwo
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="100"
+                  link="/insights/blockchain-world"
+                  category="Blockchain"
+                  title="Our Insights on the World of Blockchain"
+                  summary="Blockchain is one of the most dynamic inventions of this century. Though this revolutionary technology is still in its infancy, it has the potential to change how the world works."
+                  imagesource="./insight-images/bridge.jpg"
+                />
+                <InsightTwo
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  data-aos-delay="200"
+                  link="/insights/data-mining"
+                  category="Big Data"
+                  title="Extracting Actionable Insights from Data"
+                  summary="Data mining is the extraction of actionable insights from data."
+                  imagesource="./insight-images/entry.jpg"
+                />
               </div>
             </div>
           </div>
         </div>
       </section>
-      <!-- <section class="content-block halfpage section-4">
-        <div class="container">
-          <div class="row padded">
-            <div class="column col-12">
-              <div class="content-wrapper text-white">
-                <h6>OUR SERVICES</h6>
-                <h1 class="section-header left">Trends that inform the world of tomorrow</h1>
-              </div>
-              <div class="content-wrapper related-wrapper">
-                <RelatedBox
-                  link="/insights/information-architecture"
-                  category="Insight"
-                  title="Information Architecture Strategy"
-                ></RelatedBox>
-                <RelatedBox
-                  link="/insights/bi-data-warehousing"
-                  category="Insight"
-                  title="Business Intelligence & Data Warehousing"
-                ></RelatedBox>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>-->
-      <section class="content-block padded-bottom black section-5">
+
+      <section class="content-block padded-bottom section-5">
         <div class="container">
           <div class="row padded-top">
-            <div class="column col-12">
-              <div class="content-wrapper text-whtie">
+            <div class="column col-10 centered">
+              <div class="content-wrapper service-wrapper">
                 <h6>OUR SERVICES</h6>
-                <h1 class="section-header left text-white">Trends that inform the world of tomorrow</h1>
+                <h1 class="section-header home">Trends that inform the</h1>
               </div>
             </div>
           </div>
@@ -187,7 +199,32 @@
           </div>
         </div>
       </section>
-      <!-- <section class="content-block mostpage section-4"></section> -->
+      <section id="first" class="content-block mostpage section-2">
+        <!-- <div v-parallax="0.4" class="cover-image cover-image-4"></div> -->
+        <div class="container">
+          <div class="row">
+            <div class="column col-10 centered center-content">
+              <div class="content-wrapper">
+                <div class="wrapper-2">
+                  <h6>JOIN US</h6>
+                  <h1
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                    class="section-header home medium"
+                  >Technology is our craft.</h1>
+                </div>
+                <div class="wrapper-3">
+                  <p
+                    data-aos="fade-up"
+                    data-aos-duration="600"
+                  >We're a team of storytellers, strategists, makers, builders, designers, and engineers working together with key alliances to bring a full slate of offerings and capabilities to our clients.</p>
+                  <router-link class="reg-link margin" to="/services/digital-strategy">More</router-link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   </div>
 </template>
@@ -196,13 +233,17 @@
 import NavBarWhite from "../components/NavBarWhite.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import RelatedBox from "../components/RelatedBox.vue";
+import Spacer from "../components/Spacer.vue";
+import InsightTwo from "../components/InsightTwo.vue";
 
 export default {
   name: "Home",
   components: {
     NavBarWhite,
     ModalMenu,
-    RelatedBox
+    RelatedBox,
+    Spacer,
+    InsightTwo
   },
   data() {
     return {
@@ -305,20 +346,24 @@ video
   background-image: url(../assets/background/home/mobile.jpg)
   filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(160deg) saturate(6)
 
-.wrapper-2
-  max-width: 400px
+.section-2
+  background: transparent
+
+.wrapper-2 
+  text-align: center
 
 .wrapper-2 h1
   font:
     size: 4rem
 
 .wrapper-3
-  max-width: 800px
+  text-align: center
 
 .service-wrapper
   display: flex
   flex-direction: column
   justify-content: center
+  text-align: center
 
 .service-wrapper p
   font:
@@ -340,6 +385,11 @@ h6
   background-image: url(../assets/background/home/skateboard.jpg)
   filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(270deg) saturate(6)
 
+.cover-image-4
+  background-image: url(../assets/background/home/headshot.jpg)
+  filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(270deg) saturate(6)
+  background-position: 70% 30%
+
 .section-4 
   background: #000
 
@@ -348,7 +398,11 @@ h6
 
 #particles-js
   width: 100%
+  height: 100%
   z-index: 999
+  position: absolute
+  top: 0
+  left: 0
 
 .show-more
   z-index: 1000
@@ -365,7 +419,7 @@ h6
     position: relative
 
 .service-background
-    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(270deg) saturate(6)
+    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
     background-size: cover
     position: absolute
     top: 0

@@ -333,7 +333,7 @@ img
   padding-top: 40px
 
 .fullpage
-  height: 100vh
+  min-height: 100vh
   width: 100%
   overflow: hidden
 
@@ -427,6 +427,7 @@ img
   min-height: 23%
   flex-direction: column
   justify-content: space-between
+  text-align: center
 
 .dynamic-text-wrapper h3
   font-size: 4rem
@@ -436,6 +437,7 @@ img
   font-weight: 900
 
 #dynamic-text
+    width: 100%
     background-image: linear-gradient(135deg,#ff48a6 10%,#520881 90%)
     -webkit-text-fill-color: transparent
     -webkit-background-clip: text
@@ -518,6 +520,11 @@ img
 .section-header.left:after
     left: 0%
     transform: unset
+
+.insights-wrapper-2
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-between
 
 @media only screen and (max-width: 1230px) 
   // .dynamic-text-wrapper h3

@@ -67,5 +67,6 @@ export default {
 
 .insight-image
   filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(3500deg) saturate(6)
-  background-image: url(../assets/background/insights/dance-2.jpg)
+  background-image: url(../assets/background/insights/people.jpg)
+  background-position: center 40%
 </style>
