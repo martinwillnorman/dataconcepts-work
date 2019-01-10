@@ -26,10 +26,6 @@ export default {
     max-width: 50%
     box-sizing: border-box
 
-.border
-    border-left: solid white
-    padding-left: 30px
-
 h1
     margin-bottom: 20px
     font-weight: 300

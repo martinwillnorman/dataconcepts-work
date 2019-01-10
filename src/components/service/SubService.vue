@@ -1,7 +1,7 @@
 
 <template>
-  <div class="service">
-    <h1>{{title}}</h1>
+  <div class="subservice text-white">
+    <h2>{{title}}</h2>
     <p>{{content}}</p>
   </div>
 </template>
@@ -14,40 +14,44 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-@import "../assets/sass/settings.sass"
+@import "../../assets/sass/settings.sass"
 
-.service
-  padding: 40px 30px
+.subservice
+  padding: 25px
   flex-basis: 33.3333%
   width: 33.3333%
   max-width: 33.3333%
   box-sizing: border-box
   z-index: 999
 
-h1
-  margin-bottom: 20px
-  font:
-    weight: 300
+h2
+  font-size: 24px
+  font-weight: 700
+  letter-spacing: -1px
+  margin-bottom: 1.66667rem
 
 p
-  line-height: 1.8
-  color: $font-c-h-3
+  font-size: 1rem
+  font-weight: 400
+  line-height: 30px
   position: relative
   z-index: 999
 
 @media only screen and (max-width: 1080px)
-  .service
-    padding: 40px 30px
+  .subservice
+    padding: 25px
     flex-basis: 50%
     width: 50%
     max-width: 50%
 
+
 @media only screen and (max-width: 768px)
-  .service
+
+  .subservice
     padding: 20px 10px
 
 @media only screen and (max-width: 695px)
-  .service
+  .subservice
     padding: 20px 0
     flex-basis: 100%
     width: 100%

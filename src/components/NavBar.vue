@@ -20,7 +20,7 @@
                   <router-link to="/careers">Careers</router-link>
                 </li>
                 <li>
-                  <router-link to="/contact">Contact Us</router-link>
+                  <router-link to="/contact">Contact</router-link>
                 </li>
               </ul>
               <a class="target-burger" v-on="{ click: myFilter}">

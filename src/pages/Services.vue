@@ -41,13 +41,13 @@
                   data-aos="fade-in"
                   data-aos-duration="600"
                   class="insights-header"
-                >Our services, Rooz happy.</h1>
+                >Our services, with a smile.</h1>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="content-block black">
+      <section id="first" class="content-block black">
         <div class="content-wrapper services-wrapper">
           <div class="service">
             <router-link class="service-link" to="/services/big-data"></router-link>
@@ -160,7 +160,7 @@
         <div class="container">
           <div class="row">
             <div class="column col-12 center-content">
-              <h1 data-aos="fade-up" data-aos-duration="900">Let's talk data.</h1>
+              <h1 class="lets-talk" data-aos="fade-up" data-aos-duration="900">Let's talk data.</h1>
             </div>
           </div>
         </div>
@@ -231,6 +231,14 @@ export default {
   components: {
     NavBarWhite,
     ModalMenu
+  },
+  methods: {
+    scrollDown() {
+      document.getElementById("first").scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    }
   }
 };
 </script>
@@ -316,6 +324,7 @@ export default {
 .services-wrapper
     display: flex
     flex-wrap: wrap
+    justify-content: center
 
 .service
     flex-basis: 25%
@@ -370,12 +379,12 @@ export default {
 .service-content h3
   color: #fff
   font:
-      size: 3rem
+      size: 2.4rem
       family: $font-body
-      weight: 200
-  letter-spacing: 0.2rem
+      weight: 400
+  letter-spacing: 2px
 
-h1
+.lets-talk
     font: 
         size: 8rem
     color: #ff48a6
@@ -384,11 +393,12 @@ h1
     -webkit-background-clip: text
     display: inline-block
     text-align: center
+    width: 100%
 
 @media only screen and (max-width: 1500px)
   h3
     font:
-      size: 2.5rem !important
+      size: 2rem !important
 
 @media only screen and (max-width: 1230px) 
   .service
@@ -396,6 +406,10 @@ h1
     width: 33.3333%
     max-width: 33.3333%
     height: 31vw
+
+  h3
+    font:
+      size: 2.2rem !important
 
 @media only screen and (max-width: 900px) 
   .service

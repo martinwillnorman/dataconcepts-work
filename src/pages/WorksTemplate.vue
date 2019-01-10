@@ -3,62 +3,29 @@
     <ModalMenu/>
     <NavBar/>
     <div class="sections">
-      <!-- <section class="content-block">
+      <section class="content-block">
         <div class="content-wrapper">
           <div class="nav-block white"></div>
         </div>
-      </section>-->
-      <section class="content-block fullpage">
+      </section>
+      <section class="content-block">
         <div class="container">
-          <div class="row">
-            <div @click="scrollDown" class="show-more">
-              <svg
-                data-aos="fade-down"
+          <div class="row padded-top">
+            <div class="column col-5 responsive-12 center-horizontal centered">
+              <div
+                data-aos="fade-up"
                 data-aos-duration="600"
-                fill="#000"
-                version="1.1"
-                id="Ebene_2_1_"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                width="53px"
-                height="20px"
-                viewBox="0 0 53 20"
-                enable-background="new 0 0 53 20"
-                xml:space="preserve"
+                class="content-wrapper header-wrapper"
               >
-                <g>
-                  <polygon
-                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
-                  ></polygon>
-                </g>
-              </svg>
-            </div>
-            <div class="column col-12">
-              <div class="content-wrapper header-wrapper">
-                <h1
-                  data-aos="fade-in"
-                  data-aos-duration="600"
-                  class="insights-header"
-                >Time To Brag, See Our Work</h1>
+                <h1 class="section-header medium">Our Work</h1>
+                <p>A selection of our favorite case studies and client engagements</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section id="first" class="content-block">
+      <section class="content-block">
         <div class="container">
-          <!-- <Spacer/>
-          <div class="row padded-bottom">
-            <div class="column col-8 responsive-12 centered">
-              <div class="content-wrapper kicker-wrapper text-white">
-                <p
-                  class="insights-text"
-                >A selection of our favorite case studies and client engagements.</p>
-              </div>
-            </div>
-          </div>-->
           <div class="row padded">
             <div class="column col-12 center-horizontal">
               <div class="content-wrapper work-wrapper">
@@ -381,14 +348,6 @@ export default {
     WorkBox,
     WorkArrow,
     ClienteleBox
-  },
-  methods: {
-    scrollDown() {
-      document.getElementById("first").scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-      });
-    }
   }
 };
 </script>
@@ -407,32 +366,11 @@ img
   max-height: 70px
   max-width: 150px
 
-// .header-wrapper
-//   display: flex
-//   flex-direction: column
-//   align-items: center
-
-.insights-text
-  font: 
-    family: $font-header
-    size: 32px
-    weight: 300
-  line-height: 1.4
-
-.kicker-wrapper
+.header-wrapper
+  display: flex
+  flex-direction: column
+  align-items: center
   text-align: center
-
-.insights-header
-  font:
-    size: 170px
-    family: $font-body
-  line-height: 178px
-  letter-spacing: -2px
-
-.header-wrapper 
-  // max-width: 1000px
-  margin: 0 auto
-  padding-top: 180px
 
 .header-wrapper p
   font: 
