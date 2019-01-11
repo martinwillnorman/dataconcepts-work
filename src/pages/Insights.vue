@@ -121,7 +121,7 @@
           <div class="row padded-bottom">
             <div class="column col-12">
               <div class="content-wrapper insights-wrapper-2">
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   title="A Quick Peek in to  Data Strategy"
@@ -130,7 +130,7 @@
                   link="/insights/quick-peek"
                   imagesource="./insight-images/dance-2.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -140,7 +140,7 @@
                   summary="Blockchain is one of the most dynamic inventions of this century. Though this revolutionary technology is still in its infancy, it has the potential to change how the world works."
                   imagesource="./insight-images/bridge.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -150,7 +150,7 @@
                   summary="Data mining is the extraction of actionable insights from data."
                   imagesource="./insight-images/entry.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/analytics-is-popular"
@@ -159,7 +159,7 @@
                   summary="Ten imperatives for successfully developing an analytics capability."
                   imagesource="./insight-images/model.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -169,7 +169,7 @@
                   summary="The digital era has ushered in the trend of information being available at fingertips on-demand."
                   imagesource="./insight-images/camera.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -179,7 +179,7 @@
                   summary="From virtual assistants to chatbots and automation to smart homes, Artificial Intelligent (AI) and Machine Learning have become prominent in our daily life."
                   imagesource="./insight-images/lights-10.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/agile-transformation"
@@ -188,7 +188,7 @@
                   summary="Many of the world’s biggest companies struggle to be nimble, efficient, and data-driven, which then makes them less productive than they should be."
                   imagesource="./insight-images/backpack.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -198,7 +198,7 @@
                   summary="Our digital strategists and technologists are changing the way our clients think about, assemble, ship, and run digital services."
                   imagesource="./insight-images/lights.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -208,7 +208,7 @@
                   summary="Agile, as it relates to project management for software development, is sometimes used as synonym for Scrum, Kanban or other type of framework."
                   imagesource="./insight-images/lights-14.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/data-strategy-right"
@@ -217,7 +217,7 @@
                   summary="Let’s discuss the process to guide your organization to lay out your organization-specific Data Strategy."
                   imagesource="./insight-images/balancing.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -227,7 +227,7 @@
                   summary="In the ever-evolving world of information technology, being able to effectively respond to market changes is a difficult but critical task."
                   imagesource="./insight-images/dance.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -237,7 +237,7 @@
                   summary="The hardest part of a successful digital transformation is the cultural piece."
                   imagesource="./insight-images/art.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/data-governance-journey"
@@ -246,7 +246,7 @@
                   summary="Governance is the ongoing process of creating and managing processes, policies, and information. This includes strategies, processes, activities, skills, organizations, and technologies for the purpose of accelerating business outcomes."
                   imagesource="./insight-images/lights-2.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -256,7 +256,7 @@
                   summary="As the agile methodology becomes more and more popular, business teams are adopting certain aspects of the approach in order to benefit from the speed and flexibility provided by agile."
                   imagesource="./insight-images/people.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -266,7 +266,7 @@
                   summary="Big Data means different things to different people, but too often the exact definition becomes overcomplicated. At Data Concepts, Big Data is simply the ability to skillfully leverage both internal and external data sources to help in effectively managing resources."
                   imagesource="./insight-images/band.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/data-governance-path"
@@ -275,7 +275,7 @@
                   summary="In the rush to get exciting, advanced analytics projects off the ground, don't overlook the importance of data governance. Data governance practices can sink any analytics initiative before it really has a chance to take shape."
                   imagesource="./insight-images/capital-one.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -285,7 +285,7 @@
                   summary="Governance is the ongoing process of creating and managing processes, policies, and information. This includes strategies, processes, activities, skills, organizations, and technologies for the purpose of accelerating business outcomes."
                   imagesource="./insight-images/light-bulbs.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -295,7 +295,7 @@
                   summary="Facebook… user data harvested by Cambridge Analytica Equifax… customer data lost to hackers IoT data breach … hackers gained access to a casino’s data through an internet-connected aquarium thermometer."
                   imagesource="./insight-images/abstract.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/big-data-business"
@@ -304,7 +304,7 @@
                   summary="Data is an important window into the way that decisions are made and processes are executed in each individual business."
                   imagesource="./insight-images/road.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -314,7 +314,7 @@
                   summary="Using your data to realize the benefits of artificial intelligence (AI) sounds good, right? Now you just need to work out how to do it."
                   imagesource="./insight-images/lights-15.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -324,7 +324,7 @@
                   summary="Power BI - Business intelligence like never before."
                   imagesource="./insight-images/graffiti.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/application-development-approach"
@@ -333,7 +333,7 @@
                   summary="High performance, outcome-driven systems."
                   imagesource="./insight-images/hands.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -343,7 +343,7 @@
                   summary="Data Concepts’ cloud application development offerings help you take an advantage of everything Microsoft Azure has to offer – from migrating lgacy applications to creating custom solutions which exploit the full value of the platform."
                   imagesource="./insight-images/space-7.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -353,7 +353,7 @@
                   summary="We identify and analyze our clients’ business requirements, recommend solutions and assist them in implementing these solutions successfully."
                   imagesource="./insight-images/building.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/bi-data-warehousing"
@@ -362,7 +362,7 @@
                   summary="We leverage our expertise in architecting large-scale complex BI/DW (Business Intelligence/Data Warehousing) applications and provide EIM (Enterprise Information Management) implementation services."
                   imagesource="./insight-images/warehouse.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="100"
@@ -372,7 +372,7 @@
                   summary="Most Enterprises are moving to the Cloud as a cost-effective means to develop, deploy and manage their infrastructure."
                   imagesource="./insight-images/lights-8.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   data-aos-delay="200"
@@ -382,7 +382,7 @@
                   summary="Upgrade or Migration is a major challenge for organizations who have invested in SharePoint extensively. Each new edition of SharePoint provides new features which has potential to improve your business case."
                   imagesource="./insight-images/lights-7.jpg"
                 />
-                <InsightTwo
+                <InsightCard
                   data-aos="fade-up"
                   data-aos-duration="600"
                   link="/insights/digital-landscape"
@@ -390,6 +390,15 @@
                   title="The Modern Digital Landscape"
                   summary="Consumers have become accustomed to smartphones, mobile applications and ubiquitous connectivity, demanding a better user experience in their daily interactions."
                   imagesource="./insight-images/graffiti-2.jpg"
+                />
+                <InsightCard
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  link="/insights/big-data-plan"
+                  category="Big Data"
+                  title="Big Data: Here's how to get Started."
+                  summary="A game plan for assembling and integrating data is essential."
+                  imagesource="./insight-images/lights-7.jpg"
                 />
               </div>
             </div>
@@ -582,7 +591,7 @@
 import NavBarWhite from "../components/NavBarWhite.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
-import InsightTwo from "../components/InsightTwo.vue";
+import InsightCard from "../components/insight/InsightCard.vue";
 
 export default {
   name: "Insights",
@@ -590,7 +599,7 @@ export default {
     NavBarWhite,
     ModalMenu,
     Spacer,
-    InsightTwo
+    InsightCard
   },
   methods: {
     scrollDown() {

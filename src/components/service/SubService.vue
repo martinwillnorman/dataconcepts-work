@@ -1,6 +1,6 @@
 
 <template>
-  <div class="subservice text-white">
+  <div class="subservice">
     <h2>{{title}}</h2>
     <p>{{content}}</p>
   </div>
@@ -23,6 +23,7 @@ export default {
   max-width: 33.3333%
   box-sizing: border-box
   z-index: 999
+  color: inherit
 
 h2
   font-size: 24px

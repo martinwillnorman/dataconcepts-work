@@ -4,9 +4,9 @@ import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
 import Works from "@/pages/Works.vue";
-import ServiceBigData from "@/pages/ServiceBigData.vue";
-import ServiceIoT from "@/pages/ServiceIoT.vue";
-import ServiceCloud from "@/pages/ServiceCloud.vue";
+import BigData from "@/pages/service/BigData.vue";
+import IoT from "@/pages/service/IoT.vue";
+import Cloud from "@/pages/service/Cloud.vue";
 import ServiceBusinessIntelligence from "@/pages/ServiceBusinessIntelligence.vue";
 import ServiceDataAnalytics from "@/pages/ServiceDataAnalytics.vue";
 import ServiceAI from "@/pages/ServiceAI.vue";
@@ -54,6 +54,7 @@ import InsightAzureMigration from "@/pages/InsightAzureMigration.vue";
 import InsightSharePoint from "@/pages/InsightSharePoint.vue";
 import InsightPowerBI from "@/pages/InsightPowerBI.vue";
 import InsightDigitalLandscape from "@/pages/InsightDigitalLandscape.vue";
+import InsightBigDataPlan from "@/pages/InsightBigDataPlan.vue";
 import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
 import WorkVehicleInspection from "@/pages/WorkVehicleInspection.vue";
 import WorkMagellanHealth from "@/pages/WorkMagellanHealth.vue";
@@ -131,18 +132,18 @@ const router = new Router({
     },
     {
       path: "/services/big-data",
-      name: "ServiceBigData",
-      component: ServiceBigData
+      name: "BigData",
+      component: BigData
     },
     {
       path: "/services/iot",
-      name: "ServiceIoT",
-      component: ServiceIoT
+      name: "IoT",
+      component: IoT
     },
     {
       path: "/services/cloud",
-      name: "ServiceCloud",
-      component: ServiceCloud
+      name: "Cloud",
+      component: Cloud
     },
     {
       path: "/services/business-intelligence",
@@ -378,6 +379,11 @@ const router = new Router({
       path: "/insights/digital-landscape",
       name: "InsightDigitalLandscape",
       component: InsightDigitalLandscape
+    },
+    {
+      path: "/insights/big-data-plan",
+      name: "InsightBigDataPlan",
+      component: InsightBigDataPlan
     },
     {
       path: "/work",

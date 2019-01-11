@@ -1,13 +1,13 @@
 
 <template>
-  <section class="content-block brown-grey">
+  <section class="content-block black">
     <div class="container padded-large">
       <div class="row">
-        <div class="column col-2 centered">
-          <div class="content-wrapper">
+        <div class="column col-3">
+          <div class="content-wrapper text-white">
             <div class="subtitle-wrapper">
-              <hr class="subtitle">
-              <h6 class="subtitle-header">{{title}}</h6>
+              <hr class="subtitle white">
+              <h6 class="subtitle-header">{{subtitle}}</h6>
             </div>
           </div>
         </div>
@@ -20,19 +20,19 @@
 <script>
 export default {
   name: "Capabilities",
-  props: ["title"]
+  props: ["subtitle"]
 };
 </script>
 
 <style lang="sass" scoped>
 @import "../../assets/sass/settings.sass"
 
-.brown-grey
-    background-color: $bround-c-brown-grey
+
 
 .subtitle-wrapper
-    text-align: center
+  margin-bottom: 80px
 
 .subtitle
-    width: 100%
+    width: 50%
+
 </style>

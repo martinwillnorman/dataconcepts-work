@@ -4,14 +4,14 @@
       <div class="row">
         <div class="column col-3">
           <div class="content-wrapper">
-            <div class="promise-wrapper text-white">
+            <div class="subtitle-wrapper text-white">
               <hr class="subtitle white">
-              <h6 class="subtitle-header">Services</h6>
+              <h6 class="subtitle-header">{{subtitle}}</h6>
             </div>
           </div>
         </div>
         <div class="column col-12">
-          <div class="content-wrapper services-wrapper">
+          <div class="content-wrapper services-wrapper text-white">
             <slot></slot>
           </div>
         </div>
@@ -23,7 +23,7 @@
 <script>
 export default {
   name: "Services",
-  props: ["title", "content"]
+  props: ["subtitle"]
 };
 </script>
 

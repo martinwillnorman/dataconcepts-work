@@ -83,6 +83,48 @@
           </div>
         </div>
       </section>
+      <section class="content-block section-5">
+        <div class="container">
+          <div class="row padded-top">
+            <div class="column col-10 centered">
+              <div class="content-wrapper service-wrapper">
+                <h6>OUR SERVICES</h6>
+                <h1 class="section-header home">The things we do best.</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="content-wrapper services-wrapper">
+          <div class="service">
+            <router-link class="service-link" to="/services/big-data"></router-link>
+            <div id="big-data-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Big Data</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/iot"></router-link>
+            <div id="iot-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>IoT</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/cloud"></router-link>
+            <div id="cloud-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>Cloud</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/business-intelligence"></router-link>
+            <div id="bi-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>BI</h3>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="content-block mostpage">
         <!-- <div class="cover-image"></div> -->
         <!-- <video
@@ -113,7 +155,7 @@
             <div class="column col-10 centered center-content">
               <div class="content-wrapper service-wrapper">
                 <h6>OUR INSIGHTS</h6>
-                <h1 class="section-header home medium">Born Digital</h1>
+                <h1 class="section-header home medium">Trends that inform the world of tomorrow</h1>
                 <p>Digital transformation demands new approaches.</p>
                 <router-link class="reg-link margin" to="/services/digital-strategy">More</router-link>
               </div>
@@ -156,49 +198,8 @@
           </div>
         </div>
       </section>
+      <Footer/>
 
-      <section class="content-block padded-bottom section-5">
-        <div class="container">
-          <div class="row padded-top">
-            <div class="column col-10 centered">
-              <div class="content-wrapper service-wrapper">
-                <h6>OUR SERVICES</h6>
-                <h1 class="section-header home">Trends that inform the</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="content-wrapper services-wrapper">
-          <div class="service">
-            <router-link class="service-link" to="/services/big-data"></router-link>
-            <div id="big-data-bround" class="service-background"></div>
-            <div class="service-content">
-              <h3>Big Data</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services/iot"></router-link>
-            <div id="iot-bround" class="service-background"></div>
-            <div class="service-content">
-              <h3>IoT</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services/cloud"></router-link>
-            <div id="cloud-bround" class="service-background"></div>
-            <div class="service-content">
-              <h3>Cloud</h3>
-            </div>
-          </div>
-          <div class="service">
-            <router-link class="service-link" to="/services/business-intelligence"></router-link>
-            <div id="bi-bround" class="service-background"></div>
-            <div class="service-content">
-              <h3>BI</h3>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="first" class="content-block mostpage section-2">
         <!-- <div v-parallax="0.4" class="cover-image cover-image-4"></div> -->
         <div class="container">
@@ -235,6 +236,7 @@ import ModalMenu from "../components/ModalMenu.vue";
 import RelatedBox from "../components/RelatedBox.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightTwo from "../components/InsightTwo.vue";
+import Footer from "../components/service/Footer.vue";
 
 export default {
   name: "Home",
@@ -243,7 +245,8 @@ export default {
     ModalMenu,
     RelatedBox,
     Spacer,
-    InsightTwo
+    InsightTwo,
+    Footer
   },
   data() {
     return {

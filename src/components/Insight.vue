@@ -49,9 +49,6 @@ export default {
 .insight-link p
   color: $font-c-p-3
 
-span
-  color: $font-c-p-2
-
 .insight-link::after
   content: ""
   position: absolute

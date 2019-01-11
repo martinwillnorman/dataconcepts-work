@@ -4,9 +4,9 @@
       <div class="row promise-row">
         <div class="column col-3">
           <div class="content-wrapper">
-            <div class="promise-wrapper">
+            <div class="subtitle-wrapper">
               <hr class="subtitle">
-              <h6 class="subtitle-header">The Promise</h6>
+              <h6 class="subtitle-header">{{subtitle}}</h6>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@
 <script>
 export default {
   name: "Promise",
-  props: ["title", "content"]
+  props: ["title", "content", "subtitle"]
 };
 </script>
 
