@@ -55,6 +55,11 @@
         />
       </Services>
 
+      <AsideRight
+        title="Big Data Opportunities"
+        content="The IT department obviously plays a critical role in the organization’s efforts to effectively harness all of the potential of Big Data. By implementing a data analytics architecture, you enable business units to collaborate, breaking boundaries and eliminating duplication of efforts. In this process of transforming an organization’s information structure, the IT department gains stature as an expert consultant and trusted provider. United in purpose with the business side, you form a partnership that fosters success for your organization."
+      />
+
       <Definition subtitle="definition">
         <SubDefinition
           data-aos="fade-up"
@@ -79,6 +84,11 @@
           content="Analytics is the practice of applying modern analytics software tools across data of all types, including unstructured, semi-structured, and structured data; as well as real-time/streaming and batch. At Data Concepts, we use Big Data Analytics is to discover insights and irregularities, and to enhance the understanding of business performance and customer behavior. These analytics-driven insights can be used to shape business outcomes, improve competitive advantage, enhance financial decisions and develop more concise projections for our Clients."
         />
       </Definition>
+
+      <AsideLeft
+        title="Big Data Transforms your Business"
+        content="Empower your organization with deeper insights and enhanced data-driven decision-making by using the right infrastructure for the right data. With solutions that integrate, store, manage, and protect your data, you can rapidly deploy Big Data analytics applications."
+      />
 
       <Capabilities subtitle="capabilities">
         <SubCapability
@@ -256,9 +266,11 @@ import InsightHighlight from "../../components/service/InsightHighlight.vue";
 import Related from "../../components/service/Related.vue";
 import Footer from "../../components/service/Footer.vue";
 import AdditionalServices from "../../components/service/AdditionalServices.vue";
+import AsideRight from "../../components/service/AsideRight.vue";
+import AsideLeft from "../../components/service/AsideLeft.vue";
 
 export default {
-  name: "ServiceBigData",
+  name: "BigData",
   components: {
     NavBarWhite,
     ModalMenu,
@@ -274,7 +286,9 @@ export default {
     Related,
     InsightCard,
     Footer,
-    AdditionalServices
+    AdditionalServices,
+    AsideRight,
+    AsideLeft
   }
 };
 </script>

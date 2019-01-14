@@ -1,11 +1,15 @@
 <template>
-  <div class="row padded">
-    <div class="column col-8 responsive-12 centered">
-      <div class="content-wrapper">
-        <slot></slot>
+  <section class="content-block">
+    <div class="container">
+      <div class="row padded-top">
+        <div class="column col-8 responsive-12 centered">
+          <div class="content-wrapper">
+            <slot></slot>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -20,13 +24,14 @@ export default {
 
 h1
   font:
-    size: 1.6rem
-  letter-spacing: 4px
+    size: 1.2rem
+  letter-spacing: 6px
 
 p
     font:
-        size: 3.2rem
-    line-height: 1.4    
+        size: 3.6rem
+        weight: 400
+    line-height: 1.1    
     text-align: center
 
 @media only screen and (max-width: 800px)
@@ -43,4 +48,5 @@ p
   p
     font:
       size: 1.8rem
+      
 </style>

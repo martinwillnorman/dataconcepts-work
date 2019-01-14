@@ -43,19 +43,6 @@ export default {
     size: 1.2rem
   line-height: 1.8
 
-// .subtitle-header
-//   margin-bottom: 30px
-//   letter-spacing: 3px
-//   color: #aaaaaaa
-//   text-transform: uppercase
-
-// .subtitle
-//   width: 50%
-//   background: transparent
-//   display: block
-//   border-top: solid 1px #000
-//   margin: 0 0 15px
-
 .promise-row
     padding: 300px 0
 

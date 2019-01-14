@@ -1,9 +1,16 @@
 <template>
-  <div class="row padded-bottom">
-    <div class="column col-6 responsive-12">
-      <div class="content-wrapper text-white">
-        <h3 data-aos="fade-up" data-aos-duration="600">Our Role</h3>
-        <ul data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">
+  <div class="row">
+    <div class="column col-3">
+      <div class="content-wrapper">
+        <div class="subtitle-wrapper">
+          <hr class="subtitle white">
+          <h6 class="subtitle-header text-white">our role</h6>
+        </div>
+      </div>
+    </div>
+    <div class="column col-4 responsive-12">
+      <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper text-white">
+        <ul>
           <slot></slot>
         </ul>
       </div>
@@ -33,7 +40,8 @@ li
     margin-bottom: 10px
     line-height: 1.4   
     font:
-        weight: 600  
+        size: 1rem
+        weight: 400  
 
 </style>
 

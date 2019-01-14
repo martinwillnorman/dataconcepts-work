@@ -1,11 +1,15 @@
 <template>
-  <div class="row padded-bottom">
-    <div class="column col-10 responsive-12 centered">
-      <div class="content-wrapper solution-wrapper">
-        <slot></slot>
+  <section class="content-block">
+    <div class="container">
+      <div class="row padded-bottom">
+        <div class="column col-10 responsive-12 centered">
+          <div class="content-wrapper solution-wrapper">
+            <slot></slot>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
@@ -22,21 +26,24 @@ export default {
 .solution-wrapper
     display: flex
     flex-direction: column
+    align-items: center
+    margin-top: 80px
 
 p
     font:
-        size: 1.6rem
+        size: 1.4rem
     line-height: 1.8
 
 ul
-    columns: 2
     margin-top: 40px
-
+    max-width: 800px
+    text-align: center
+    
 li
-    color: $font-c-p-2
+    color: $font-c-h-2
     font:
-        size: 1.1rem
-        weight: 600
+        size: 1rem
+        weight: 400
     line-height: 1.8
     margin-bottom: 20px
 

@@ -74,7 +74,7 @@
             <router-link class="service-link" to="/services/business-intelligence"></router-link>
             <div id="bi-bround" class="service-background"></div>
             <div class="service-content">
-              <h3>BI</h3>
+              <h3>Business Intelligence</h3>
             </div>
           </div>
           <div class="service">
@@ -88,7 +88,7 @@
             <router-link class="service-link" to="/services/artificial-intelligence"></router-link>
             <div id="ai-bround" class="service-background"></div>
             <div class="service-content">
-              <h3>AI</h3>
+              <h3>Artificial Intelligence</h3>
             </div>
           </div>
           <div class="service">

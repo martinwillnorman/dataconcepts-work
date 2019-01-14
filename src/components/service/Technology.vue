@@ -25,7 +25,7 @@
 <script>
 export default {
   name: "Services",
-  props: ["subtitle", "title", "paragraphTwo", "paragraphOne"]
+  props: ["subtitle"]
 };
 </script>
 

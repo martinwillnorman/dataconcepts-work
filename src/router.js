@@ -4,28 +4,56 @@ import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
 import Works from "@/pages/Works.vue";
-import BigData from "@/pages/service/BigData.vue";
-import IoT from "@/pages/service/IoT.vue";
-import Cloud from "@/pages/service/Cloud.vue";
-import ServiceBusinessIntelligence from "@/pages/ServiceBusinessIntelligence.vue";
-import ServiceDataAnalytics from "@/pages/ServiceDataAnalytics.vue";
-import ServiceAI from "@/pages/ServiceAI.vue";
-import ServiceBlockchain from "@/pages/ServiceBlockchain.vue";
-import ServiceApplicationDevelopment from "@/pages/ServiceApplicationDevelopment.vue";
-import ServiceCyberSecurity from "@/pages/ServiceCyberSecurity.vue";
-import ServiceMicrosoftAzure from "@/pages/ServiceMicrosoftAzure.vue";
-import ServiceMobility from "@/pages/ServiceMobility.vue";
-import ServiceMachineLearning from "@/pages/ServiceMachineLearning.vue";
-import ServiceKafka from "@/pages/ServiceKafka.vue";
-import ServiceProgramManagement from "@/pages/ServiceProgramManagement.vue";
-import ServiceDigitalStrategy from "@/pages/ServiceDigitalStrategy.vue";
-import ServiceDataStrategy from "@/pages/ServiceDataStrategy.vue";
-import ServiceDataGovernance from "@/pages/ServiceDataGovernance.vue";
-import ServiceDataWarehouse from "@/pages/ServiceDataWarehouse.vue";
-import ServiceDataIntegration from "@/pages/ServiceDataIntegration.vue";
-import ServiceMasterDataManagement from "@/pages/ServiceMasterDataManagement.vue";
-import ServiceDataVisualization from "@/pages/ServiceDataVisualization.vue";
-import ServiceDataScience from "@/pages/ServiceDataScience.vue";
+import ContactUs from "@/pages/ContactUs.vue";
+
+// work pages
+import WorkVehicleInspection from "@/pages/WorkVehicleInspection.vue";
+import WorkMagellanHealth from "@/pages/WorkMagellanHealth.vue";
+import WorkWebPortal from "@/pages/WorkWebPortal.vue";
+import WorkMoonlighting from "@/pages/WorkMoonlighting.vue";
+import WorkSexRegistry from "@/pages/WorkSexRegistry.vue";
+import WorkFirstUnion from "@/pages/WorkFirstUnion.vue";
+import WorkFinancePortal from "@/pages/WorkFinancePortal.vue";
+import WorkServerMigration from "@/pages/WorkServerMigration.vue";
+import WorkEstesImprovement from "@/pages/WorkEstesImprovement.vue";
+import WorkFreightVolume from "@/pages/WorkFreightVolume.vue";
+import WorkFreightMovement from "@/pages/WorkFreightMovement.vue";
+import WorkEstesQuote from "@/pages/WorkEstesQuote.vue";
+import WorkCapitalOne from "@/pages/WorkCapitalOne.vue";
+import WorkPredictiveModeling from "@/pages/WorkPredictiveModeling.vue";
+import WorkJudicialEnforcement from "@/pages/WorkJudicialEnforcement.vue";
+import WorkJuryManagement from "@/pages/WorkJuryManagement.vue";
+import WorkDataLake from "@/pages/WorkDataLake.vue";
+import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
+import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
+import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
+import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
+
+// service pages
+import BigData from "@/pages/Service/BigData.vue";
+import IoT from "@/pages/Service/IoT.vue";
+import Cloud from "@/pages/Service/Cloud.vue";
+import BusinessIntelligence from "@/pages/Service/BusinessIntelligence.vue";
+import DataAnalytics from "@/pages/Service/DataAnalytics.vue";
+import ArtificialIntelligence from "@/pages/Service/ArtificialIntelligence.vue";
+import Blockchain from "@/pages/Service/Blockchain.vue";
+import ApplicationDevelopment from "@/pages/Service/ApplicationDevelopment.vue";
+import Mobility from "@/pages/Service/Mobility.vue";
+import MachineLearning from "@/pages/Service/MachineLearning.vue";
+import Kafka from "@/pages/Service/Kafka.vue";
+import ProgramManagement from "@/pages/Service/ProgramManagement.vue";
+import DigitalStrategy from "@/pages/Service/DigitalStrategy.vue";
+import CyberSecurity from "@/pages/Service/CyberSecurity.vue";
+import MicrosoftAzure from "@/pages/Service/MicrosoftAzure.vue";
+import DataStrategy from "@/pages/Service/DataStrategy.vue";
+import DataGovernance from "@/pages/Service/DataGovernance.vue";
+import DataWarehouse from "@/pages/Service/DataWarehouse.vue";
+import DataIntegration from "@/pages/Service/DataIntegration.vue";
+import MasterDataManagement from "@/pages/Service/MasterDataManagement.vue";
+import DataVisualization from "@/pages/Service/DataVisualization.vue";
+import DataScience from "@/pages/Service/DataScience.vue";
+
+// insight pages
 import InsightQuickPeek from "@/pages/InsightQuickPeek.vue";
 import InsightWorldBlockchain from "@/pages/InsightWorldBlockchain.vue";
 import InsightDataMining from "@/pages/InsightDataMining.vue";
@@ -55,28 +83,6 @@ import InsightSharePoint from "@/pages/InsightSharePoint.vue";
 import InsightPowerBI from "@/pages/InsightPowerBI.vue";
 import InsightDigitalLandscape from "@/pages/InsightDigitalLandscape.vue";
 import InsightBigDataPlan from "@/pages/InsightBigDataPlan.vue";
-import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
-import WorkVehicleInspection from "@/pages/WorkVehicleInspection.vue";
-import WorkMagellanHealth from "@/pages/WorkMagellanHealth.vue";
-import WorkWebPortal from "@/pages/WorkWebPortal.vue";
-import WorkMoonlighting from "@/pages/WorkMoonlighting.vue";
-import WorkSexRegistry from "@/pages/WorkSexRegistry.vue";
-import WorkFirstUnion from "@/pages/WorkFirstUnion.vue";
-import WorkFinancePortal from "@/pages/WorkFinancePortal.vue";
-import WorkServerMigration from "@/pages/WorkServerMigration.vue";
-import WorkEstesImprovement from "@/pages/WorkEstesImprovement.vue";
-import WorkFreightVolume from "@/pages/WorkFreightVolume.vue";
-import WorkFreightMovement from "@/pages/WorkFreightMovement.vue";
-import WorkEstesQuote from "@/pages/WorkEstesQuote.vue";
-import WorkCapitalOne from "@/pages/WorkCapitalOne.vue";
-import WorkPredictiveModeling from "@/pages/WorkPredictiveModeling.vue";
-import WorkJudicialEnforcement from "@/pages/WorkJudicialEnforcement.vue";
-import WorkJuryManagement from "@/pages/WorkJuryManagement.vue";
-import WorkDataLake from "@/pages/WorkDataLake.vue";
-import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
-import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
-import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
-import ContactUs from "@/pages/ContactUs.vue";
 
 Vue.use(Router);
 
@@ -147,98 +153,98 @@ const router = new Router({
     },
     {
       path: "/services/business-intelligence",
-      name: "ServiceBusinessIntelligence",
-      component: ServiceBusinessIntelligence
+      name: "BusinessIntelligence",
+      component: BusinessIntelligence
     },
     {
       path: "/services/data-analytics",
-      name: "ServiceDataAnalytics",
-      component: ServiceDataAnalytics
+      name: "DataAnalytics",
+      component: DataAnalytics
     },
     {
       path: "/services/artificial-intelligence",
-      name: "ServiceAI",
-      component: ServiceAI
+      name: "ArtificialIntelligence",
+      component: ArtificialIntelligence
     },
     {
       path: "/services/blockchain",
-      name: "ServiceBlockchain",
-      component: ServiceBlockchain
+      name: "Blockchain",
+      component: Blockchain
     },
     {
       path: "/services/application-development",
-      name: "ServiceApplicationDevelopment",
-      component: ServiceApplicationDevelopment
+      name: "ApplicationDevelopment",
+      component: ApplicationDevelopment
     },
     {
       path: "/services/cyber-security",
-      name: "ServiceCyberSecurity",
-      component: ServiceCyberSecurity
+      name: "CyberSecurity",
+      component: CyberSecurity
     },
     {
       path: "/services/microsoft-azure",
-      name: "ServiceMicrosoftAzure",
-      component: ServiceMicrosoftAzure
+      name: "MicrosoftAzure",
+      component: MicrosoftAzure
     },
     {
       path: "/services/mobility",
-      name: "ServiceMobility",
-      component: ServiceMobility
+      name: "Mobility",
+      component: Mobility
     },
     {
       path: "/services/machine-learning",
-      name: "ServiceMachineLearning",
-      component: ServiceMachineLearning
+      name: "MachineLearning",
+      component: MachineLearning
     },
     {
       path: "/services/kafka",
-      name: "ServiceKafka",
-      component: ServiceKafka
+      name: "Kafka",
+      component: Kafka
     },
     {
       path: "/services/program-management",
-      name: "ServiceProgramManagement",
-      component: ServiceProgramManagement
+      name: "ProgramManagement",
+      component: ProgramManagement
     },
     {
       path: "/services/digital-strategy",
-      name: "ServiceDigitalStrategy",
-      component: ServiceDigitalStrategy
+      name: "DigitalStrategy",
+      component: DigitalStrategy
     },
     {
       path: "/services/data-strategy",
-      name: "ServiceDataStrategy",
-      component: ServiceDataStrategy
+      name: "DataStrategy",
+      component: DataStrategy
     },
     {
       path: "/services/data-governance",
-      name: "ServiceDataGovernance",
-      component: ServiceDataGovernance
+      name: "DataGovernance",
+      component: DataGovernance
     },
     {
       path: "/services/data-warehouse",
-      name: "ServiceDataWarehouse",
-      component: ServiceDataWarehouse
+      name: "DataWarehouse",
+      component: DataWarehouse
     },
     {
       path: "/services/data-integration",
-      name: "ServiceDataIntegration",
-      component: ServiceDataIntegration
+      name: "DataIntegration",
+      component: DataIntegration
     },
     {
       path: "/services/master-data-management",
-      name: "ServiceMasterDataManagement",
-      component: ServiceMasterDataManagement
+      name: "MasterDataManagement",
+      component: MasterDataManagement
     },
     {
       path: "/services/data-visualization",
-      name: "ServiceDataVisualization",
-      component: ServiceDataVisualization
+      name: "DataVisualization",
+      component: DataVisualization
     },
     {
       path: "/services/data-science",
-      name: "ServiceDataScience",
-      component: ServiceDataScience
+      name: "DataScience",
+      component: DataScience
     },
     {
       path: "/insights/quick-peek",

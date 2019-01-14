@@ -27,8 +27,6 @@ export default {
 <style lang="sass" scoped>
 @import "../../assets/sass/settings.sass"
 
-
-
 .subtitle-wrapper
   margin-bottom: 80px
 

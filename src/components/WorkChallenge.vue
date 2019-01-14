@@ -1,11 +1,15 @@
 <template>
-  <div class="row padded">
-    <div class="column col-12">
-      <div class="content-wrapper">
-        <slot></slot>
+  <section class="content-block black">
+    <div class="container">
+      <div class="row padded">
+        <div class="column col-12">
+          <div class="content-wrapper">
+            <slot></slot>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

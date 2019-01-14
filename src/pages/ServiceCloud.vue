@@ -157,7 +157,7 @@
           content="Our engineers take a deep-dive into your cloud billing history designed to uncover savings and improve Return-on-Investment. Save an average of 30% on your monthly budget."
         >
           <ul class="example-work-list">
-            <li class="example-work-list-item">Removing unused instances, right-sizingk</li>
+            <li class="example-work-list-item">Removing unused instances, right-sizing</li>
             <span class="example-work-list-bullet">&bull;</span>
             <li
               class="example-work-list-item"

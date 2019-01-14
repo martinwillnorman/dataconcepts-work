@@ -55,6 +55,11 @@
         />
       </Services>
 
+      <AsideRight
+        title="Big Data Opportunities"
+        content="The IT department obviously plays a critical role in the organization’s efforts to effectively harness all of the potential of Big Data. By implementing a data analytics architecture, you enable business units to collaborate, breaking boundaries and eliminating duplication of efforts. In this process of transforming an organization’s information structure, the IT department gains stature as an expert consultant and trusted provider. United in purpose with the business side, you form a partnership that fosters success for your organization."
+      />
+
       <Definition subtitle="definition">
         <SubDefinition
           data-aos="fade-up"

@@ -1,37 +1,50 @@
 <template>
-  <div class="row">
-    <div class="column col-8 responsive-12">
-      <div class="content-wrapper text-white">
-        <h1 data-aos="fade-up" data-aos-duration="600">Client Summary</h1>
-        <p data-aos="fade-up" data-aos-duration="600" data-aos-delay="100">{{content}}</p>
+  <section class="content-block padded-large" id="first">
+    <div class="container">
+      <div class="row">
+        <div class="column col-3">
+          <div class="content-wrapper">
+            <div class="subtitle-wrapper">
+              <hr class="subtitle white">
+              <h6 class="subtitle-header text-white">client summary</h6>
+            </div>
+          </div>
+        </div>
+        <div class="column col-8">
+          <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper">
+            <p class="promise-text text-white">{{content}}</p>
+          </div>
+        </div>
       </div>
+      <Spacer/>
+      <slot></slot>
     </div>
-  </div>
+  </section>
 </template>
 
 <script>
+import Spacer from "../components/Spacer.vue";
+
 export default {
   name: "WorkSummary",
-  props: ["content"]
+  props: ["content"],
+  components: {
+    Spacer
+  }
 };
 </script>
 
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
-.content-wrapper
-    padding: 100px 0 0
 
-h1
-    font:
-        size: 3rem
-    margin-bottom: 30px
+
+.promise-text 
+  font:
+    size: 1.2rem
+  line-height: 1.8
 
 @media only screen and (max-width: 450px)
-  h1
-    font:
-      size: 2.8rem
-
   .content-wrapper
     padding: 60px 0 0
 
