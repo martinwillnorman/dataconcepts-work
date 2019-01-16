@@ -17,25 +17,19 @@
       </Summary>
 
       <Challenge>
-        <h1 data-aos="fade-up" data-aos-duration="600" class="challenge-header">CHALLENGE</h1>
+        <h1 class="challenge-header">CHALLENGE</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
           class="text-white"
         >The company turned to Data Concepts to overhaul their entire approach to data, which included migrating their on-premise systems to the cloud and transforming from a B2B to a DTC model. The firm lacked an enterprise-wide data strategy, which hindered their ability to use member and policyholder data to personalize the customer experience. In particular, they suffered from siloed data systems that were difficult to integrate, manage and support. Inconsistent data definitions and the absence of cohesive data governance meant that mission-critical reports were unaligned with business needs.</p>
       </Challenge>
 
       <SolutionHeader>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header solution-header"
-        >SOLUTION</h1>
+        <h1 class="section-header solution-header">SOLUTION</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
         >A CLOUD DATA LAKE WITH FULL ANALYTICS CAPABILITIES</p>
       </SolutionHeader>
 
@@ -53,15 +47,10 @@
       </Solution>
 
       <Outcome>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header medium outcome-header"
-        >OUTCOME</h1>
+        <h1 dat class="section-header medium outcome-header">OUTCOME</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
         >Data Concepts helped drive change from within, transforming the firm into an insights-driven organization. They are now able to operationalize insights and turn them into measurable business outcomes. Analytics maximized the value of each customer, with measurable results in just 60 days.</p>
       </Outcome>
     </div>

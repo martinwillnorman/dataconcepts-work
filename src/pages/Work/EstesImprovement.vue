@@ -22,25 +22,19 @@
       </Summary>
 
       <Challenge>
-        <h1 data-aos="fade-up" data-aos-duration="600" class="challenge-header">CHALLENGE</h1>
+        <h1 class="challenge-header">CHALLENGE</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
           class="text-white"
         >The centralized web portal that received over 100,000 hits per day by the clients of the company was unable to scale due to the constraints of WebSphere v6.1 Express installed on IBM iSeries hardware using Java 1.5. This bottleneck affected the performance of 43 critical customer facing web applications that supported functionalities like shipment tracking, rate calculations, document services, pickup scheduling, claims, and inquiry management. Frequent outages meant there was an urgent need to migrate all customer-facing applications to a scalable infrastructure and optimize the web applications to improve performance and provide an easy deployment pathway.</p>
       </Challenge>
 
       <SolutionHeader>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header solution-header"
-        >SOLUTION</h1>
+        <h1 class="section-header solution-header">SOLUTION</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
         >A SCALABLE INFRASTRUCTURE TO GROW WITH THE CLIENT</p>
       </SolutionHeader>
 
@@ -63,15 +57,10 @@
       </Solution>
 
       <Outcome>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header medium outcome-header"
-        >OUTCOME</h1>
+        <h1 class="section-header medium outcome-header">OUTCOME</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
         >Data Concepts successfully implemented the solution, resulting in a 40% application performance improvement. The upgrade and changes have been running since, with virtually no outages reported. The Jenkins integration streamlined the web application deployment, and enhanced application logging capabilities enable rapid identification and remediation of application issues.</p>
       </Outcome>
     </div>
@@ -79,15 +68,15 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
-import ModalMenu from "../components/ModalMenu.vue";
-import Hero from "../components/Hero.vue";
-import Summary from "../components/Summary.vue";
-import Challenge from "../components/Challenge.vue";
-import Role from "../components/Role.vue";
-import SolutionHeader from "../components/SolutionHeader.vue";
-import Solution from "../components/Solution.vue";
-import Outcome from "../components/Outcome.vue";
+import NavBarWhite from "../../components/NavBarWhite.vue";
+import ModalMenu from "../../components/ModalMenu.vue";
+import Hero from "../../components/Hero.vue";
+import Summary from "../../components/work/Summary.vue";
+import Challenge from "../../components/work/Challenge.vue";
+import Role from "../../components/work/Role.vue";
+import SolutionHeader from "../../components/work/SolutionHeader.vue";
+import Solution from "../../components/work/Solution.vue";
+import Outcome from "../../components/work/Outcome.vue";
 
 export default {
   name: "EstesImprovement",
@@ -107,10 +96,10 @@ export default {
 
 
 <style lang="sass" scoped>
-@import "../assets/sass/settings.sass"
+@import "../../assets/sass/settings.sass"
 
 .hero-background
-  background-image: url(../assets/background/work-large/estes-improvement.jpg)
+  background-image: url(../../assets/background/work-large/estes-improvement.jpg)
   background-position: center
 
 #first

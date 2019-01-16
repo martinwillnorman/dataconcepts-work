@@ -2,16 +2,19 @@
   <div id="dataconcepts">
     <router-view/>
     <Footer/>
+    <SubFooter/>
   </div>
 </template>
 
 <script>
 import Footer from "./components/Footer.vue";
+import SubFooter from "./components/SubFooter.vue";
 
 export default {
   name: "dataconcepts",
   components: {
-    Footer
+    Footer,
+    SubFooter
   }
 };
 </script>

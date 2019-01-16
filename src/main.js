@@ -5,6 +5,10 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import VueParallaxJs from "vue-parallax-js";
 import VueParticles from "vue-particles";
+import VueFullPage from "vue-fullpage.js";
+import "fullpage.js/vendors/scrolloverflow";
+
+Vue.use(VueFullPage);
 
 Vue.use(VueParticles);
 Vue.use(VueParallaxJs);

@@ -24,25 +24,19 @@
       </Summary>
 
       <Challenge>
-        <h1 data-aos="fade-up" data-aos-duration="600" class="challenge-header">CHALLENGE</h1>
+        <h1 class="challenge-header">CHALLENGE</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
           class="text-white"
         >The Legacy Mainframe System needed to be converted into a Web-Based Case Management Application that would allow judicial users to manage all phases of case documents.</p>
       </Challenge>
 
       <SolutionHeader>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header solution-header"
-        >SOLUTION</h1>
+        <h1 class="section-header solution-header">SOLUTION</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
         >AN INTRICATE LEGACY MODERNIZATION INTO JAVA/JEE</p>
       </SolutionHeader>
 
@@ -63,15 +57,10 @@
       </Solution>
 
       <Outcome>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header medium outcome-header"
-        >OUTCOME</h1>
+        <h1 class="section-header medium outcome-header">OUTCOME</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
         >Data Concepts managed and executed this complex, highly sensitive and critical modernization and successfully deployed the new web-based system.</p>
       </Outcome>
     </div>

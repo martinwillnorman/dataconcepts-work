@@ -7,27 +7,27 @@ import Works from "@/pages/Works.vue";
 import ContactUs from "@/pages/ContactUs.vue";
 
 // work pages
-import WorkVehicleInspection from "@/pages/WorkVehicleInspection.vue";
-import WorkMagellanHealth from "@/pages/WorkMagellanHealth.vue";
-import WorkWebPortal from "@/pages/WorkWebPortal.vue";
-import WorkMoonlighting from "@/pages/WorkMoonlighting.vue";
-import WorkSexRegistry from "@/pages/WorkSexRegistry.vue";
-import WorkFirstUnion from "@/pages/WorkFirstUnion.vue";
-import WorkFinancePortal from "@/pages/WorkFinancePortal.vue";
-import WorkServerMigration from "@/pages/WorkServerMigration.vue";
-import WorkEstesImprovement from "@/pages/WorkEstesImprovement.vue";
-import WorkFreightVolume from "@/pages/WorkFreightVolume.vue";
-import WorkFreightMovement from "@/pages/WorkFreightMovement.vue";
-import WorkEstesQuote from "@/pages/WorkEstesQuote.vue";
-import WorkCapitalOne from "@/pages/WorkCapitalOne.vue";
-import WorkPredictiveModeling from "@/pages/WorkPredictiveModeling.vue";
-import WorkJudicialEnforcement from "@/pages/WorkJudicialEnforcement.vue";
-import WorkJuryManagement from "@/pages/WorkJuryManagement.vue";
-import WorkDataLake from "@/pages/WorkDataLake.vue";
-import WorkScalaArchitecture from "@/pages/WorkScalaArchitecture.vue";
-import WorkDevopsTransformation from "@/pages/WorkDevopsTransformation.vue";
-import WorkUnifiedData from "@/pages/WorkUnifiedData.vue";
-import WorkCircuitCourts from "@/pages/WorkCircuitCourts.vue";
+import VehicleInspection from "@/pages/Work/VehicleInspection.vue";
+import MagellanHealth from "@/pages/Work/MagellanHealth.vue";
+import WebPortal from "@/pages/Work/WebPortal.vue";
+import Moonlighting from "@/pages/Work/Moonlighting.vue";
+import SexRegistry from "@/pages/Work/SexRegistry.vue";
+import FirstUnion from "@/pages/Work/FirstUnion.vue";
+import FinancePortal from "@/pages/Work/FinancePortal.vue";
+import ServerMigration from "@/pages/Work/ServerMigration.vue";
+import EstesImprovement from "@/pages/Work/EstesImprovement.vue";
+import FreightVolume from "@/pages/Work/FreightVolume.vue";
+import FreightMovement from "@/pages/Work/FreightMovement.vue";
+import EstesQuote from "@/pages/Work/EstesQuote.vue";
+import CapitalOne from "@/pages/Work/CapitalOne.vue";
+import PredictiveModeling from "@/pages/Work/PredictiveModeling.vue";
+import JudicialEnforcement from "@/pages/Work/JudicialEnforcement.vue";
+import JuryManagement from "@/pages/Work/JuryManagement.vue";
+import DataLake from "@/pages/Work/DataLake.vue";
+import ScalaArchitecture from "@/pages/Work/ScalaArchitecture.vue";
+import DevopsTransformation from "@/pages/Work/DevopsTransformation.vue";
+import UnifiedData from "@/pages/Work/UnifiedData.vue";
+import CircuitCourts from "@/pages/Work/CircuitCourts.vue";
 
 // service pages
 import BigData from "@/pages/Service/BigData.vue";
@@ -398,108 +398,108 @@ const router = new Router({
     },
     {
       path: "/work/circuit-courts",
-      name: "WorkCircuitCourts",
-      component: WorkCircuitCourts
+      name: "CircuitCourts",
+      component: CircuitCourts
     },
     {
       path: "/work/vehicle-inspection",
-      name: "WorkVehicleInspection",
-      component: WorkVehicleInspection
+      name: "VehicleInspection",
+      component: VehicleInspection
     },
     {
       path: "/work/magellan-health",
-      name: "WorkMagellanHealth",
-      component: WorkMagellanHealth
+      name: "MagellanHealth",
+      component: MagellanHealth
     },
     {
       path: "/work/web-portal",
-      name: "WorkWebPortal",
-      component: WorkWebPortal
+      name: "WebPortal",
+      component: WebPortal
     },
     {
       path: "/work/moonlighting",
-      name: "WorkMoonlighting",
-      component: WorkMoonlighting
+      name: "Moonlighting",
+      component: Moonlighting
     },
     {
       path: "/work/sex-registry",
-      name: "WorkSexRegistry",
-      component: WorkSexRegistry
+      name: "SexRegistry",
+      component: SexRegistry
     },
     {
       path: "/work/first-union",
-      name: "WorkFirstUnion",
-      component: WorkFirstUnion
+      name: "FirstUnion",
+      component: FirstUnion
     },
     {
       path: "/work/finance-portal",
-      name: "WorkFinancePortal",
-      component: WorkFinancePortal
+      name: "FinancePortal",
+      component: FinancePortal
     },
     {
       path: "/work/server-migration",
-      name: "WorkServerMigration",
-      component: WorkServerMigration
+      name: "ServerMigration",
+      component: ServerMigration
     },
     {
       path: "/work/estes-improvement",
-      name: "WorkEstesImprovement",
-      component: WorkEstesImprovement
+      name: "EstesImprovement",
+      component: EstesImprovement
     },
     {
       path: "/work/freight-volume",
-      name: "WorkFreightVolume",
-      component: WorkFreightVolume
+      name: "FreightVolume",
+      component: FreightVolume
     },
     {
       path: "/work/freight-movement",
-      name: "WorkFreightMovement",
-      component: WorkFreightMovement
+      name: "FreightMovement",
+      component: FreightMovement
     },
     {
       path: "/work/estes-quote",
-      name: "WorkEstesQuote",
-      component: WorkEstesQuote
+      name: "EstesQuote",
+      component: EstesQuote
     },
     {
       path: "/work/capital-one",
-      name: "WorkCapitalOne",
-      component: WorkCapitalOne
+      name: "CapitalOne",
+      component: CapitalOne
     },
     {
       path: "/work/predictive-modeling",
-      name: "WorkPredictiveModeling",
-      component: WorkPredictiveModeling
+      name: "PredictiveModeling",
+      component: PredictiveModeling
     },
     {
       path: "/work/judicial-enforcement",
-      name: "WorkJudicialEnforcement",
-      component: WorkJudicialEnforcement
+      name: "JudicialEnforcement",
+      component: JudicialEnforcement
     },
     {
       path: "/work/jury-management",
-      name: "WorkJuryManagement",
-      component: WorkJuryManagement
+      name: "JuryManagement",
+      component: JuryManagement
     },
     {
       path: "/work/data-lake",
-      name: "WorkDataLake",
-      component: WorkDataLake
+      name: "DataLake",
+      component: DataLake
     },
     {
       path: "/work/scala-architecture",
-      name: "WorkScalaArchitecture",
-      component: WorkScalaArchitecture
+      name: "ScalaArchitecture",
+      component: ScalaArchitecture
     },
     {
       path: "/work/devops-transformation",
-      name: "WorkDevopsTransformation",
-      component: WorkDevopsTransformation
+      name: "DevopsTransformation",
+      component: DevopsTransformation
     },
     {
       path: "/work/unified-data",
-      name: "WorkUnifiedData",
-      component: WorkUnifiedData
+      name: "UnifiedData",
+      component: UnifiedData
     }
   ]
 });

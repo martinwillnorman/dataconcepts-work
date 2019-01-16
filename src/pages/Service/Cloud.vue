@@ -47,7 +47,7 @@
         />
       </Services>
 
-      <Definition subtitle="roadmap">
+      <Definition class="slant-5" subtitle="roadmap">
         <SubDefinition
           title="Cloud Adoption Workshop"
           content="Align your technology leadership around a unanimous charter and establish an organization-wide action plan with our Cloud Adoption Workshop, a full day event that brings together our best cloud architects with your team for a facilitated discussion. Data Concepts is an approved AWS Delivery Partner."
@@ -307,5 +307,6 @@ export default {
 
 .hero-background
   background-image: url(../../assets/background/services-large/cloud.jpg)
+
 
 </style>

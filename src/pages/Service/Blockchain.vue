@@ -114,6 +114,38 @@
         link="/insights/blockchain-world"
       />
 
+      <Related>
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="A Quick Peek in to  Data Strategy"
+          summary="Every business and organisation has its own unique set of goals, KPIs and targets, and we believe that everything that we do should be devised, planned and executed with these objectives in mind."
+          category="Data Strategy"
+          link="/insights/quick-peek"
+          imagesource="../insight-images/dance-2.jpg"
+        />
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          link="/insights/data-mining"
+          category="Big Data"
+          title="Extracting Actionable Insights from Data"
+          summary="Data mining is the extraction of actionable insights from data."
+          imagesource="../insight-images/entry.jpg"
+        />
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          link="/insights/analytics-is-popular"
+          category="Data & Analytics"
+          title="The Popularity of Analytics"
+          summary="Ten imperatives for successfully developing an analytics capability."
+          imagesource="../insight-images/model.jpg"
+        />
+      </Related>
+
       <Footer/>
     </div>
   </div>
@@ -133,6 +165,8 @@ import SubCapability from "../../components/service/SubCapability.vue";
 import InsightHighlight from "../../components/service/InsightHighlight.vue";
 import Footer from "../../components/service/Footer.vue";
 import AsideRight from "../../components/service/AsideRight.vue";
+import Related from "../../components/service/Related.vue";
+import InsightCard from "../../components/insight/InsightCard.vue";
 
 export default {
   name: "Blockchain",
@@ -149,7 +183,9 @@ export default {
     SubCapability,
     InsightHighlight,
     Footer,
-    AsideRight
+    AsideRight,
+    Related,
+    InsightCard
   }
 };
 </script>

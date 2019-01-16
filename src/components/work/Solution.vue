@@ -21,12 +21,11 @@ export default {
 
 
 <style lang="sass" scoped>
-@import "../assets/sass/settings.sass"
+@import "../../assets/sass/settings.sass"
 
 .solution-wrapper
     display: flex
     flex-direction: column
-    align-items: center
     margin-top: 80px
 
 p
@@ -37,7 +36,7 @@ p
 ul
     margin-top: 40px
     max-width: 800px
-    text-align: center
+    columns: 2
     
 li
     color: $font-c-h-2

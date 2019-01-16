@@ -3588,6 +3588,11 @@ fstream@^1.0.0, fstream@^1.0.2:
     mkdirp ">=0.5 0"
     rimraf "2"
 
+fullpage.js@^3.0.4:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/fullpage.js/-/fullpage.js-3.0.4.tgz#bb3eb1af7ecb5706866abf64ffc7b2535cec39b7"
+  integrity sha512-GWpud0Gvr8i4k3QySoajFevO18UBKMJ9znU3o4uaXZkKYqLtS8d1BSQoAARmYwYgBLOw3YrKAG+4LoaIokO1UA==
+
 function-bind@^1.0.2, function-bind@^1.1.0, function-bind@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/function-bind/-/function-bind-1.1.1.tgz#a56899d3ea3c9bab874bb9773b7c5ede92f4895d"
@@ -7946,6 +7951,13 @@ vue-eslint-parser@^4.0.2:
     espree "^4.1.0"
     esquery "^1.0.1"
     lodash "^4.17.11"
+
+vue-fullpage.js@^0.1.1:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/vue-fullpage.js/-/vue-fullpage.js-0.1.1.tgz#79fb92a078000c51803c42144eea458e47f963ce"
+  integrity sha512-Ll8zvXHisHZ3ZeqpJeYt4pnN5ucku9ETa5hEqeCXq6RVFiFsTlvPVqzQnfGqxpmkeDwx+AoW/rFZOQC1CAy8Ow==
+  dependencies:
+    fullpage.js "^3.0.4"
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.1"

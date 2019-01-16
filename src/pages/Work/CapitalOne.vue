@@ -26,25 +26,19 @@
       </Summary>
 
       <Challenge>
-        <h1 data-aos="fade-up" data-aos-duration="600" class="challenge-header">CHALLENGE</h1>
+        <h1 class="challenge-header">CHALLENGE</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
           class="text-white"
         >To automate data load into Salesforce using Java/JEE and replace the legacy manual process.</p>
       </Challenge>
 
       <SolutionHeader>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header solution-header"
-        >SOLUTION</h1>
+        <h1 class="section-header solution-header">SOLUTION</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
         >MICROSERVICES ARCHITECTURE SOLUTION WITH SALESFORCE</p>
       </SolutionHeader>
 
@@ -61,15 +55,10 @@
       </Solution>
 
       <Outcome>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header medium outcome-header"
-        >OUTCOME</h1>
+        <h1 class="section-header medium outcome-header">OUTCOME</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
         >Data Concepts developed an automation process into Salesforce, using JEE technologies for Capital One Investments; we stood up the AWS Cloud Environment from scratch.</p>
       </Outcome>
     </div>

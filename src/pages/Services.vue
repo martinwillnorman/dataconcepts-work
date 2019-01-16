@@ -324,7 +324,6 @@ export default {
 .services-wrapper
     display: flex
     flex-wrap: wrap
-    justify-content: center
 
 .service
     flex-basis: 25%

@@ -1,58 +1,116 @@
 <template>
-  <section class="footer content-block">
+  <section class="content-block light-black footer">
     <div class="container">
       <div class="row">
-        <div class="column col-12">
-          <div class="content-wrapper">
-            <div class="footer__content-1">
-              <div class="box">
-                <router-link class="logo" to="/">concepts</router-link>
-                <p>
-                  We are an IT Consultancy that blends strategy, process
-                  & technology to meet business objectives.
-                </p>
+        <div class="column col-4">
+          <div class="content-wrapper footer-logo-wrapper">
+            <router-link class="footer-logo" to="/">dataconcepts</router-link>
+            <p class="footer-description">
+              We are an IT Consultancy that blends strategy, process
+              & technology to meet business objectives.
+            </p>
+          </div>
+        </div>
 
-                <ul class="social-link-holder">
-                  <li>
-                    <a class="social-link" href="#">
-                      <img src="../assets/logo/linkedin.svg" alt="LinkedIn">
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#">
-                      <img src="../assets/logo/facebook-icon.svg" alt="Facebook">
-                    </a>
-                  </li>
-                  <li>
-                    <a class="social-link" href="#">
-                      <img src="../assets/logo/twitter.svg" alt="Twitter">
-                    </a>
-                  </li>
-                </ul>
-                <p class="reserved">Ⓒ dataconcepts 2019 | All Rights Reserved</p>
-              </div>
+        <div class="column col-8">
+          <div class="content-wrapper footer-link-wrapper">
+            <div class="footer-link-box">
+              <ul class="footer-link-list">
+                <span>
+                  <router-link class="footer-link-header" to="/services">Services</router-link>
+                </span>
+                <li class="footer-link-list-item">
+                  <router-link
+                    class="footer-link"
+                    to="/services/application-development"
+                  >App Development</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link
+                    class="footer-link"
+                    to="/services/business-intelligence"
+                  >Business Intelligence</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link
+                    class="footer-link"
+                    to="/services/program-management"
+                  >Program Management</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/machine-learning">ML & IoT</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link
+                    class="footer-link"
+                    to="/work/predictive-modeling"
+                  >Predictive Modeling</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/ui-ux">UI / UX</router-link>
+                </li>
+              </ul>
+              <ul class="footer-link-list">
+                <span>
+                  <router-link class="footer-link-header" to="/services">Data</router-link>
+                </span>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-analytics">Data & Analytics</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-strategy">Data Strategy</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/big-data">Big Data</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-governance">Governance</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-warehouse">Warehousing</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-science">Data Science</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/services/data-visualization">Visualization</router-link>
+                </li>
+              </ul>
             </div>
-            <div class="footer__content-2">
-              <div class="split">
-                <ul class="mobile-nav-holder">
-                  <li>
-                    <router-link class="page-link" to="/work">Work</router-link>
-                  </li>
-                  <li class="margined">
-                    <router-link class="page-link" to="/services">Services</router-link>
-                  </li>
-                  <li class="margined">
-                    <router-link class="page-link" to="/insights">Insights</router-link>
-                  </li>
-                  <li class="margined">
-                    <router-link class="page-link" to="/careers">Careers</router-link>
-                  </li>
-                  <li class="margined">
-                    <router-link class="page-link" to="/contact">Contact</router-link>
-                  </li>
-                </ul>
-              </div>
-              <div class="split"></div>
+
+            <div class="footer-link-box">
+              <ul class="footer-link-list">
+                <span>
+                  <router-link class="footer-link-header" to="/work">Work</router-link>
+                </span>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/work/capital-one">Trucking</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/work/capital-one">Judiciary</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/work/capital-one">Public Safety</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/work/capital-one">Energy</router-link>
+                </li>
+                <li class="footer-link-list-item">
+                  <router-link class="footer-link" to="/work/capital-one">Non-Profit</router-link>
+                </li>
+              </ul>
+
+              <ul class="footer-link-list">
+                <li class="footer-link-list-item-last">
+                  <router-link class="footer-link-header" to="/work/capital-one">Careers</router-link>
+                </li>
+                <li class="footer-link-list-item-last">
+                  <router-link class="footer-link-header" to="/work/capital-one">Partners</router-link>
+                </li>
+                <li class="footer-link-list-item-last">
+                  <router-link class="footer-link-header" to="/work/capital-one">Contact</router-link>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -71,102 +129,70 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .footer
-  background: $bround-c-2
+  padding: 100px 0 200px
 
-.content-wrapper
-  display: flex
-  padding: 60px 0 40px
+.footer-logo
+ color: #fff
+ transition: .18s
+ transition-property: color
+ margin-bottom: 15px
+ display: inline-block
+ font: 
+  size: 1.8rem
 
-.footer__content-1
-  display: flex
-  flex-direction: column
-  justify-content: center
-  flex-basis: 50%
+.footer-logo:hover
+  color: $bround-c-yellow
 
-.box
-  max-width: 330px
+.footer-description
+  color: #fff
+  max-width: 350px
 
-p
-  color: $font-c-p-2
+.footer-link-header
+  color: $bround-c-yellow
+  text-transform: uppercase
   font:
-    size: .9rem
-  line-height: 1.8
-  margin-top: 10px
-
-.reserved
-  font:
-    weight: 900
+    size: 15px
     family: $font-header
-  color: #999
-
-.social-link-holder
-  display: flex
-  justify-content: space-between
-  list-style: none
-  margin: 0
-  padding: 0
-  padding-top: 5%
-  max-width: 200px
-  margin-right: auto
-
-.logo 
-  color: $font-c-1
-  font:
-    size: 1.5rem
-    weight: 900
-    family: $font-header
+    weight: 600
+  line-height: 23px
+  margin: 0 0 25px
+  display: inline-block
   letter-spacing: 1px
+  transition: .18s
+  transition-property: color
 
-.logo::before
-  content: "data"
-  color: $font-c-1
+.footer-link-header:hover
+  color: #fff
 
-.footer__content-2 
-  flex-basis: 50%
-  display: flex
-  flex-direction: column
-
-.split:first-child
-  flex: auto
+.footer-link-wrapper
   display: flex
 
-.mobile-nav-holder
-  flex: auto
+.footer-link-box
   display: flex
-  flex-wrap: wrap
+  flex: 1
+  border-top: 1px solid #292929
+  padding-top: 46px
 
-li
-  flex-basis: 50%
+.footer-link-list
+  padding: 0 15px
+  width: 50%
 
-li a
-  position: relative
+.footer-link
+  display: block
+  color: inherit
+  margin: 0 0 8px
+  color: #fff
+  font: 
+    size: 16px
+    family: $font-header
+    weight: 400
+  line-height: 24px
+  -webkit-transition: .18s
+  transition: .18s
+  -webkit-transition-property: color
+  transition-property: color
 
-li a::after
-  content: ""
-  position: absolute
-  top: 100%
-  left: 0
-  height: 1px
-  width: 100%
-  transform: translatey(10px)
-  background: $dataconcepts-red
-  opacity: 0
-  transition: transform 400ms cubic-bezier(.29,.29,.42,1.01), opacity 600ms ease-in-out, color 600ms ease-in-out
-
-li a:hover:after 
-  opacity: 1
-  transform: translatey(2px)
-
-@media only screen and (max-width: 690px) 
-  .content-wrapper
-    flex-direction: column-reverse
-    padding: 30px 0 20px
-
-  .margined
-    margin-bottom: 30px
-
-  li a 
-    font-size: 1.1rem
-
+.footer-link:hover
+  color: $bround-c-yellow
 
 </style>

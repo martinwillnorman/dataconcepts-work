@@ -23,7 +23,7 @@
 </template>
 
 <script>
-import Spacer from "../components/Spacer.vue";
+import Spacer from "../../components/Spacer.vue";
 
 export default {
   name: "Summary",
@@ -36,7 +36,7 @@ export default {
 
 
 <style lang="sass" scoped>
-@import "../assets/sass/settings.sass"
+@import "../../assets/sass/settings.sass"
 
 
 .promise-text 

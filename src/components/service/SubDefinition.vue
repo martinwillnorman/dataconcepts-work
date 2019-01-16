@@ -26,12 +26,16 @@ export default {
 @import "../../assets/sass/settings.sass"
 
 .subdefinition 
-    padding: 80px 25px 0
+  padding: 80px 25px 0
+  position: relative
+  z-index: 999
 
 .subdefinition-title
     font: 
         size: 36px
         weight: 400
+    position: relative
+    z-index: 999
 
 .example-work-list
   padding: 10px 0

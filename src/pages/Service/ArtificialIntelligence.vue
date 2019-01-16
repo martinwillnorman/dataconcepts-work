@@ -88,7 +88,40 @@
         />
       </Services>
 
-      <Spacer/>
+      <Technology subtitle="advantages">
+        <SubTechnology
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Scalability"
+          content="AI enabled solutions are designed to handle big data. There is also no overtime, or hiring challenges when your machine needs to handle more data."
+        />
+        <SubTechnology
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          title="Consistency & Predictability"
+          content="Machines are programmed to perform consistently; they do not bring personal bias into processing. Insights can be traced to the data model design.s"
+        />
+        <SubTechnology
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Quality & Reliability"
+          content="Expect reductions in mistakes, accidents, regulatory violations and fraud. When trained properly, AI enabled processes will reduce risk and improve the quality of results."
+        />
+        <SubTechnology
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          title="Employee Satisfaction"
+          content="Eliminating mundane and repetitive tasks frees up human talent to innovate and create."
+        />
+        <SubTechnology
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Productivity & Performance"
+          content="AI is “on” 24/7, 365 days a year; does not take vacations; and can perform at digital speeds."
+        />
+      </Technology>
 
       <SectionDivider
         title="Chatbot"
@@ -145,41 +178,6 @@
         />
       </Definition>
 
-      <Technology subtitle="advantages">
-        <SubTechnology
-          data-aos="fade-up"
-          data-aos-duration="600"
-          title="Scalability"
-          content="AI enabled solutions are designed to handle big data. There is also no overtime, or hiring challenges when your machine needs to handle more data."
-        />
-        <SubTechnology
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="100"
-          title="Consistency & Predictability"
-          content="Machines are programmed to perform consistently; they do not bring personal bias into processing. Insights can be traced to the data model design.s"
-        />
-        <SubTechnology
-          data-aos="fade-up"
-          data-aos-duration="600"
-          title="Quality & Reliability"
-          content="Expect reductions in mistakes, accidents, regulatory violations and fraud. When trained properly, AI enabled processes will reduce risk and improve the quality of results."
-        />
-        <SubTechnology
-          data-aos="fade-up"
-          data-aos-duration="600"
-          data-aos-delay="100"
-          title="Employee Satisfaction"
-          content="Eliminating mundane and repetitive tasks frees up human talent to innovate and create."
-        />
-        <SubTechnology
-          data-aos="fade-up"
-          data-aos-duration="600"
-          title="Productivity & Performance"
-          content="AI is “on” 24/7, 365 days a year; does not take vacations; and can perform at digital speeds."
-        />
-      </Technology>
-
       <InsightHighlight
         title="Harness the Power of Analytics & AI to Predict"
         imagesource="../insight-images/lights-15.jpg"
@@ -219,6 +217,7 @@
       </Related>
 
       <Footer/>
+      <Spacer/>
     </div>
   </div>
 </template>

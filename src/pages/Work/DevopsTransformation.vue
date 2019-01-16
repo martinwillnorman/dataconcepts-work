@@ -20,25 +20,19 @@
       </Summary>
 
       <Challenge>
-        <h1 data-aos="fade-up" data-aos-duration="600" class="challenge-header">CHALLENGE</h1>
+        <h1 class="challenge-header">CHALLENGE</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
           class="text-white"
         >The workforce used Agile methodologies, however, automation was limited and organizational redundancies resulted in duplicate effort and waste. A culture centered on delivery deadlines had tattered morale and communication while simultaneously ignoring individual and team growth. A new corporate vice president mandated the group transition to a DevOps model, a significant transformation melding development, operations, and support by extending Agile principles and test automation through the deployment process to increase software quality and reliability while reducing waste. DevOps would also empower the teams by promoting a culture of cooperation, accountability, continuous improvement, and growth.</p>
       </Challenge>
 
       <SolutionHeader>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header solution-header"
-        >SOLUTION</h1>
+        <h1 class="section-header solution-header">SOLUTION</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="100"
         >A TAILORED DEVOPS SOLUTION DESIGNED FOR COLLABORATION</p>
       </SolutionHeader>
 
@@ -56,15 +50,10 @@
       </Solution>
 
       <Outcome>
-        <h1
-          data-aos="fade-up"
-          data-aos-duration="600"
-          class="section-header medium outcome-header"
-        >OUTCOME</h1>
+        <h1 class="section-header medium outcome-header">OUTCOME</h1>
         <p
           data-aos="fade-up"
           data-aos-duration="600"
-          data-aos-delay="200"
         >Ultimately, Data Concepts delivered tangible, immediate value through a DevOps strategy and roadmap tailored to the exact needs of the eCommerce group, complete with vision, measurable goals and recommendations that were immediately actionable. Successful execution excited leadership, as it meant a transition from DevOps to NoOps, where optimization is built into testing and automation to such an extent that operations is “hands off” in the deployment process. The realized transformation in the software development process and the capacity of each employee resulted in a better product, significant efficiency gains, and a culture of improved teamwork and communication.</p>
       </Outcome>
     </div>

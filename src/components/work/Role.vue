@@ -26,7 +26,7 @@ export default {
 
 
 <style lang="sass" scoped>
-@import "../assets/sass/settings.sass"
+@import "../../assets/sass/settings.sass"
 
 h3
     margin-bottom: 15px

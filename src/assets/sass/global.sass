@@ -34,7 +34,6 @@ ul
 
 a
   text-decoration: none !important
-  color: $dataconcepts-red
 
 img
   max-width: 100%
@@ -87,6 +86,19 @@ img
   overflow: hidden
   width: 300vw
   background: linear-gradient(to bottom,#eee 0%,#fff 62%)
+
+.slant-5::after
+  content: ' '
+  position: absolute
+  top: -20%
+  left: -50%
+  height: 55%
+  z-index: -1
+  transform: skewY(-12deg)
+  overflow: hidden
+  width: 300vw
+  background: $bround-c-2
+
 
 .text-white
   color: #fff !important
@@ -336,6 +348,9 @@ img
 
 .black
   background: #000
+
+.light-black
+  background: $bround-c-light-black
 
 .content-block.clear-bottom
   margin-bottom: 200px
