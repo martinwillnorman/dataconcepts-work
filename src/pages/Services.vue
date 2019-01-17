@@ -1,14 +1,14 @@
 <template>
   <div class="content-holder">
     <ModalMenu/>
-    <NavBarWhite/>
+    <NavBar/>
     <div class="sections">
       <!-- <section class="content-block">
         <div class="content-wrapper">
           <div class="nav-block"></div>
         </div>
       </section>-->
-      <section class="content-block fullpage black">
+      <!-- <section class="content-block fullpage black">
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -46,7 +46,8 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
+      <TextHero title="Proficiency."/>
       <section id="first" class="content-block black">
         <div class="content-wrapper services-wrapper">
           <div class="service">
@@ -223,14 +224,18 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
+import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
+import TextHero from "../components/TextHero.vue";
+import Spacer from "../components/Spacer.vue";
 
 export default {
   name: "Services",
   components: {
-    NavBarWhite,
-    ModalMenu
+    NavBar,
+    ModalMenu,
+    TextHero,
+    Spacer
   },
   methods: {
     scrollDown() {

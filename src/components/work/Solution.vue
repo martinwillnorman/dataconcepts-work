@@ -30,12 +30,12 @@ export default {
 
 p
     font:
-        size: 1.4rem
+        size: 1.1rem
     line-height: 1.8
 
 ul
     margin-top: 40px
-    max-width: 800px
+    max-width: 1000px
     columns: 2
     
 li

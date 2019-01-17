@@ -1,14 +1,15 @@
 <template>
   <div class="content-holder">
     <ModalMenu/>
-    <NavBarWhite/>
+    <NavBar/>
     <div class="sections">
       <!-- <section class="content-block">
         <div class="content-wrapper">
           <div class="nav-block"></div>
         </div>
       </section>-->
-      <section class="content-block fullpage black">
+      <TextHero title="Expertise."/>
+      <!-- <section class="content-block fullpage black">
         <div class="container">
           <div class="row">
             <div @click="scrollDown" class="show-more">
@@ -46,7 +47,7 @@
             </div>
           </div>
         </div>
-      </section>
+      </section>-->
       <!-- <section class="content-block fullpage">
         <div v-parallax="0.4" class="cover-image tinted"></div>
         <div class="container">
@@ -588,18 +589,20 @@
 </template>
 
 <script>
-import NavBarWhite from "../components/NavBarWhite.vue";
+import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightCard from "../components/insight/InsightCard.vue";
+import TextHero from "../components/TextHero.vue";
 
 export default {
   name: "Insights",
   components: {
-    NavBarWhite,
+    NavBar,
     ModalMenu,
     Spacer,
-    InsightCard
+    InsightCard,
+    TextHero
   },
   methods: {
     scrollDown() {

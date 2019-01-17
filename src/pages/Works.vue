@@ -3,56 +3,14 @@
     <ModalMenu/>
     <NavBar/>
     <div class="sections">
-      <!-- <section class="content-block">
-        <div class="content-wrapper">
-          <div class="nav-block white"></div>
-        </div>
-      </section>-->
-      <section class="content-block fullpage">
-        <div class="container">
-          <div class="row">
-            <div @click="scrollDown" class="show-more">
-              <svg
-                data-aos="fade-down"
-                data-aos-duration="600"
-                fill="#000"
-                version="1.1"
-                id="Ebene_2_1_"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                x="0px"
-                y="0px"
-                width="53px"
-                height="20px"
-                viewBox="0 0 53 20"
-                enable-background="new 0 0 53 20"
-                xml:space="preserve"
-              >
-                <g>
-                  <polygon
-                    points="26.5,17.688 9.114,3.779 10.303,2.312 26.5,15.269 42.697,2.313 43.886,3.779 	"
-                  ></polygon>
-                </g>
-              </svg>
-            </div>
-            <div class="column col-12">
-              <div class="content-wrapper header-wrapper">
-                <h1
-                  data-aos="fade-in"
-                  data-aos-duration="600"
-                  class="insights-header"
-                >Time To Brag, See Our Work</h1>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <TextHero title="Pride."/>
+
       <section id="first" class="content-block">
         <div class="container">
-          <!-- <Spacer/>
-          <div class="row padded-bottom">
+          <Spacer/>
+          <!-- <div class="row padded-bottom">
             <div class="column col-8 responsive-12 centered">
-              <div class="content-wrapper kicker-wrapper text-white">
+              <div class="content-wrapper kicker-wrapper">
                 <p
                   class="insights-text"
                 >A selection of our favorite case studies and client engagements.</p>
@@ -272,6 +230,26 @@
                     <WorkArrow/>
                   </router-link>
                 </WorkBox>
+                <WorkBox data-aos="fade-up" data-aos-duration="600">
+                  <router-link class="work-link" to="/work/energy">
+                    <div class="work-background energy"></div>
+                    <div class="work-tint energy"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Energy: Mobile Business Solution</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
+                <WorkBox data-aos="fade-up" data-aos-duration="600">
+                  <router-link class="work-link" to="/work/firearms-application">
+                    <div class="work-background firearms-application"></div>
+                    <div class="work-tint firearms-application"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Virginia State Police: Firearms Application</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
               </div>
             </div>
           </div>
@@ -370,6 +348,7 @@ import WorkTogether from "../components/WorkTogether.vue";
 import WorkBox from "../components/WorkBox.vue";
 import WorkArrow from "../components/WorkArrow.vue";
 import ClienteleBox from "../components/ClienteleBox.vue";
+import TextHero from "../components/TextHero.vue";
 
 export default {
   name: "Works",
@@ -380,7 +359,8 @@ export default {
     WorkTogether,
     WorkBox,
     WorkArrow,
-    ClienteleBox
+    ClienteleBox,
+    TextHero
   },
   methods: {
     scrollDown() {
@@ -407,11 +387,6 @@ img
   max-height: 70px
   max-width: 150px
 
-// .header-wrapper
-//   display: flex
-//   flex-direction: column
-//   align-items: center
-
 .insights-text
   font: 
     family: $font-header
@@ -430,7 +405,6 @@ img
   letter-spacing: -2px
 
 .header-wrapper 
-  // max-width: 1000px
   margin: 0 auto
   padding-top: 180px
 
@@ -564,6 +538,12 @@ img
 .work-tint.unified-data
   background-color: #0e414c
 
+.work-tint.energy
+  background-color: #FF2828
+
+.work-tint.firearms-application
+  background-color: #EF4C23
+
 .work-background.circuit-courts
   background-image: url(../assets/background/work-small/circuit-courts.jpg)
 
@@ -626,6 +606,12 @@ img
 
 .work-background.unified-data
   background-image: url(../assets/background/work-small/unified-data.jpg)
+
+.work-background.unified-data
+  // background-image: url(../assets/background/work-small/energy.jpg)
+
+.work-background.firearms-application
+  // background-image: url(../assets/background/work-small/firearms-application.jpg)
 
 @media only screen and (max-width: 1080px)
   .work-wrapper

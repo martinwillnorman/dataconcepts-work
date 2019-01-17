@@ -273,7 +273,7 @@ export default {
       if (this.phase === 0) {
         phrase = "integrating Cloud technology?";
       } else if (this.phase === 1) {
-        phrase = "implimenting Agile strategy?";
+        phrase = "implementing Agile strategy?";
       } else {
         phrase = "developing Mobile solutions?";
       }
@@ -284,13 +284,13 @@ export default {
       } else if (i === phrase.length) {
         if (this.phase === 0) {
           this.phase = 1;
-          setTimeout(backTypeWriter, 4000);
+          setTimeout(backTypeWriter, 2000);
         } else if (this.phase === 1) {
           this.phase = 2;
-          setTimeout(backTypeWriter, 4000);
+          setTimeout(backTypeWriter, 2000);
         } else {
           this.phase = 0;
-          setTimeout(backTypeWriter, 4000);
+          setTimeout(backTypeWriter, 2000);
         }
       }
     };

@@ -14,8 +14,6 @@
 </template>
 
 <script>
-import Spacer from "../Spacer.vue";
-
 export default {
   name: "Promise",
   props: ["title", "content"]

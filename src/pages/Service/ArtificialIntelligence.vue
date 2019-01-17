@@ -217,7 +217,6 @@
       </Related>
 
       <Footer/>
-      <Spacer/>
     </div>
   </div>
 </template>

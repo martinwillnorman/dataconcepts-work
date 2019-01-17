@@ -4,7 +4,8 @@ import Home from "@/pages/Home.vue";
 import Insights from "@/pages/Insights.vue";
 import Services from "@/pages/Services.vue";
 import Works from "@/pages/Works.vue";
-import ContactUs from "@/pages/ContactUs.vue";
+import Contact from "@/pages/Contact.vue";
+import About from "@/pages/About.vue";
 
 // work pages
 import VehicleInspection from "@/pages/Work/VehicleInspection.vue";
@@ -28,6 +29,8 @@ import ScalaArchitecture from "@/pages/Work/ScalaArchitecture.vue";
 import DevopsTransformation from "@/pages/Work/DevopsTransformation.vue";
 import UnifiedData from "@/pages/Work/UnifiedData.vue";
 import CircuitCourts from "@/pages/Work/CircuitCourts.vue";
+import Energy from "@/pages/Work/Energy.vue";
+import FirearmsApplication from "@/pages/Work/FirearmsApplication.vue";
 
 // service pages
 import BigData from "@/pages/Service/BigData.vue";
@@ -54,35 +57,35 @@ import DataVisualization from "@/pages/Service/DataVisualization.vue";
 import DataScience from "@/pages/Service/DataScience.vue";
 
 // insight pages
-import InsightQuickPeek from "@/pages/InsightQuickPeek.vue";
-import InsightWorldBlockchain from "@/pages/InsightWorldBlockchain.vue";
-import InsightDataMining from "@/pages/InsightDataMining.vue";
-import InsightPopularAnalytics from "@/pages/InsightPopularAnalytics.vue";
-import InsightModernUtility from "@/pages/InsightModernUtility.vue";
-import InsightAzureML from "@/pages/InsightAzureML.vue";
-import InsightAgileTransformation from "@/pages/InsightAgileTransformation.vue";
-import InsightDigitalTransformation from "@/pages/InsightDigitalTransformation.vue";
-import InsightAgileUnderstanding from "@/pages/InsightAgileUnderstanding.vue";
-import InsightITAgility from "@/pages/InsightITAgility.vue";
-import InsightDataStrategyRight from "@/pages/InsightDataStrategyRight.vue";
-import InsightDigitalCulture from "@/pages/InsightDigitalCulture.vue";
-import InsightGovernanceJourney from "@/pages/InsightGovernanceJourney.vue";
-import InsightAgileEmbrace from "@/pages/InsightAgileEmbrace.vue";
-import InsightLeverageBigData from "@/pages/InsightLeverageBigData.vue";
-import InsightGovernancePath from "@/pages/InsightGovernancePath.vue";
-import InsightDataChange from "@/pages/InsightDataChange.vue";
-import InsightDataSecurityBI from "@/pages/InsightDataSecurityBI.vue";
-import InsightBigDataBusiness from "@/pages/InsightBigDataBusiness.vue";
-import InsightAnalyticsPower from "@/pages/InsightAnalyticsPower.vue";
-import InsightAppDevApproach from "@/pages/InsightAppDevApproach.vue";
-import InsightCloudAppDev from "@/pages/InsightCloudAppDev.vue";
-import InsightInformationArchitecture from "@/pages/InsightInformationArchitecture.vue";
-import InsightBIDataWarehouse from "@/pages/InsightBIDataWarehouse.vue";
-import InsightAzureMigration from "@/pages/InsightAzureMigration.vue";
-import InsightSharePoint from "@/pages/InsightSharePoint.vue";
-import InsightPowerBI from "@/pages/InsightPowerBI.vue";
-import InsightDigitalLandscape from "@/pages/InsightDigitalLandscape.vue";
-import InsightBigDataPlan from "@/pages/InsightBigDataPlan.vue";
+import QuickPeek from "@/pages/Insights/QuickPeek.vue";
+import WorldBlockchain from "@/pages/Insights/WorldBlockchain.vue";
+import DataMining from "@/pages/Insights/DataMining.vue";
+import PopularAnalytics from "@/pages/Insights/PopularAnalytics.vue";
+import ModernUtility from "@/pages/Insights/ModernUtility.vue";
+import AzureML from "@/pages/Insights/AzureML.vue";
+import AgileTransformation from "@/pages/Insights/AgileTransformation.vue";
+import DigitalTransformation from "@/pages/Insights/DigitalTransformation.vue";
+import AgileUnderstanding from "@/pages/Insights/AgileUnderstanding.vue";
+import ITAgility from "@/pages/Insights/ITAgility.vue";
+import DataStrategyRight from "@/pages/Insights/DataStrategyRight.vue";
+import DigitalCulture from "@/pages/Insights/DigitalCulture.vue";
+import GovernanceJourney from "@/pages/Insights/GovernanceJourney.vue";
+import AgileEmbrace from "@/pages/Insights/AgileEmbrace.vue";
+import LeverageBigData from "@/pages/Insights/LeverageBigData.vue";
+import GovernancePath from "@/pages/Insights/GovernancePath.vue";
+import DataChange from "@/pages/Insights/DataChange.vue";
+import DataSecurityBI from "@/pages/Insights/DataSecurityBI.vue";
+import BigDataBusiness from "@/pages/Insights/BigDataBusiness.vue";
+import AnalyticsPower from "@/pages/Insights/AnalyticsPower.vue";
+import AppDevApproach from "@/pages/Insights/AppDevApproach.vue";
+import CloudAppDev from "@/pages/Insights/CloudAppDev.vue";
+import InformationArchitecture from "@/pages/Insights/InformationArchitecture.vue";
+import BIDataWarehouse from "@/pages/Insights/BIDataWarehouse.vue";
+import AzureMigration from "@/pages/Insights/AzureMigration.vue";
+import SharePoint from "@/pages/Insights/SharePoint.vue";
+import PowerBI from "@/pages/Insights/PowerBI.vue";
+import DigitalLandscape from "@/pages/Insights/DigitalLandscape.vue";
+import BigDataPlan from "@/pages/Insights/BigDataPlan.vue";
 
 Vue.use(Router);
 
@@ -128,8 +131,18 @@ const router = new Router({
     },
     {
       path: "/contact",
-      name: "ContactUs",
-      component: ContactUs,
+      name: "Contact",
+      component: Contact,
+      beforeEnter: (to, from, next) => {
+        const el1 = document.body;
+        el1.classList.remove("hide-overflow");
+        next();
+      }
+    },
+    {
+      path: "/about",
+      name: "About",
+      component: About,
       beforeEnter: (to, from, next) => {
         const el1 = document.body;
         el1.classList.remove("hide-overflow");
@@ -248,148 +261,148 @@ const router = new Router({
     },
     {
       path: "/insights/quick-peek",
-      name: "InsightQuickPeek",
-      component: InsightQuickPeek
+      name: "QuickPeek",
+      component: QuickPeek
     },
     {
       path: "/insights/blockchain-world",
-      name: "InsightWorldBlockchain",
-      component: InsightWorldBlockchain
+      name: "WorldBlockchain",
+      component: WorldBlockchain
     },
     {
       path: "/insights/data-mining",
-      name: "InsightDataMining",
-      component: InsightDataMining
+      name: "DataMining",
+      component: DataMining
     },
     {
       path: "/insights/analytics-is-popular",
-      name: "InsightPopularAnalytics",
-      component: InsightPopularAnalytics
+      name: "PopularAnalytics",
+      component: PopularAnalytics
     },
     {
       path: "/insights/modern-utility",
-      name: "InsightModernUtility",
-      component: InsightModernUtility
+      name: "ModernUtility",
+      component: ModernUtility
     },
     {
       path: "/insights/azure-machine-learning",
-      name: "InsightAzureML",
-      component: InsightAzureML
+      name: "AzureML",
+      component: AzureML
     },
     {
       path: "/insights/agile-transformation",
-      name: "InsightAgileTransformation",
-      component: InsightAgileTransformation
+      name: "AgileTransformation",
+      component: AgileTransformation
     },
     {
       path: "/insights/digital-transformation",
-      name: "InsightDigitalTransformation",
-      component: InsightDigitalTransformation
+      name: "DigitalTransformation",
+      component: DigitalTransformation
     },
     {
       path: "/insights/agile-understanding",
-      name: "InsightAgileUnderstanding",
-      component: InsightAgileUnderstanding
+      name: "AgileUnderstanding",
+      component: AgileUnderstanding
     },
     {
       path: "/insights/it-agility",
-      name: "InsightITAgility",
-      component: InsightITAgility
+      name: "ITAgility",
+      component: ITAgility
     },
     {
       path: "/insights/data-strategy-right",
-      name: "InsightDataStrategyRight",
-      component: InsightDataStrategyRight
+      name: "DataStrategyRight",
+      component: DataStrategyRight
     },
     {
       path: "/insights/digital-culture",
-      name: "InsightDigitalCulture",
-      component: InsightDigitalCulture
+      name: "DigitalCulture",
+      component: DigitalCulture
     },
     {
       path: "/insights/data-governance-journey",
-      name: "InsightGovernanceJourney",
-      component: InsightGovernanceJourney
+      name: "GovernanceJourney",
+      component: GovernanceJourney
     },
     {
       path: "/insights/agile-embrace",
-      name: "InsightAgileEmbrace",
-      component: InsightAgileEmbrace
+      name: "AgileEmbrace",
+      component: AgileEmbrace
     },
     {
       path: "/insights/big-data-leverage",
-      name: "InsightLeverageBigData",
-      component: InsightLeverageBigData
+      name: "LeverageBigData",
+      component: LeverageBigData
     },
     {
       path: "/insights/data-governance-path",
-      name: "InsightGovernancePath",
-      component: InsightGovernancePath
+      name: "GovernancePath",
+      component: GovernancePath
     },
     {
       path: "/insights/data-analytics-change",
-      name: "InsightDataChange",
-      component: InsightDataChange
+      name: "DataChange",
+      component: DataChange
     },
     {
       path: "/insights/data-security-bi",
-      name: "InsightDataSecurityBI",
-      component: InsightDataSecurityBI
+      name: "DataSecurityBI",
+      component: DataSecurityBI
     },
     {
       path: "/insights/big-data-business",
-      name: "InsightBigDataBusiness",
-      component: InsightBigDataBusiness
+      name: "BigDataBusiness",
+      component: BigDataBusiness
     },
     {
       path: "/insights/analytics-power",
-      name: "InsightAnalyticsPower",
-      component: InsightAnalyticsPower
+      name: "AnalyticsPower",
+      component: AnalyticsPower
     },
     {
       path: "/insights/application-development-approach",
-      name: "InsightAppDevApproach",
-      component: InsightAppDevApproach
+      name: "AppDevApproach",
+      component: AppDevApproach
     },
     {
       path: "/insights/cloud-application-development",
-      name: "InsightCloudAppDev",
-      component: InsightCloudAppDev
+      name: "CloudAppDev",
+      component: CloudAppDev
     },
     {
       path: "/insights/information-architecture",
-      name: "InsightInformationArchitecture",
-      component: InsightInformationArchitecture
+      name: "InformationArchitecture",
+      component: InformationArchitecture
     },
     {
       path: "/insights/bi-data-warehousing",
-      name: "InsightBIDataWarehouse",
-      component: InsightBIDataWarehouse
+      name: "BIDataWarehouse",
+      component: BIDataWarehouse
     },
     {
       path: "/insights/azure-migration",
-      name: "InsightAzureMigration",
-      component: InsightAzureMigration
+      name: "AzureMigration",
+      component: AzureMigration
     },
     {
       path: "/insights/sharepoint",
-      name: "InsightSharePoint",
-      component: InsightSharePoint
+      name: "SharePoint",
+      component: SharePoint
     },
     {
       path: "/insights/power-bi",
-      name: "InsightPowerBI",
-      component: InsightPowerBI
+      name: "PowerBI",
+      component: PowerBI
     },
     {
       path: "/insights/digital-landscape",
-      name: "InsightDigitalLandscape",
-      component: InsightDigitalLandscape
+      name: "DigitalLandscape",
+      component: DigitalLandscape
     },
     {
       path: "/insights/big-data-plan",
-      name: "InsightBigDataPlan",
-      component: InsightBigDataPlan
+      name: "BigDataPlan",
+      component: BigDataPlan
     },
     {
       path: "/work",
@@ -400,6 +413,16 @@ const router = new Router({
       path: "/work/circuit-courts",
       name: "CircuitCourts",
       component: CircuitCourts
+    },
+    {
+      path: "/work/energy",
+      name: "Energy",
+      component: Energy
+    },
+    {
+      path: "/work/firearms-application",
+      name: "FirearmsApplication",
+      component: FirearmsApplication
     },
     {
       path: "/work/vehicle-inspection",

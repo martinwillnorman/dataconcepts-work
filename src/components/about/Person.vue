@@ -1,0 +1,61 @@
+<template>
+  <div class="person">
+    <div
+      data-aos="fade-up"
+      data-aos-duration="600"
+      class="person-image"
+      v-bind:style="{ backgroundImage:  `url('${imagesource}')` }"
+    ></div>
+    <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" class="person-info">
+      <h5 class="person-position">{{position}}</h5>
+      <h4 class="person-name">{{name}}</h4>
+    </div>
+  </div>
+</template>
+
+<script>
+export default {
+  name: "Person",
+  props: ["imagesource", "position", "name"]
+};
+</script>
+
+<style lang="sass" scoped>
+@import "../../assets/sass/settings.sass"
+
+.person
+  width: 40%
+  max-width: 40%
+  flex-basis: 40%
+  position: relative
+  margin-bottom: 100px
+
+.person-image
+  width: 70%
+  height: 350px
+  display: block
+  background-position: center
+  background-size: cover
+
+.person-info
+    position: absolute
+    bottom: -70px
+    left: 60%
+    border: solid 3px $bround-c-yellow
+    padding: 50px
+    width: 50%
+    box-sizing: border-box
+
+.person-position
+    text-transform: uppercase
+    font:
+        size: .8rem
+        weight: 600
+    margin-bottom: 12px
+
+.person-name
+    font:
+        size: 1.6rem   
+    line-height: 1.4
+
+</style>

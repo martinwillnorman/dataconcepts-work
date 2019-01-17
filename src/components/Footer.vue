@@ -84,13 +84,13 @@
                   <router-link class="footer-link-header" to="/work">Work</router-link>
                 </span>
                 <li class="footer-link-list-item">
-                  <router-link class="footer-link" to="/work/capital-one">Trucking</router-link>
+                  <router-link class="footer-link" to="/work/estes-improvement">Trucking</router-link>
                 </li>
                 <li class="footer-link-list-item">
-                  <router-link class="footer-link" to="/work/capital-one">Judiciary</router-link>
+                  <router-link class="footer-link" to="/work/jury-management">Judiciary</router-link>
                 </li>
                 <li class="footer-link-list-item">
-                  <router-link class="footer-link" to="/work/capital-one">Public Safety</router-link>
+                  <router-link class="footer-link" to="/work/sex-registry">Public Safety</router-link>
                 </li>
                 <li class="footer-link-list-item">
                   <router-link class="footer-link" to="/work/capital-one">Energy</router-link>
@@ -102,13 +102,13 @@
 
               <ul class="footer-link-list">
                 <li class="footer-link-list-item-last">
-                  <router-link class="footer-link-header" to="/work/capital-one">Careers</router-link>
+                  <router-link class="footer-link-header" to="/careers">Careers</router-link>
                 </li>
                 <li class="footer-link-list-item-last">
-                  <router-link class="footer-link-header" to="/work/capital-one">Partners</router-link>
+                  <router-link class="footer-link-header" to="/about">Partners</router-link>
                 </li>
                 <li class="footer-link-list-item-last">
-                  <router-link class="footer-link-header" to="/work/capital-one">Contact</router-link>
+                  <router-link class="footer-link-header" to="/contact">Contact</router-link>
                 </li>
               </ul>
             </div>
@@ -158,8 +158,7 @@ export default {
   margin: 0 0 25px
   display: inline-block
   letter-spacing: 1px
-  transition: .18s
-  transition-property: color
+  transition: color .18s
 
 .footer-link-header:hover
   color: #fff
@@ -187,10 +186,7 @@ export default {
     family: $font-header
     weight: 400
   line-height: 24px
-  -webkit-transition: .18s
-  transition: .18s
-  -webkit-transition-property: color
-  transition-property: color
+  transition: color .18s
 
 .footer-link:hover
   color: $bround-c-yellow

@@ -1,13 +1,12 @@
 <template>
   <section class="content-block fullpage">
-    <slot></slot>
     <div class="container">
       <div class="row">
         <div @click="scrollDown" class="show-more">
           <svg
             data-aos="fade-down"
             data-aos-duration="600"
-            fill="#fff"
+            fill="#000"
             version="1.1"
             id="Ebene_2_1_"
             xmlns="http://www.w3.org/2000/svg"
@@ -27,11 +26,9 @@
             </g>
           </svg>
         </div>
-        <div class="column col-1 no-content"></div>
-        <div class="column col-6 responsive-8 responsive-12 center-content">
-          <div class="content-wrapper">
-            <h3 data-aos="fade-up" data-aos-duration="900">{{ title}}</h3>
-            <p data-aos="fade-up" data-aos-duration="900" data-aos-delay="200">{{kicker}}</p>
+        <div class="column col-12">
+          <div class="content-wrapper text-hero-wrapper">
+            <h1 data-aos="fade-in" data-aos-duration="600" class="text-hero-title">{{title}}</h1>
           </div>
         </div>
       </div>
@@ -41,8 +38,8 @@
 
 <script>
 export default {
-  name: "Hero",
-  props: ["title", "kicker"],
+  name: "TextHero",
+  props: ["title"],
   methods: {
     scrollDown() {
       document.getElementById("first").scrollIntoView({
@@ -54,41 +51,21 @@ export default {
 };
 </script>
 
+
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-.content-wrapper
-  padding-top: 250px
+.text-hero-title
+  font:
+    size: 170px
+    family: $font-body
+  line-height: .95
+  letter-spacing: -8px
+  position: absolute
+  bottom: 20%
 
-h3
-    font:
-        size: 4rem
-    color: #fff
-    margin-bottom: 20px
-
-p
-    color: #fff
-    font:
-        size: 1.8rem
-    line-height: 1.5
-    letter-spacing: 1px
-
-@media only screen and (max-width: 679px)
-  .content-wrapper
-    padding-top: 100px
-    max-width: 400px
-
-  h3
-    font:
-      size: 3rem
-
-  p
-    font: 
-      size: 1.5rem
-
-@media only screen and (max-width: 450px)
-  .content-wrapper
-    padding-top: 0
-    text-align: center
+.text-hero-wrapper 
+  height: 100%
+  position: relative
 
 </style>

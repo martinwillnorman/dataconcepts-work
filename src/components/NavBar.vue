@@ -17,6 +17,9 @@
                   <router-link to="/insights">Insights</router-link>
                 </li>
                 <li>
+                  <router-link to="/about">About</router-link>
+                </li>
+                <li>
                   <router-link to="/careers">Careers</router-link>
                 </li>
                 <li>

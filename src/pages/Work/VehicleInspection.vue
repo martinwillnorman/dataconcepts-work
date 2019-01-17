@@ -9,18 +9,18 @@
 
       <Summary
         Challenge="The administration of the Commonwealth of Virginia’s statewide Motor Vehicle Safety Inspection Program [MVIP] is the responsibility of Virginia State Police."
-      />
-      <Spacer/>
-      <Role>
-        <li>Java</li>
-        <li>JEE</li>
-        <li>Web Services</li>
-        <li>JavaScript</li>
-        <li>XML</li>
-        <li>DB2</li>
-        <li>IBM WebSphere</li>
-        <li>Oracle</li>
-      </Role>
+      >
+        <Role>
+          <li>Java</li>
+          <li>JEE</li>
+          <li>Web Services</li>
+          <li>JavaScript</li>
+          <li>XML</li>
+          <li>DB2</li>
+          <li>IBM WebSphere</li>
+          <li>Oracle</li>
+        </Role>
+      </Summary>
 
       <Challenge>
         <h1 class="challenge-header">CHALLENGE</h1>
