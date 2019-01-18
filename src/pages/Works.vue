@@ -406,8 +406,6 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
-.container
-  max-width: 100%
 
 .clientele-wrapper
   display: flex

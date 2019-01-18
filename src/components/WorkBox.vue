@@ -15,9 +15,9 @@ export default {
 @import "../assets/sass/settings.sass"
 
 .work
-  width: 33.33333%
-  max-width: 33.33333%
-  flex-basis: 33.33333%
+  width: 50%
+  max-width: 50%
+  flex-basis: 50%
   box-sizing: border-box
   position: relative
 
