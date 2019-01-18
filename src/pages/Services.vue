@@ -155,6 +155,13 @@
               <h3>Microsoft Azure</h3>
             </div>
           </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/ui-ux"></router-link>
+            <div id="cyber-security-bround" class="service-background"></div>
+            <div class="service-content">
+              <h3>UI/UX</h3>
+            </div>
+          </div>
         </div>
       </section>
       <section class="content-block mostpage">

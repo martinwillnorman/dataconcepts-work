@@ -9,6 +9,7 @@
     <div data-aos="fade-up" data-aos-duration="600" data-aos-delay="100" class="person-info">
       <h5 class="person-position">{{position}}</h5>
       <h4 class="person-name">{{name}}</h4>
+      <span>{{location}}</span>
     </div>
   </div>
 </template>
@@ -16,7 +17,7 @@
 <script>
 export default {
   name: "Person",
-  props: ["imagesource", "position", "name"]
+  props: ["imagesource", "position", "name", "location"]
 };
 </script>
 
@@ -32,7 +33,7 @@ export default {
 
 .person-image
   width: 70%
-  height: 350px
+  height: 400px
   display: block
   background-position: center
   background-size: cover

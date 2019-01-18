@@ -31,6 +31,9 @@ import UnifiedData from "@/pages/Work/UnifiedData.vue";
 import CircuitCourts from "@/pages/Work/CircuitCourts.vue";
 import Energy from "@/pages/Work/Energy.vue";
 import FirearmsApplication from "@/pages/Work/FirearmsApplication.vue";
+import Sabra from "@/pages/Work/Sabra.vue";
+import CriminalHistory from "@/pages/Work/CriminalHistory.vue";
+import Court from "@/pages/Work/Court.vue";
 
 // service pages
 import BigData from "@/pages/Service/BigData.vue";
@@ -55,6 +58,7 @@ import DataIntegration from "@/pages/Service/DataIntegration.vue";
 import MasterDataManagement from "@/pages/Service/MasterDataManagement.vue";
 import DataVisualization from "@/pages/Service/DataVisualization.vue";
 import DataScience from "@/pages/Service/DataScience.vue";
+import UIUX from "@/pages/Service/UIUX.vue";
 
 // insight pages
 import QuickPeek from "@/pages/Insights/QuickPeek.vue";
@@ -258,6 +262,11 @@ const router = new Router({
       path: "/services/data-science",
       name: "DataScience",
       component: DataScience
+    },
+    {
+      path: "/services/ui-ux",
+      name: "UIUX",
+      component: UIUX
     },
     {
       path: "/insights/quick-peek",
@@ -523,6 +532,21 @@ const router = new Router({
       path: "/work/unified-data",
       name: "UnifiedData",
       component: UnifiedData
+    },
+    {
+      path: "/work/sabra",
+      name: "Sabra",
+      component: Sabra
+    },
+    {
+      path: "/work/criminal-history",
+      name: "CriminalHistory",
+      component: CriminalHistory
+    },
+    {
+      path: "/work/court",
+      name: "Court",
+      component: Court
     }
   ]
 });

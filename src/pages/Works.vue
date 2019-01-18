@@ -7,7 +7,6 @@
 
       <section id="first" class="content-block">
         <div class="container">
-          <Spacer/>
           <!-- <div class="row padded-bottom">
             <div class="column col-8 responsive-12 centered">
               <div class="content-wrapper kicker-wrapper">
@@ -20,6 +19,26 @@
           <div class="row padded">
             <div class="column col-12 center-horizontal">
               <div class="content-wrapper work-wrapper">
+                <WorkBox data-aos="fade-up" data-aos-duration="600">
+                  <router-link class="work-link" to="/work/criminal-history">
+                    <div class="work-background criminal-history"></div>
+                    <div class="work-tint criminal-history"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Virginia State Police: Computerized Criminal History</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
+                <WorkBox data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
+                  <router-link class="work-link" to="/work/court">
+                    <div class="work-background court"></div>
+                    <div class="work-tint court"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Supreme Court of Virginia: Data Warehouse Rearchticture</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
                 <WorkBox data-aos="fade-up" data-aos-duration="600">
                   <router-link class="work-link" to="/work/circuit-courts">
                     <div class="work-background circuit-courts"></div>
@@ -250,6 +269,16 @@
                     <WorkArrow/>
                   </router-link>
                 </WorkBox>
+                <WorkBox data-aos="fade-up" data-aos-duration="600">
+                  <router-link class="work-link" to="/work/sabra">
+                    <div class="work-background sabra"></div>
+                    <div class="work-tint sabra"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Sabra: Excel to .Net Conversion</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
               </div>
             </div>
           </div>
@@ -377,6 +406,9 @@ export default {
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
 
+.container
+  max-width: 100%
+
 .clientele-wrapper
   display: flex
   flex-wrap: wrap
@@ -416,7 +448,6 @@ img
   line-height: 1.8
 
 .work-wrapper
-  max-width: 1140px
   display: flex
   flex-wrap: wrap
 
@@ -474,6 +505,12 @@ img
   font: 
     size: 2.8rem
   line-height: 1.2
+
+.work-tint.criminal-history
+  background-color: #ffc200
+
+.work-tint.court
+  background-color: #0e414c
 
 .work-tint.circuit-courts
   background-color: #FF2828
@@ -544,6 +581,9 @@ img
 .work-tint.firearms-application
   background-color: #EF4C23
 
+.work-tint.sabra
+  background-color: #ca0853
+
 .work-background.circuit-courts
   background-image: url(../assets/background/work-small/circuit-courts.jpg)
 
@@ -612,6 +652,9 @@ img
 
 .work-background.firearms-application
   // background-image: url(../assets/background/work-small/firearms-application.jpg)
+
+.work-background.sabra
+  // background-image: url(../assets/background/work-small/sabra.jpg)
 
 @media only screen and (max-width: 1080px)
   .work-wrapper

@@ -9,26 +9,31 @@
 
       <People>
         <Person
+          position="Cyber Security Architect"
+          name="Sean"
+          location="Richmond, VA"
+          imagesource="./people/SeanColor.jpg"
+        />
+        <Person
           position="Founder & CEO"
-          name="Rooz Dadaboy"
+          name="Rooz Dadabhoy"
           imagesource="./insight-images/dance-2.jpg"
         />
         <Person
           position="Founder & CEO"
-          name="Rooz Dadaboy"
+          name="Rooz Dadabhoy"
           imagesource="./insight-images/dance-2.jpg"
         />
         <Person
           position="Founder & CEO"
-          name="Rooz Dadaboy"
-          imagesource="./insight-images/dance-2.jpg"
-        />
-        <Person
-          position="Founder & CEO"
-          name="Rooz Dadaboy"
+          name="Rooz Dadabhoy"
           imagesource="./insight-images/dance-2.jpg"
         />
       </People>
+
+      <Culture/>
+
+      <Partners/>
     </div>
   </div>
 </template>
@@ -40,6 +45,8 @@ import TextHero from "../components/TextHero.vue";
 import AboutUs from "../components/about/AboutUs.vue";
 import People from "../components/about/People.vue";
 import Person from "../components/about/Person.vue";
+import Culture from "../components/about/Culture.vue";
+import Partners from "../components/about/Partners.vue";
 
 export default {
   name: "About",
@@ -49,7 +56,9 @@ export default {
     TextHero,
     AboutUs,
     People,
-    Person
+    Person,
+    Culture,
+    Partners
   }
 };
 </script>

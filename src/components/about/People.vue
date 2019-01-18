@@ -1,6 +1,6 @@
 <template>
-  <section class="content-block">
-    <div class="container people-container">
+  <section class="content-block people-block">
+    <div class="container">
       <div class="row">
         <div class="column col-4">
           <div class="content-wrapper">
@@ -16,11 +16,11 @@
               data-aos="fade-up"
               data-aos-duration="600"
               class="people-header"
-            >Technologist, Strategists, Creatives, & Engineers.</h1>
+            >Technologists, Strategists, Creatives, & Engineers.</h1>
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row padded">
         <div class="column col-12">
           <div class="people-wrapper">
             <slot></slot>
@@ -43,8 +43,8 @@ export default {
 .people-header-wrapper
     padding: 50px 0
 
-.people-container
-    padding: 200px 0
+.people-block
+    padding: 200px 0 100px
 
 .people-header
     font:
@@ -57,7 +57,7 @@ export default {
     padding: 0 1%
     display: flex
     flex-wrap: wrap
-    justify-content: space-around
+    justify-content: space-between
     width: 100%
 
 </style>
