@@ -7,7 +7,9 @@ import VueParallaxJs from "vue-parallax-js";
 import VueParticles from "vue-particles";
 import VueFullPage from "vue-fullpage.js";
 import "fullpage.js/vendors/scrolloverflow";
+import moment from "moment-timezone";
 
+Vue.use(moment);
 Vue.use(VueFullPage);
 
 Vue.use(VueParticles);

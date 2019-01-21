@@ -105,7 +105,7 @@
                   <router-link class="footer-link-header" to="/careers">Careers</router-link>
                 </li>
                 <li class="footer-link-list-item-last">
-                  <router-link class="footer-link-header" to="/about">Partners</router-link>
+                  <router-link class="footer-link-header" to="/about/#partners">Partners</router-link>
                 </li>
                 <li class="footer-link-list-item-last">
                   <router-link class="footer-link-header" to="/contact">Contact</router-link>

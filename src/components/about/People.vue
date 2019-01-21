@@ -20,11 +20,9 @@
           </div>
         </div>
       </div>
-      <div class="row padded">
+      <div class="row">
         <div class="column col-12">
-          <div class="people-wrapper">
-            <slot></slot>
-          </div>
+          <slot></slot>
         </div>
       </div>
     </div>
@@ -44,7 +42,7 @@ export default {
     padding: 50px 0
 
 .people-block
-    padding: 200px 0 100px
+    padding: 100px 0
 
 .people-header
     font:
@@ -57,7 +55,7 @@ export default {
     padding: 0 1%
     display: flex
     flex-wrap: wrap
-    justify-content: space-between
+    justify-content: space-around
     width: 100%
 
 </style>

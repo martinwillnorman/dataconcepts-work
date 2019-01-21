@@ -279,6 +279,16 @@
                     <WorkArrow/>
                   </router-link>
                 </WorkBox>
+                <WorkBox data-aos="fade-up" data-aos-duration="600">
+                  <router-link class="work-link" to="/work/energy-2">
+                    <div class="work-background energy2"></div>
+                    <div class="work-tint energy2"></div>
+                    <div class="work-overlay">
+                      <h3 class="text-white">Energy 2</h3>
+                    </div>
+                    <WorkArrow/>
+                  </router-link>
+                </WorkBox>
               </div>
             </div>
           </div>
@@ -582,6 +592,9 @@ img
 .work-tint.sabra
   background-color: #ca0853
 
+.work-tint.energy2
+  background-color: #ca0853
+
 .work-background.circuit-courts
   background-image: url(../assets/background/work-small/circuit-courts.jpg)
 
@@ -653,6 +666,9 @@ img
 
 .work-background.sabra
   // background-image: url(../assets/background/work-small/sabra.jpg)
+
+.work-background.energy2
+  // background-image: url(../assets/background/work-small/energy2.jpg)
 
 @media only screen and (max-width: 1080px)
   .work-wrapper

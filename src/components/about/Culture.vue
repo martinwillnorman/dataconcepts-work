@@ -12,11 +12,7 @@
         </div>
 
         <div class="column col-12">
-          <div
-            data-aos="fade-up"
-            data-aos-duration="600"
-            class="content-wrapper culture-wrapper padded"
-          >
+          <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper culture-wrapper">
             <div class="culture">
               <h1 class="culture-title">growth at data concepts</h1>
               <p
@@ -73,6 +69,7 @@ export default {
     display: flex
     flex-wrap: wrap
     justify-content: space-between
+    padding: 100px 0
 
 .culture
   width: 31%

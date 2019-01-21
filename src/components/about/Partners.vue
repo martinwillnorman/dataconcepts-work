@@ -1,7 +1,7 @@
 <template>
   <section class="content-block">
     <div class="container">
-      <div class="row padded-large">
+      <div class="row">
         <div class="column col-4">
           <div class="content-wrapper">
             <div class="subtitle-wrapper">
@@ -11,7 +11,7 @@
           </div>
         </div>
         <div class="column col-12">
-          <div class="content-wrapper partners-wrapper">
+          <div data-aos="fade-up" data-aos-duration="600" class="content-wrapper partners-wrapper">
             <div class="partner">
               <img src="../../assets/logo/aws.png" alt>
             </div>
@@ -56,6 +56,7 @@ img
   display: flex
   flex-wrap: wrap
   justify-content: center
+  padding: 80px 0
 
 .partner
   width: 23%

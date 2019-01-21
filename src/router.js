@@ -34,6 +34,7 @@ import FirearmsApplication from "@/pages/Work/FirearmsApplication.vue";
 import Sabra from "@/pages/Work/Sabra.vue";
 import CriminalHistory from "@/pages/Work/CriminalHistory.vue";
 import Court from "@/pages/Work/Court.vue";
+import Energy2 from "@/pages/Work/Energy2.vue";
 
 // service pages
 import BigData from "@/pages/Service/BigData.vue";
@@ -547,6 +548,11 @@ const router = new Router({
       path: "/work/court",
       name: "Court",
       component: Court
+    },
+    {
+      path: "/work/energy-2",
+      name: "Energy2",
+      component: Energy2
     }
   ]
 });

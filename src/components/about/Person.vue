@@ -29,23 +29,25 @@ export default {
   max-width: 40%
   flex-basis: 40%
   position: relative
-  margin-bottom: 100px
+  margin-bottom: 80px
 
 .person-image
-  width: 70%
-  height: 400px
+  width: 90%
+  margin: 0 auto
+  height: 600px
   display: block
   background-position: center
   background-size: cover
 
 .person-info
     position: absolute
-    bottom: -70px
-    left: 60%
+    bottom: -115px
+    left: 25%
     border: solid 3px $bround-c-yellow
-    padding: 50px
+    padding: 45px
     width: 50%
     box-sizing: border-box
+    text-align: center
 
 .person-position
     text-transform: uppercase
@@ -53,6 +55,7 @@ export default {
         size: .8rem
         weight: 600
     margin-bottom: 12px
+    color: #fff
 
 .person-name
     font:
