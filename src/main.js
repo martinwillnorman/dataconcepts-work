@@ -8,10 +8,11 @@ import VueParticles from "vue-particles";
 import VueFullPage from "vue-fullpage.js";
 import "fullpage.js/vendors/scrolloverflow";
 import moment from "moment-timezone";
+import VeeValidate from "vee-validate";
 
+Vue.use(VeeValidate);
 Vue.use(moment);
 Vue.use(VueFullPage);
-
 Vue.use(VueParticles);
 Vue.use(VueParallaxJs);
 

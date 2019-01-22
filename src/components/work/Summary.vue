@@ -16,7 +16,11 @@
           </div>
         </div>
       </div>
-      <Spacer/>
+      <div class="row">
+        <div class="column col-12">
+          <div class="spacing"></div>
+        </div>
+      </div>
       <slot></slot>
     </div>
   </section>
@@ -37,6 +41,9 @@ export default {
 
 <style lang="sass" scoped>
 @import "../../assets/sass/settings.sass"
+
+.spacing
+  height: 100px
 
 
 .promise-text 

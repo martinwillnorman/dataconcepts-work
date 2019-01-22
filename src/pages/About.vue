@@ -22,28 +22,11 @@
             imagesource="./people/Zhichao.jpeg"
           />
           <Person
-            position="Founder & CEO"
-            name="Rooz Dadabhoy"
-            imagesource="./insight-images/dance-2.jpg"
-          />
-        </div>
-        <div class="people-wrapper">
-          <Person
-            position="Cyber Security Architect"
-            name="Sean"
+            id="ana-james"
+            position="Office Manager"
+            name="Ana James"
             location="Richmond, VA"
-            imagesource="./people/SeanColor.jpg"
-          />
-          <Person
-            position="Full Stack Developer"
-            name="Zichao Xu"
-            location="Richmond, VA"
-            imagesource="./people/Zhichao.jpeg"
-          />
-          <Person
-            position="Founder & CEO"
-            name="Rooz Dadabhoy"
-            imagesource="./insight-images/dance-2.jpg"
+            imagesource="./people/Ana.jpg"
           />
         </div>
       </People>
@@ -53,6 +36,13 @@
       <Partners id="partners"/>
 
       <SeeOurWork subtitle="see our work"/>
+
+      <section class="content-block fullpage">
+        <div v-parallax="0.4" class="cover-image hero-background"></div>
+      </section>
+      <WorkWithUs/>
+
+      <Subscribe/>
     </div>
   </div>
 </template>
@@ -67,6 +57,8 @@ import Person from "../components/about/Person.vue";
 import Culture from "../components/about/Culture.vue";
 import Partners from "../components/about/Partners.vue";
 import SeeOurWork from "../components/about/SeeOurWork.vue";
+import WorkWithUs from "../components/about/WorkWithUs.vue";
+import Subscribe from "../components/about/Subscribe.vue";
 
 export default {
   name: "About",
@@ -79,12 +71,27 @@ export default {
     Person,
     Culture,
     Partners,
-    SeeOurWork
+    SeeOurWork,
+    WorkWithUs,
+    Subscribe
   }
 };
 </script>
 
 <style lang="sass" scoped>
 @import "../assets/sass/settings.sass"
+
+.hero-background
+  background-image: url(../assets/background/insights/FullSizeRender.jpg)
+  background-size: cover
+
+.people-wrapper
+  margin: 0 auto
+  max-width: 1400px
+  padding: 0 1%
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  width: 100%
 
 </style>

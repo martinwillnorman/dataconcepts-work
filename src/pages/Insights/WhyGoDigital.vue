@@ -17,7 +17,7 @@
         <div class="container">
           <Spacer/>
           <InsightSubSection
-            title="What is Blockchain and how does it work?"
+            title="Transforms Customer Experience"
             content="Blockchain is a distributed digital ledger that keeps track of transactions in a verifiable, secured and permanent way. By design, blockchain is a decentralized technology and anything that happens on it alters all the nodes within that network. Each blockchain network consists of nodes where each node is nothing but a user’s computer or device. These nodes share digital information (basically cryptocurrencies) among themselves and that transaction gets recorded on each node in that network."
           ></InsightSubSection>
           <InsightSubSection

@@ -43,6 +43,7 @@ export default {
 
 .people-block
     padding: 100px 0
+    margin-bottom: 100px
 
 .people-header
     font:
