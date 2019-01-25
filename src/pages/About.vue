@@ -35,7 +35,6 @@
             location="Richmond, VA"
             imagesource="./people/Claire.jpg"
           />
-
           <Person
             position="Managing Director"
             name="Varun Mehta"
