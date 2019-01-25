@@ -150,14 +150,14 @@
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/microsoft-azure"></router-link>
-            <div id="cyber-security-bround" class="service-background"></div>
+            <div id="microsoft-azure-bround" class="service-background"></div>
             <div class="service-content">
               <h3>Microsoft Azure</h3>
             </div>
           </div>
           <div class="service">
             <router-link class="service-link" to="/services/ui-ux"></router-link>
-            <div id="cyber-security-bround" class="service-background"></div>
+            <div id="ui-ux-bround" class="service-background"></div>
             <div class="service-content">
               <h3>UI/UX</h3>
             </div>
@@ -183,13 +183,6 @@
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services/data-governance"></router-link>
-            <div id="data-gov-bround" class="service-background-2"></div>
-            <div class="service-content">
-              <h3>Data Governance</h3>
-            </div>
-          </div>
-          <div class="service">
             <router-link class="service-link" to="/services/data-warehouse"></router-link>
             <div id="data-ware-bround" class="service-background-2"></div>
             <div class="service-content">
@@ -197,10 +190,10 @@
             </div>
           </div>
           <div class="service">
-            <router-link class="service-link" to="/services/data-integration"></router-link>
-            <div id="data-int-bround" class="service-background-2"></div>
+            <router-link class="service-link" to="/services/data-governance"></router-link>
+            <div id="data-gov-bround" class="service-background-2"></div>
             <div class="service-content">
-              <h3>Data Integration</h3>
+              <h3>Data Governance</h3>
             </div>
           </div>
           <div class="service">
@@ -215,6 +208,13 @@
             <div id="data-vis-bround" class="service-background-2"></div>
             <div class="service-content">
               <h3>Data Visualization</h3>
+            </div>
+          </div>
+          <div class="service">
+            <router-link class="service-link" to="/services/data-integration"></router-link>
+            <div id="data-int-bround" class="service-background-2"></div>
+            <div class="service-content">
+              <h3>Data Integration</h3>
             </div>
           </div>
           <div class="service">
@@ -271,7 +271,7 @@ export default {
   padding-top: 180px
 
 #big-data-bround
-  background-image: url(../assets/background/services-small/big-data.jpg)
+  background-image: url(../assets/background/services-large/service-100.jpg)
 
 #iot-bround
   background-image: url(../assets/background/services-small/iot.jpg)
@@ -292,10 +292,10 @@ export default {
   background-image: url(../assets/background/services-small/blockchain.jpg)
 
 #app-dev-bround
-  background-image: url(../assets/background/services-small/app-dev.jpg)
+  background-image: url(../assets/background/services-large/service-101.jpg)
 
 #cyber-security-bround
-  background-image: url(../assets/background/services-small/cyber-security.jpg)
+  background-image: url(../assets/background/services-large/service-108.jpg)
 
 #mobility-bround
   background-image: url(../assets/background/services-small/mobility.jpg)
@@ -307,19 +307,19 @@ export default {
   background-image: url(../assets/background/services-small/kafka.jpg)
 
 #program-management-bround
-  background-image: url(../assets/background/services-small/program-management.jpg)
+  background-image: url(../assets/background/services-large/service-105.jpg)
 
 #digital-strategy-bround
-  background-image: url(../assets/background/services-small/digital-strategy.jpg)
+  background-image: url(../assets/background/services-large/service-104.jpg)
 
 #data-strategy-bround
   background-image: url(../assets/background/services-small/data-strategy.jpg)
 
 #data-gov-bround
-  background-image: url(../assets/background/services-small/data-governance.jpg)
+  background-image: url(../assets/background/services-large/service-118.jpg)
 
 #data-ware-bround
-  background-image: url(../assets/background/services-small/data-warehouse.jpg)
+  background-image: url(../assets/background/services-large/service-113.jpg)
 
 #data-int-bround
   background-image: url(../assets/background/services-small/data-integration.jpg)
@@ -333,6 +333,12 @@ export default {
 #data-vis-bround
   background-image: url(../assets/background/services-small/data-visualization.jpg)
 
+#microsoft-azure-bround
+  background-image: url(../assets/background/services-small/cyber-security.jpg)
+
+#ui-ux-bround
+  background-image: url(../assets/background/services-large/service-109.jpg)
+
 .services-wrapper
     display: flex
     flex-wrap: wrap
@@ -345,7 +351,7 @@ export default {
     position: relative
 
 .service-background
-    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(140deg) saturate(6)
+    filter: brightness(0.55) contrast(1.1) sepia(100%) hue-rotate(140deg) saturate(6)
     background-size: cover
     position: absolute
     top: 0
@@ -354,7 +360,7 @@ export default {
     left: 0
 
 .service-background-2
-    filter: brightness(0.35) contrast(1) sepia(100%) hue-rotate(235deg) saturate(6)
+    filter: brightness(0.45) contrast(1) sepia(100%) hue-rotate(235deg) saturate(6)
     background-size: cover
     position: absolute
     top: 0

@@ -16,22 +16,52 @@
       />
 
       <Services subtitle="services">
-        <SubService data-aos="fade-up" data-aos-duration="600" title="d" content="d"/>
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Data Governance"
+          content="We will reduce data complexity through a standardized and structured framework."
+        />
         <SubService
           data-aos="fade-up"
           data-aos-duration="600"
           data-aos-delay="100"
-          title="d"
-          content="d"
+          title="Data Quality"
+          content="We clean data in your database downstream and minimize the problem of poor data."
         />
         <SubService
           data-aos="fade-up"
           data-aos-duration="600"
           data-aos-delay="200"
-          title="d"
-          content="d"
+          title="Data Migration"
+          content="We accelerate the data migration process while ensuring clean data is loaded to the new system."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Master Data Management"
+          content="We take control of your core business information and ensure it is accurate and trusted by your collaborators."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          title="Metadata Management"
+          content="We ensure that business data is clearly understood and consistently used across your company."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          title="Data Masking"
+          content="We deploy data masking across the enterprise."
         />
       </Services>
+
+      <AsideRight
+        title="Thinking about moving your company’s data to the cloud?"
+        content="There is more to it than selecting a cloud data warehouse – you’ll also need tools to make your migration manageable. Data Concepts can help you to build and rebuild your ETL processes and to populate your data warehouse."
+      />
 
       <Definition subtitle="definition">
         <SubDefinition
@@ -58,11 +88,76 @@
         />
       </Definition>
 
+      <AdditionalServices
+        subtitle="technology"
+        title="Modern Data Warehousing."
+        paragraphOne="A data warehouse is a data storage system designed specifically for query and analysis, enabling businesses to transform data into actionable insight. To solve for the growing challenges of conventional on-premises data warehousing, many organizations are moving to a cloud data warehouse model. We can help you embark upon four major cloud data warehouse players:"
+      >
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="Amazon Redshift"
+          content="Amazon Redshift is an Amazon Web Services product that runs complex queries against petabytes of structured data. Redshift Spectrum runs SQL queries on structured or unstructured objects stored in S3."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          title="Google BigQuery"
+          content="BigQuery is a RESTful web service that works in conjunction with Google Storage. It is used for managing and querying data and can be used from any language built with the REST API."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          title="Microsoft Azure"
+          content="Microsoft’s cloud computing solution is for building, testing, deploying, and managing applications and services through Microsoft’s network of data centers."
+        />
+        <SubService
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="SnowflakeDB"
+          content="This cloud SQL data warehouse supports all types of data as well as ETL and BI tools."
+        />
+      </AdditionalServices>
+
       <InsightHighlight
         title="Business Intelligence & Data Warehousing"
         imagesource="../insight-images/warehouse.jpg"
         link="/insights/bi-data-warehousing"
       />
+
+      <Related>
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          title="A Quick Peek in to  Data Strategy"
+          summary="Every business and organisation has its own unique set of goals, KPIs and targets, and we believe that everything that we do should be devised, planned and executed with these objectives in mind."
+          category="Data Strategy"
+          link="/insights/quick-peek"
+          imagesource="../insight-images/dance-2.jpg"
+        />
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="100"
+          link="/insights/data-mining"
+          category="Big Data"
+          title="Extracting Actionable Insights from Data"
+          summary="Data mining is the extraction of actionable insights from data."
+          imagesource="../insight-images/entry.jpg"
+        />
+        <InsightCard
+          data-aos="fade-up"
+          data-aos-duration="600"
+          data-aos-delay="200"
+          link="/insights/analytics-is-popular"
+          category="Data & Analytics"
+          title="The Popularity of Analytics"
+          summary="Ten imperatives for successfully developing an analytics capability."
+          imagesource="../insight-images/model.jpg"
+        />
+      </Related>
 
       <Footer/>
     </div>
@@ -80,6 +175,10 @@ import Definition from "../../components/service/Definition.vue";
 import SubDefinition from "../../components/service/SubDefinition.vue";
 import InsightHighlight from "../../components/service/InsightHighlight.vue";
 import Footer from "../../components/service/Footer.vue";
+import AsideRight from "../../components/service/AsideRight.vue";
+import AdditionalServices from "../../components/service/AdditionalServices.vue";
+import Related from "../../components/service/Related.vue";
+import InsightCard from "../../components/insight/InsightCard.vue";
 
 export default {
   name: "DataWarehouse",
@@ -93,7 +192,11 @@ export default {
     Definition,
     SubDefinition,
     InsightHighlight,
-    Footer
+    Footer,
+    AsideRight,
+    AdditionalServices,
+    Related,
+    InsightCard
   }
 };
 </script>
@@ -103,6 +206,6 @@ export default {
 @import "../../assets/sass/settings.sass"
 
 .hero-background
-  background-image: url(../../assets/background/services-large/data-warehouse.jpg)
+  background-image: url(../../assets/background/services-large/service-113.jpg)
 
 </style>

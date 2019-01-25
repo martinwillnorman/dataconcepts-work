@@ -190,6 +190,6 @@ export default {
 @import "../../assets/sass/settings.sass"
 
 .hero-background
-  background-image: url(../../assets/background/services-large/cyber-security.jpg)
+  background-image: url(../../assets/background/services-large/service-108.jpg)
   
 </style>

@@ -29,7 +29,7 @@ export default {
   max-width: 33.3333%
   flex-basis: 33.3333%
   position: relative
-  margin-bottom: 80px
+  margin-bottom: 200px
 
 .person-image
   width: 70%

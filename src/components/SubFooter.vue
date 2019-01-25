@@ -107,6 +107,12 @@ export default {
     display: flex
     justify-content: space-between
     align-items: center
+    position: relative
+
+.logo-wrapper
+  position: absolute
+  left: 50%
+  transform: translate(-50%, 0)
 
 .subfooter-logo
     color: $font-c-subfooter

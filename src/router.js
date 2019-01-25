@@ -6,6 +6,8 @@ import Services from "@/pages/Services.vue";
 import Works from "@/pages/Works.vue";
 import Contact from "@/pages/Contact.vue";
 import About from "@/pages/About.vue";
+import HireUs from "@/pages/HireUs.vue";
+import Careers from "@/pages/Careers.vue";
 
 // work pages
 import VehicleInspection from "@/pages/Work/VehicleInspection.vue";
@@ -91,10 +93,16 @@ import SharePoint from "@/pages/Insights/SharePoint.vue";
 import PowerBI from "@/pages/Insights/PowerBI.vue";
 import DigitalLandscape from "@/pages/Insights/DigitalLandscape.vue";
 import BigDataPlan from "@/pages/Insights/BigDataPlan.vue";
+import MDMvsDW from "@/pages/Insights/MDMvsDW.vue";
 
 Vue.use(Router);
 
 const router = new Router({
+  watch: {
+    $route(to, from) {
+      console.log("rout changed");
+    }
+  },
   mode: "history",
   scrollBehavior(to, from, savedPosition) {
     if (savedPosition) {
@@ -148,6 +156,26 @@ const router = new Router({
       path: "/about",
       name: "About",
       component: About,
+      beforeEnter: (to, from, next) => {
+        const el1 = document.body;
+        el1.classList.remove("hide-overflow");
+        next();
+      }
+    },
+    {
+      path: "/hire-us",
+      name: "HireUs",
+      component: HireUs,
+      beforeEnter: (to, from, next) => {
+        const el1 = document.body;
+        el1.classList.remove("hide-overflow");
+        next();
+      }
+    },
+    {
+      path: "/careers",
+      name: "Careers",
+      component: Careers,
       beforeEnter: (to, from, next) => {
         const el1 = document.body;
         el1.classList.remove("hide-overflow");
@@ -413,6 +441,11 @@ const router = new Router({
       path: "/insights/big-data-plan",
       name: "BigDataPlan",
       component: BigDataPlan
+    },
+    {
+      path: "/insights/mdm-vs-dw",
+      name: "MDMvsDW",
+      component: MDMvsDW
     },
     {
       path: "/work",

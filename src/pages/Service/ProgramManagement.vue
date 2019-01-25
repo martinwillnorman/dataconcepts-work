@@ -66,6 +66,6 @@ export default {
 @import "../../assets/sass/settings.sass"
 
 .hero-background
-  background-image: url(../../assets/background/services-large/program-management.jpg)
+  background-image: url(../../assets/background/services-large/service-105.jpg)
 
 </style>

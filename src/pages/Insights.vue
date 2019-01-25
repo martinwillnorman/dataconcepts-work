@@ -401,6 +401,15 @@
                   summary="A game plan for assembling and integrating data is essential."
                   imagesource="./insight-images/lights-7.jpg"
                 />
+                <InsightCard
+                  data-aos="fade-up"
+                  data-aos-duration="600"
+                  link="/insights/mdm-vs-dw"
+                  category="Master Data Management | Data Warehouse"
+                  title="The difference between Master Data Management & Data Warehousing"
+                  summary="It may seem like Master Data Management and Data Warehousing have a lot in common, but there are several key differences that are important to delineate."
+                  imagesource="./insight-images/lights-7.jpg"
+                />
               </div>
             </div>
           </div>

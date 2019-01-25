@@ -307,8 +307,7 @@ export default {
 @import "../../assets/sass/settings.sass"
 
 .hero-background
-  background-image: url(../../assets/background/services-large/bigdata-5.jpg)
-  background-size: contain
-  background-position: center 40%
+  background-image: url(../../assets/background/services-large/service-100.jpg)
+  background-size: cover
 
 </style>

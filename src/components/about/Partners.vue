@@ -55,7 +55,6 @@ img
 .partners-wrapper
   display: flex
   flex-wrap: wrap
-  justify-content: center
   padding: 80px 0
 
 .partner
@@ -69,7 +68,7 @@ img
   display: flex
   justify-content: center
   align-items: center
-  border-bottom: solid 0.05555rem $spacer-c
+  margin-bottom: 80px
 
 #mongodb
     transform: scale(1.4)

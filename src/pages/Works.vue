@@ -79,16 +79,7 @@
                     <WorkArrow/>
                   </router-link>
                 </WorkBox>
-                <WorkBox data-aos="fade-up" data-aos-duration="600">
-                  <router-link class="work-link" to="/work/moonlighting">
-                    <div class="work-background moonlighting"></div>
-                    <div class="work-tint moonlighting"></div>
-                    <div class="work-overlay">
-                      <h3 class="text-white">Moonlighting: Jobs Portal</h3>
-                    </div>
-                    <WorkArrow/>
-                  </router-link>
-                </WorkBox>
+
                 <WorkBox data-aos="fade-up" data-aos-duration="600" data-aos-delay="200">
                   <router-link class="work-link" to="/work/sex-registry">
                     <div class="work-background sex-registry"></div>
@@ -374,7 +365,6 @@
           </div>
         </div>
       </section>
-      <WorkTogether/>
     </div>
   </div>
 </template>
@@ -383,7 +373,6 @@
 import NavBar from "../components/NavBar.vue";
 import ModalMenu from "../components/ModalMenu.vue";
 import Spacer from "../components/Spacer.vue";
-import WorkTogether from "../components/WorkTogether.vue";
 import WorkBox from "../components/WorkBox.vue";
 import WorkArrow from "../components/WorkArrow.vue";
 import ClienteleBox from "../components/ClienteleBox.vue";
@@ -395,7 +384,6 @@ export default {
     NavBar,
     ModalMenu,
     Spacer,
-    WorkTogether,
     WorkBox,
     WorkArrow,
     ClienteleBox,
@@ -468,7 +456,7 @@ img
   justify-content: flex-end
 
 .work-link:hover .work-tint 
-  opacity: 0.8
+  opacity: 0.7
 
 .work-link:hover .work-background
   transform: scale(1.2) 
@@ -497,7 +485,7 @@ img
   left: 0
   right: 0
   bottom: 0
-  opacity: 1
+  opacity: .9
   transition: opacity 400ms cubic-bezier(0.25, 0.1, 0.25, 1)
 
 .work-overlay

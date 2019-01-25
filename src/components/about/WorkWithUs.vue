@@ -4,7 +4,7 @@
       <div class="row padded-top">
         <div class="column col-12">
           <div class="content-wrapper work-with-us-wrapper">
-            <router-link class="work-with-us" to="/contact">
+            <router-link class="work-with-us" to="/hire-us">
               <h4>PLAN A PROJECT</h4>
               <h1>Hire Us</h1>
 
@@ -31,7 +31,7 @@
                 </svg>
               </span>
             </router-link>
-            <router-link class="work-with-us" to="/contact">
+            <router-link class="work-with-us" to="/careers">
               <h4>JOIN THE TEAM</h4>
               <h1>Work With Us</h1>
               <span class="work-arrow">

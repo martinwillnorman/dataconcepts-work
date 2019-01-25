@@ -28,6 +28,39 @@
             location="Richmond, VA"
             imagesource="./people/Ana.jpg"
           />
+          <Person
+            id="ana-james"
+            position="Office Manager"
+            name="Ana James"
+            location="Richmond, VA"
+            imagesource="./people/Claire.jpg"
+          />
+
+          <Person
+            position="Managing Director"
+            name="Varun Mehta"
+            location="Richmond, VA"
+            imagesource="./people/Varun-Mehta.jpg"
+          />
+          <Person
+            position="Cyber Security Architect"
+            name="Sean"
+            location="Richmond, VA"
+            imagesource="./people/Barbara-Philips-2.jpg"
+          />
+          <Person
+            position="Project Associate"
+            name="Dan Watson"
+            location="Richmond, VA"
+            imagesource="./people/Dan-Watson.jpg"
+          />
+          <Person
+            id="ana-james"
+            position="Managing Director"
+            name="Ken Jeter"
+            location="Richmond, VA"
+            imagesource="./people/Ken-Jeter.jpg"
+          />
         </div>
       </People>
 
@@ -37,9 +70,7 @@
 
       <SeeOurWork subtitle="see our work"/>
 
-      <section class="content-block fullpage">
-        <div v-parallax="0.4" class="cover-image hero-background"></div>
-      </section>
+      <Swiper/>
       <WorkWithUs/>
 
       <Subscribe/>
@@ -59,6 +90,7 @@ import Partners from "../components/about/Partners.vue";
 import SeeOurWork from "../components/about/SeeOurWork.vue";
 import WorkWithUs from "../components/about/WorkWithUs.vue";
 import Subscribe from "../components/about/Subscribe.vue";
+import Swiper from "../components/about/Swiper.vue";
 
 export default {
   name: "About",
@@ -73,7 +105,8 @@ export default {
     Partners,
     SeeOurWork,
     WorkWithUs,
-    Subscribe
+    Subscribe,
+    Swiper
   }
 };
 </script>

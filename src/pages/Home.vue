@@ -58,7 +58,7 @@
           </div>
         </div>
       </section>
-      <section id="first" class="content-block fullpage section-2">
+      <section id="first" class="content-block section-2">
         <!-- <div v-parallax="0.4" class="cover-image cover-image-2"></div> -->
         <div class="container">
           <div class="row">
@@ -83,9 +83,31 @@
           </div>
         </div>
       </section>
+      <section class="content-block fullpage black">
+        <!-- <div class="cover-image"></div> -->
+        <!-- <video
+          src="../assets/video/snowflakes.mp4"
+          height="800"
+          width="1424"
+          preload="auto"
+          autoplay
+          loop
+        ></video>-->
+        <div class="container">
+          <div class="row">
+            <div class="column col-10 centered responsive-12 center-content">
+              <div class="content-wrapper dynamic-text-wrapper no-pad">
+                <h3>Need help</h3>
+                <h3 id="dynamic-text"></h3>
+                <h3>We're Here For You.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="content-block section-5">
         <div class="container">
-          <div class="row padded-top">
+          <div class="row">
             <div class="column col-10 centered">
               <div class="content-wrapper service-wrapper">
                 <h6>OUR SERVICES</h6>
@@ -125,33 +147,11 @@
           </div>
         </div>
       </section>
-      <section class="content-block mostpage">
-        <!-- <div class="cover-image"></div> -->
-        <!-- <video
-          src="../assets/video/snowflakes.mp4"
-          height="800"
-          width="1424"
-          preload="auto"
-          autoplay
-          loop
-        ></video>-->
-        <div class="container">
-          <div class="row">
-            <div class="column col-10 centered responsive-12 center-content">
-              <div class="content-wrapper dynamic-text-wrapper no-pad">
-                <h3>Need help</h3>
-                <h3 id="dynamic-text"></h3>
-                <h3>We're Here For You.</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section class="content-block fullpage section-3">
         <!-- <div class="cover-image cover-image-3"></div> -->
         <div class="container">
-          <div class="row padded">
+          <div class="row padded-large">
             <div class="column col-10 centered center-content">
               <div class="content-wrapper service-wrapper">
                 <h6>OUR INSIGHTS</h6>
@@ -198,34 +198,8 @@
           </div>
         </div>
       </section>
-      <Footer/>
-
-      <section id="first" class="content-block mostpage section-2">
-        <!-- <div v-parallax="0.4" class="cover-image cover-image-4"></div> -->
-        <div class="container">
-          <div class="row">
-            <div class="column col-10 centered center-content">
-              <div class="content-wrapper">
-                <div class="wrapper-2">
-                  <h6>JOIN US</h6>
-                  <h1
-                    data-aos="fade-up"
-                    data-aos-duration="600"
-                    class="section-header home medium"
-                  >Technology is our craft.</h1>
-                </div>
-                <div class="wrapper-3">
-                  <p
-                    data-aos="fade-up"
-                    data-aos-duration="600"
-                  >We're a team of storytellers, strategists, makers, builders, designers, and engineers working together with key alliances to bring a full slate of offerings and capabilities to our clients.</p>
-                  <router-link class="reg-link margin" to="/services/digital-strategy">More</router-link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <WorkWithUs/>
+      <Subscribe/>
     </div>
   </div>
 </template>
@@ -237,6 +211,8 @@ import RelatedBox from "../components/RelatedBox.vue";
 import Spacer from "../components/Spacer.vue";
 import InsightTwo from "../components/InsightTwo.vue";
 import Footer from "../components/service/Footer.vue";
+import WorkWithUs from "../components/about/WorkWithUs.vue";
+import Subscribe from "../components/about/Subscribe.vue";
 
 export default {
   name: "Home",
@@ -246,7 +222,9 @@ export default {
     RelatedBox,
     Spacer,
     InsightTwo,
-    Footer
+    Footer,
+    WorkWithUs,
+    Subscribe
   },
   data() {
     return {
@@ -351,6 +329,7 @@ video
 
 .section-2
   background: transparent
+  padding: 300px 0
 
 .wrapper-2 
   text-align: center
@@ -398,6 +377,7 @@ h6
 
 .section-5 
   flex-direction: column
+  padding: 300px 0 100px
 
 #particles-js
   width: 100%
